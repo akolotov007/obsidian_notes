@@ -1,0 +1,102 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "SiAlwaysdata",
+      "LiDatabase",
+      "SiKalilinux",
+      "SiC",
+      "SiPython"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "debugMode": false
+  },
+  "Prefixes/ExcaliDraw": {
+    "iconName": "FarClipboard",
+    "iconColor": "#3b9de8"
+  },
+  "Prefixes/Templates": {
+    "iconName": "LiClipboard",
+    "iconColor": "#ffffff"
+  },
+  "Study Notes": "📓",
+  "Study Notes/Computers": "🖥",
+  "Study Notes/For College": {
+    "iconName": "LiSchool2",
+    "iconColor": "#2d87e6"
+  },
+  "Study Notes/For College/Civil Literacy Exam Prep": "LiSailboat",
+  "Study Notes/Computers/CompTIA": {
+    "iconName": "SiComptia",
+    "iconColor": "#ff0000"
+  },
+  "Prefixes/Canvas": {
+    "iconName": "LiClipboard",
+    "iconColor": "#e8872c"
+  },
+  "Study Notes/Personal": {
+    "iconName": "SiConventionalcommits",
+    "iconColor": "#8a16fe"
+  },
+  "Study Notes/Computers/Fireship.io": {
+    "iconName": "SiFireship",
+    "iconColor": "#ee7717"
+  },
+  "Study Notes/Computers/Fireship.io/Linux": {
+    "iconName": "SiLinux",
+    "iconColor": "#cfccff"
+  },
+  "Study Notes/Computers/Fireship.io/Git and Github": {
+    "iconName": "SiGit",
+    "iconColor": "#ff470a"
+  },
+  "Study Notes/Computers/Fireship.io/JavaScript": {
+    "iconName": "SiJavascript",
+    "iconColor": "#ffec1f"
+  },
+  "Study Notes/Computers/C++": {
+    "iconName": "SiC",
+    "iconColor": "#275fb9"
+  },
+  "Study Notes/Computers/Python": {
+    "iconName": "SiPython",
+    "iconColor": "#2c9cf2"
+  },
+  "Study Notes/Computers/Kali Linux": {
+    "iconName": "SiKalilinux",
+    "iconColor": "#ffffff"
+  },
+  "Study Notes/Computers/SQL": {
+    "iconName": "LiDatabase",
+    "iconColor": "#3de232"
+  },
+  "Study Notes/Computers/JavaScript": {
+    "iconName": "SiJavascript",
+    "iconColor": "#ffde38"
+  },
+  "Study Notes/Data Structures and Algorithms": {
+    "iconName": "SiAlwaysdata",
+    "iconColor": "#ff5900"
+  }
+}

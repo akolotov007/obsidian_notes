@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "05865cd2abcc0863",
+    "type": "split",
+    "children": [
+      {
+        "id": "00a0f04aea1be2b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b4a8c1aa16891f7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study Notes/Computers/OOP vs Procedural Programming.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "92c78c9710876c82",
+    "type": "split",
+    "children": [
+      {
+        "id": "188fbe6485df8aa0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45ebde5a6ef12306",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2645feeea38eceb9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8e41bb758546ffd4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 325.500732421875
+  },
+  "right": {
+    "id": "46eb03fd3242f204",
+    "type": "split",
+    "children": [
+      {
+        "id": "b679a46414389a7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64248b9821a9518a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Study Notes/Computers/OOP vs Procedural Programming.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4256f8ab076c9010",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Study Notes/Computers/OOP vs Procedural Programming.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c7dc094667a73d47",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b12ab74e576a33c9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Study Notes/Computers/OOP vs Procedural Programming.md"
+              }
+            }
+          },
+          {
+            "id": "73fbc961634f2885",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "ribbon-divider:ribbon-divider-860d0355-d3eb-40a0-ad1d-446f04cb5f3d": false,
+      "daily-notes:Open today's daily note": false,
+      "obsidian-full-calendar:Open Full Calendar": false
+    }
+  },
+  "active": "45ebde5a6ef12306",
+  "lastOpenFiles": [
+    "Random Notes/AI replies/Full Stack Roadmap ChatGPT 4.0 mini.md",
+    "Random Notes/AI replies/Llama 3.1 recommendation on full stack.md",
+    "Random Notes/AI replies/Cybersecurity Path.md",
+    "Random Notes/AI replies",
+    "Study Notes/Look into.md",
+    "Prefixes/a.Daily Notes/September-23-2024.md",
+    "Study Notes/Data Structures and Algorithms",
+    "Study Notes/Computers/C++/C++ cheatsheet.pdf",
+    "Study Notes/Computers/SQL/SQL in 60 min.md",
+    "Study Notes/Computers/OOP vs Procedural Programming.md",
+    "Prefixes/Attachments/Pasted image 20240922124025.png",
+    "Study Notes/Computers/C++/Intro to C++.md",
+    "Study Notes/Computers/JavaScript/Javascript notes.md",
+    "Study Notes/Computers/C++/Programming Principles with C++.md",
+    "Study Notes/Computers/C++/videos.md",
+    "Study Notes/Computers/JavaScript/resources.md",
+    "Study Notes/Computers/JavaScript/async await.md",
+    "Study Notes/Computers/Fireship.io/Linux/4. 10 Essential Commands.md",
+    "Study Notes/Computers/Fireship.io/Linux/3. Linux 101.md",
+    "Study Notes/Computers/Fireship.io/Linux/2. 10 Linux Distros.md",
+    "Study Notes/Computers/Fireship.io/Linux/1. Start Using Linux.md",
+    "Study Notes/Computers/Fireship.io/Linux/0. Course overview.md",
+    "Study Notes/Computers/Fireship.io/JavaScript/3. Algorithms.md",
+    "Study Notes/Computers/Fireship.io/JavaScript/2. Advanced Concepts.md",
+    "Study Notes/Computers/Fireship.io/JavaScript/1. JS crash course.md",
+    "Prefixes/a.Daily Notes/September-22-2024.md",
+    "Prefixes/Attachments/Pasted image 20240921130455.png",
+    "Prefixes/Attachments/Pasted image 20240921130447.png",
+    "Prefixes/Attachments/Pasted image 20240921124557.png",
+    "Prefixes/Attachments/Pasted image 20240921124535.png",
+    "Prefixes/Attachments/Pasted image 20240921124433.png",
+    "Prefixes/Attachments/Pasted image 20240921124418.png",
+    "Prefixes/Attachments/Pasted image 20240921123925.png",
+    "Prefixes/Attachments/Pasted image 20240921123708.png",
+    "Study Notes/Computers/C++/OOP in C++.md",
+    "Study Notes/Computers/Python/Introduction to Python.md",
+    "Study Notes/Computers/Python/Data Types Examples.md",
+    "Prefixes/Attachments/Pasted image 20240913161524.png",
+    "Study Notes/Computers/JavaScript",
+    "Study Notes/Computers/SQL",
+    "Prefixes/Canvas/Untitled.canvas",
+    "Study Notes/Computers/C++",
+    "Study Notes/Computers/Fireship.io/JavaScript/advanced concepts",
+    "Study Notes/Computers/Fireship.io/JavaScript",
+    "Study Notes/Computers/Fireship.io/Git and Github",
+    "Study Notes/Computers/Fireship.io/Linux",
+    "Untitled.canvas"
+  ]
+}
