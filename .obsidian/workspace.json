@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "bef82c4e4b81f338",
+        "id": "10d8854571c82974",
         "type": "tabs",
         "children": [
           {
-            "id": "1b09f1d2c8b4585c",
+            "id": "52d8eff2ffdde451",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "books/cybersec/Getting Started Becoming a Master Hacker Hacking is the Most Important Skill Set of the 21st Century (Occupytheweb) (z-lib.org).pdf"
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -67,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "05fe884608cf291d",
@@ -83,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/cybersec/Getting Started Becoming a Master Hacker Hacking is the Most Important Skill Set of the 21st Century (Occupytheweb) (z-lib.org).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,10 +98,17 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/cybersec/Getting Started Becoming a Master Hacker Hacking is the Most Important Skill Set of the 21st Century (Occupytheweb) (z-lib.org).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
+            }
+          },
+          {
+            "id": "d9783ba93a4de085",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           },
           {
@@ -122,24 +127,15 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "books/cybersec/Getting Started Becoming a Master Hacker Hacking is the Most Important Skill Set of the 21st Century (Occupytheweb) (z-lib.org).pdf"
-              }
-            }
-          },
-          {
-            "id": "d9783ba93a4de085",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 283.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -154,12 +150,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1b09f1d2c8b4585c",
+  "floating": {
+    "id": "f770da191911c748",
+    "type": "floating",
+    "children": [
+      {
+        "id": "450821c7f0be1292",
+        "type": "window",
+        "children": [
+          {
+            "id": "323e24fd30fcd349",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1b09f1d2c8b4585c",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "books/the learning system.pdf"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 539,
+        "y": 22,
+        "width": 1256,
+        "height": 830,
+        "maximize": true,
+        "zoom": 2
+      }
+    ]
+  },
+  "active": "52d8eff2ffdde451",
   "lastOpenFiles": [
+    "books/Python/Complete-Python-3-Bootcamp-master/18-Milestone Project - 3/Projects-Solutions/Solution Links.md",
+    "Leanring_Vault/Study Notes/Personal/The Learning System Notes.md",
+    "Leanring_Vault/Study Notes/markdown-cheat-sheet.md",
+    "Leanring_Vault/Study Notes/Look into.md",
+    "Leanring_Vault/Prefixes/ExcaliDraw/learning_system_diagram.md",
+    "Leanring_Vault/Prefixes/ExcaliDraw/basics of US constitution.md",
+    "books/the learning system.pdf",
+    "books/cybersec/Getting Started Becoming a Master Hacker Hacking is the Most Important Skill Set of the 21st Century (Occupytheweb) (z-lib.org).pdf",
     "books/cybersec/Linux Basics for Hackers- getting started with networking, scripting and security in kali.pdf",
     "books/cybersec/Nmap Network Scanning The Official Nmap Project Guide to Network Discovery and Security Scanning (Gordon Fyodor Lyon) (Z-Library).pdf",
-    "books/cybersec/Getting Started Becoming a Master Hacker Hacking is the Most Important Skill Set of the 21st Century (Occupytheweb) (z-lib.org).pdf",
-    "Leanring_Vault/Study Notes/Personal/The Learning System Notes.md",
     "Leanring_Vault/Study Notes/Computers/Python/Introduction to Python.md",
     "Leanring_Vault/Study Notes/Computers/Python/Data Types Examples.md",
     "Leanring_Vault/Study Notes/Computers/CompTIA/A+/220-1101 (Core 1)/8. Introduction to IP.md",

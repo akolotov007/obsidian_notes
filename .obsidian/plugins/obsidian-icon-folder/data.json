@@ -5,7 +5,13 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "LiCircle",
+      "SiC",
+      "SiComptia",
+      "SiKalilinux",
+      "SiPython"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -26,5 +32,37 @@
     "iconIdentifier": ":",
     "lucideIconPackType": "native",
     "debugMode": false
+  },
+  "Leanring_Vault/Study Notes/Computers/Fireship.io": {
+    "iconName": "SiFireship",
+    "iconColor": "#e17319"
+  },
+  "Leanring_Vault/Study Notes/Computers/JavaScript": {
+    "iconName": "SiJavascript",
+    "iconColor": "#ffea00"
+  },
+  "Leanring_Vault/Study Notes/Computers/SQL": {
+    "iconName": "SiMysql",
+    "iconColor": "#ffffff"
+  },
+  "Leanring_Vault/Study Notes/Computers/Python": {
+    "iconName": "SiPython",
+    "iconColor": "#006eff"
+  },
+  "Leanring_Vault/Study Notes/Computers/Kali Linux": {
+    "iconName": "SiKalilinux",
+    "iconColor": "#ffffff"
+  },
+  "Leanring_Vault/Study Notes/Computers/CompTIA": {
+    "iconName": "SiComptia",
+    "iconColor": "#ff0000"
+  },
+  "Leanring_Vault/Study Notes/Computers/C++": {
+    "iconName": "SiC",
+    "iconColor": "#7585ff"
+  },
+  "Leanring_Vault/Study Notes/Personal": {
+    "iconName": "LiCircle",
+    "iconColor": "#8922b9"
   }
 }
