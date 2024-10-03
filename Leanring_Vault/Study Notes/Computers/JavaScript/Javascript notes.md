@@ -46,6 +46,8 @@ null 		selectedColor = null;
 - #### Dynamic Typed
 	- when declaring the var, the type of the var **can** be changed at runtime
 
+JS is dynamically typed
+
 ```js
 let name = 'Andre'
 typeof(name) // string
@@ -786,5 +788,3 @@ import Teacher from './teacher'
 `named -> import {...} from ' '`
 `both -> import ..., {...} from ' '`
 
-```
-```

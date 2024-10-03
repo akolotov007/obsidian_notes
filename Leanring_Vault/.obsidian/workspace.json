@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "00a0f04aea1be2b8",
+        "id": "26a2aba7bf42b64b",
         "type": "tabs",
         "children": [
           {
-            "id": "b4a8c1aa16891f7f",
+            "id": "5ab44dafe2157a3f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study Notes/Computers/OOP vs Procedural Programming.md",
+                "file": "Study Notes/Personal/The Learning System Notes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.500732421875
+    "width": 200
   },
   "right": {
     "id": "46eb03fd3242f204",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study Notes/Computers/OOP vs Procedural Programming.md",
+                "file": "Study Notes/Personal/The Learning System Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study Notes/Computers/OOP vs Procedural Programming.md",
+                "file": "Study Notes/Personal/The Learning System Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study Notes/Computers/OOP vs Procedural Programming.md"
+                "file": "Study Notes/Personal/The Learning System Notes.md"
               }
             }
           },
@@ -159,54 +159,55 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "45ebde5a6ef12306",
+  "active": "5ab44dafe2157a3f",
   "lastOpenFiles": [
-    "Random Notes/AI replies/Full Stack Roadmap ChatGPT 4.0 mini.md",
-    "Random Notes/AI replies/Llama 3.1 recommendation on full stack.md",
-    "Random Notes/AI replies/Cybersecurity Path.md",
+    "Study Notes/Computers/JavaScript/W3 Schools JS notes.md",
+    "Study Notes/Computers/JavaScript/Javascript notes.md",
+    "Study Notes/Computers/JavaScript/async await.md",
+    "Study Notes/Computers/JavaScript/resources.md",
+    "Prefixes/a.Daily Notes/October-2-2024.md",
+    "Prefixes/a.Daily Notes/September-30-2024.md",
+    "Study Notes/Personal/The Learning System Notes.md",
+    "Study Notes/Computers/CompTIA/Network+/4. Designing the Cloud.md",
+    "Prefixes/Attachments/Pasted image 20240927144554.png",
+    "Prefixes/Attachments/Pasted image 20240927144428.png",
+    "Prefixes/Attachments/Pasted image 20240927144058.png",
+    "Prefixes/Attachments/Pasted image 20240927144030.png",
+    "Prefixes/Attachments/Pasted image 20240927143752.png",
+    "Study Notes/Computers/CompTIA/Network+/3. Networking Functions.md",
+    "Study Notes/Computers/CompTIA/Network+/2. Networking Devices.md",
+    "Study Notes/Computers/CompTIA/Network+/1. Understanding the OSI model.md",
+    "Prefixes/Attachments/Pasted image 20240927131525.png",
+    "Study Notes/Computers/CompTIA/Network+/0. Course Resources.md",
+    "Prefixes/a.Daily Notes/September-27-2024.md",
+    "Study Notes/Data Structures and Algorithms/0. resources.md",
+    "Study Notes/Data Structures and Algorithms/Data Structures and Algorithms made easy - Narasimha Karumanchi.md",
+    "Prefixes/Attachments/Pasted image 20240925141026.png",
+    "Untitled.md",
+    "Prefixes/Attachments/Pasted image 20240925140437.png",
+    "Prefixes/Excalidraw/Drawing 2024-09-25 13.50.15.excalidraw.md",
+    "Prefixes/ExcaliDraw/Drawing 2024-09-25 13.50.15.excalidraw.md",
+    "Untitled.canvas",
+    "Prefixes/Excalidraw/Drawing 2024-09-25 13.49.21.excalidraw.md",
+    "Prefixes/ExcaliDraw/Drawing 2024-09-25 13.49.21.excalidraw.md",
+    "Prefixes/Attachments/Pasted image 20240925134612.png",
+    "Prefixes/a.Daily Notes/September-25-2024.md",
+    "Study Notes/Computers/mySQL/Resources.md",
+    "Study Notes/Computers/mySQL/SQL.md",
+    "Study Notes/Computers/mySQL/SQL in 60 min.md",
+    "Prefixes/Attachments/Pasted image 20240924194133.png",
+    "Study Notes/Computers/CompTIA/Security+/0. resources.md",
+    "Study Notes/Computers/OOP vs Procedural Programming.md",
+    "Study Notes/Computers/CompTIA/Pentest+",
     "Random Notes/AI replies",
-    "Study Notes/Look into.md",
-    "Prefixes/a.Daily Notes/September-23-2024.md",
     "Study Notes/Data Structures and Algorithms",
     "Study Notes/Computers/C++/C++ cheatsheet.pdf",
-    "Study Notes/Computers/SQL/SQL in 60 min.md",
-    "Study Notes/Computers/OOP vs Procedural Programming.md",
-    "Prefixes/Attachments/Pasted image 20240922124025.png",
-    "Study Notes/Computers/C++/Intro to C++.md",
-    "Study Notes/Computers/JavaScript/Javascript notes.md",
-    "Study Notes/Computers/C++/Programming Principles with C++.md",
-    "Study Notes/Computers/C++/videos.md",
-    "Study Notes/Computers/JavaScript/resources.md",
-    "Study Notes/Computers/JavaScript/async await.md",
-    "Study Notes/Computers/Fireship.io/Linux/4. 10 Essential Commands.md",
-    "Study Notes/Computers/Fireship.io/Linux/3. Linux 101.md",
-    "Study Notes/Computers/Fireship.io/Linux/2. 10 Linux Distros.md",
-    "Study Notes/Computers/Fireship.io/Linux/1. Start Using Linux.md",
-    "Study Notes/Computers/Fireship.io/Linux/0. Course overview.md",
-    "Study Notes/Computers/Fireship.io/JavaScript/3. Algorithms.md",
-    "Study Notes/Computers/Fireship.io/JavaScript/2. Advanced Concepts.md",
-    "Study Notes/Computers/Fireship.io/JavaScript/1. JS crash course.md",
-    "Prefixes/a.Daily Notes/September-22-2024.md",
-    "Prefixes/Attachments/Pasted image 20240921130455.png",
-    "Prefixes/Attachments/Pasted image 20240921130447.png",
-    "Prefixes/Attachments/Pasted image 20240921124557.png",
-    "Prefixes/Attachments/Pasted image 20240921124535.png",
-    "Prefixes/Attachments/Pasted image 20240921124433.png",
-    "Prefixes/Attachments/Pasted image 20240921124418.png",
-    "Prefixes/Attachments/Pasted image 20240921123925.png",
-    "Prefixes/Attachments/Pasted image 20240921123708.png",
-    "Study Notes/Computers/C++/OOP in C++.md",
-    "Study Notes/Computers/Python/Introduction to Python.md",
-    "Study Notes/Computers/Python/Data Types Examples.md",
-    "Prefixes/Attachments/Pasted image 20240913161524.png",
     "Study Notes/Computers/JavaScript",
-    "Study Notes/Computers/SQL",
+    "Study Notes/Computers/mySQL",
     "Prefixes/Canvas/Untitled.canvas",
     "Study Notes/Computers/C++",
     "Study Notes/Computers/Fireship.io/JavaScript/advanced concepts",
     "Study Notes/Computers/Fireship.io/JavaScript",
-    "Study Notes/Computers/Fireship.io/Git and Github",
-    "Study Notes/Computers/Fireship.io/Linux",
-    "Untitled.canvas"
+    "Study Notes/Computers/Fireship.io/Git and Github"
   ]
 }

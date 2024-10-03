@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiMysql",
       "SiAlwaysdata",
       "LiDatabase",
       "SiKalilinux",
-      "SiC",
-      "SiPython"
+      "SiC"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -87,10 +87,6 @@
     "iconName": "SiKalilinux",
     "iconColor": "#ffffff"
   },
-  "Study Notes/Computers/SQL": {
-    "iconName": "LiDatabase",
-    "iconColor": "#3de232"
-  },
   "Study Notes/Computers/JavaScript": {
     "iconName": "SiJavascript",
     "iconColor": "#ffde38"
@@ -98,5 +94,9 @@
   "Study Notes/Data Structures and Algorithms": {
     "iconName": "SiAlwaysdata",
     "iconColor": "#ff5900"
+  },
+  "Study Notes/Computers/mySQL": {
+    "iconName": "SiMysql",
+    "iconColor": "#ffffff"
   }
 }
