@@ -105,6 +105,8 @@ fetch + merge
 - to create a new branch and checkout into it at the same time:
 	- `git checkout -b {branch_name}`
 - `git checkout -` = checkout to previously used branch
+- can also checkout to different commits in time, called a headless state
+	- can modify history if needed, or bring back files from the past
 
 ## merge conflicts
 - occur when you try to merge 2 diff branches and they modify the same code

@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "26a2aba7bf42b64b",
+        "id": "a4e2e70196e40a61",
         "type": "tabs",
         "children": [
           {
-            "id": "5ab44dafe2157a3f",
+            "id": "051ecb80f8778119",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study Notes/Personal/The Learning System Notes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study Notes/Personal/The Learning System Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study Notes/Personal/The Learning System Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Study Notes/Personal/The Learning System Notes.md"
-              }
+              "state": {}
             }
           },
           {
@@ -159,15 +150,21 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "5ab44dafe2157a3f",
+  "active": "051ecb80f8778119",
   "lastOpenFiles": [
+    "Study Notes/Computers/Fireship.io/Git and Github/Git - All commands.md",
+    "Study Notes/Computers/Fireship.io/Git and Github/2. installing git.md",
+    "Study Notes/Computers/Fireship.io/Git and Github/1. what is git.md",
+    "Study Notes/Personal/The Learning System Notes.md",
+    "Study Notes/Personal/Jin Yuh.md",
+    "Study Notes/Computers/Kali Linux/Misc Notes.md",
+    "Prefixes/a.Daily Notes/October-3-2024.md",
     "Study Notes/Computers/JavaScript/W3 Schools JS notes.md",
     "Study Notes/Computers/JavaScript/Javascript notes.md",
     "Study Notes/Computers/JavaScript/async await.md",
     "Study Notes/Computers/JavaScript/resources.md",
     "Prefixes/a.Daily Notes/October-2-2024.md",
     "Prefixes/a.Daily Notes/September-30-2024.md",
-    "Study Notes/Personal/The Learning System Notes.md",
     "Study Notes/Computers/CompTIA/Network+/4. Designing the Cloud.md",
     "Prefixes/Attachments/Pasted image 20240927144554.png",
     "Prefixes/Attachments/Pasted image 20240927144428.png",
@@ -191,13 +188,7 @@
     "Prefixes/Excalidraw/Drawing 2024-09-25 13.49.21.excalidraw.md",
     "Prefixes/ExcaliDraw/Drawing 2024-09-25 13.49.21.excalidraw.md",
     "Prefixes/Attachments/Pasted image 20240925134612.png",
-    "Prefixes/a.Daily Notes/September-25-2024.md",
-    "Study Notes/Computers/mySQL/Resources.md",
-    "Study Notes/Computers/mySQL/SQL.md",
-    "Study Notes/Computers/mySQL/SQL in 60 min.md",
     "Prefixes/Attachments/Pasted image 20240924194133.png",
-    "Study Notes/Computers/CompTIA/Security+/0. resources.md",
-    "Study Notes/Computers/OOP vs Procedural Programming.md",
     "Study Notes/Computers/CompTIA/Pentest+",
     "Random Notes/AI replies",
     "Study Notes/Data Structures and Algorithms",

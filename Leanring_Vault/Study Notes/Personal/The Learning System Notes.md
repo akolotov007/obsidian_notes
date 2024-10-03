@@ -68,7 +68,16 @@ If you design your learning system to behave like that web where it captures all
 	- create questions that facilitate higher-order thinking; 
 		- *How does this information relate to what we’ve previously learned?* 
 		- *Can you provide an example that illustrates this concept?* 
+<<<<<<< HEAD
+		- *Why is this information important?* 
+		- *What are the potential real-world applications?*
+		- *Can you explain the steps/process involved in this phenomenon?*
+		- *What are the main variables that influence this outcome?* 
+		- *How does altering a variable affect the outcome?* 
+		- *How could this information be tested on the exam?*
+=======
 		- etc. 
+>>>>>>> bca6503a69fe167a79e0639498dbcc58a5c60f2b
 - ###### You can add on to your answers... later down the line
 	- "what is hydrocephalus?"
 		- is the accumulation of central cerebrospinal fluid within the ventricles of the brain (simple definition)
