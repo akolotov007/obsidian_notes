@@ -16,11 +16,11 @@
 
 *Example of Bloom's Taxonomy - photosynthesis*
 1. **Remember** 	:  The student can regurgitate the equation for photosynthesis.                                                                  (6 CO2 + 6 H20 C6H12O6 + 6 O2)
-2. **Understand** 	: The student can explain the roles played by organelles such as chloroplasts and                                    chlorophyll.
-3. **Apply**		: The student can apply their knowledge to predict how changes in temperature                                     might affect the rate of photosynthesis.
-4. **Analyze**		: The student can compare and contrast photosynthesis to other biological processes,                            like cellular respiration.
-5. **Evaluate**		: The student can prioritize the key factors influencing the rate of photosynthesis,                                   ranking them by their relative importance, such as light intensity, temperature, and                               carbon dioxide concentration
-6. **Create**		: The student can design an educational presentation to teach their peers about                                     photosynthesis.
+2. **Understand** 	: The student can explain the roles played by organelles such as chloroplasts and chlorophyll.
+3. **Apply**		: The student can apply their knowledge to predict how changes in temperature might affect the rate of photosynthesis.
+4. **Analyze**		: The student can compare and contrast photosynthesis to other biological processes, like cellular respiration.
+5. **Evaluate**		: The student can prioritize the key factors influencing the rate of photosynthesis, ranking them by their relative importance, such as light intensity, temperature, and carbon dioxide concentration
+6. **Create**		: The student can design an educational presentation to teach their peers about photosynthesis.
 
 Many students engage solely on the lower orders of thinking, and being unable to **apply, analyze, evaluate and create** information. 
 - it is also important to mention that knowledge throughout your education will build on itself. 
@@ -28,21 +28,17 @@ Many students engage solely on the lower orders of thinking, and being unable to
 
 ## It Starts and Ends With the "Big Picture"
 
-Students focus so much on understanding every minute detail of a concept before moving - without thinking about how the information is relevant to the overall topic 
-- They forget concepts they learned earlier, and have to revise them repeatedly 
-- They fail to answer inference-based questions on exams which is the dominant form of higher education
+Students focus too much on understanding every  detail of a concept before moving on - w/o thinking about how the information is relevant to overall topic 
+- They forget concepts they learned earlier, and have to revisit them repeatedly 
+- They fail to answer inference-based questions on exams 
+	- which is the dominant form of higher education
 it is important to consider how *information is structured* within long term memory
 ### Chunking and the Spider Web Analogy 
 
 **Chunking** - break down large info into smaller info. small groups of info can be related to one another to form big picture. consider a spider web
 
- #### Spider Web Analogy
+#### Spider Web Analogy
 ![[Pasted image 20240912143730.png]]
-1.  The spider establishes the foundation with borders and radial lines for other threads to connect to
-2.  It reinforces the foundation by adding additional threads
-3.  It lays down sticky threads that spiral inward from the outer edge towards the center
-4.  the result is a perfectly crafted web that enables the spider to not only capture all of the prey that lands within it but also enables the spider to efficiently retrieve its food later.
-
 If you design your learning system to behave like that web where it captures all new info in an organized manner, your brain would be able to retrieve that info efficiently
 
 
@@ -53,7 +49,7 @@ If you design your learning system to behave like that web where it captures all
 	3. **Increase Relevance** - take short pretest to further analyze how diff concepts **come together** and use the **hyper-correction effect** to make info in the class "stick"
 
 ## Defining Active Recall
-*(Book shows 2 experiments that prove its the best method for learning compared to other forms, pg 13 the book)*
+*(Book shows 2 experiments that prove its the best method for learning compared to other forms, pg 13)*
 
 **active recall** -  involves the deliberate and effortful retrieval of information from memory without referring to the source material.
 - accurate self-assessment of students' understanding of topic.
@@ -70,14 +66,9 @@ If you design your learning system to behave like that web where it captures all
 - in the beginning, ask simple question like "what is...." to clarify fundamental concepts or definitions.
 - Once you become more familiar with the process, aim to reduce amount of questions and increase the quality of each question.
 	- create questions that facilitate higher-order thinking; 
-		- How does this information relate to what we’ve previously learned? 
-		- Can you provide an example that illustrates this concept? 
-		- Why is this information important? 
-		- What are the potential real-world applications?
-		- Can you explain the steps/process involved in this phenomenon?
-		- What are the main variables that influence this outcome? 
-		- How does altering a variable affect the outcome? 
-		- How could this information be tested on the exam?
+		- *How does this information relate to what we’ve previously learned?* 
+		- *Can you provide an example that illustrates this concept?* 
+		- etc. 
 - ###### You can add on to your answers... later down the line
 	- "what is hydrocephalus?"
 		- is the accumulation of central cerebrospinal fluid within the ventricles of the brain (simple definition)
@@ -90,7 +81,7 @@ If you design your learning system to behave like that web where it captures all
 	- once done, reopen source and compare what you wrote down to the text
 - it is an effective method for 2 reasons:
 	1. You are actively organizing info inside your brain and reducing the interference between various memories.
-	2. Your are stimulating exam conditions. 
+	2. Your are stimulating exam conditions
 		- in higher ed, you'll be asked inference based questions that require you to gather all related info in order to solve the question
 
 
@@ -113,11 +104,10 @@ If you design your learning system to behave like that web where it captures all
 	- Put away all notes
 	- read the question 
 	- attempt to answer the question *thoroughly in writing* 
-		- for multiple choice: don't just concern yourself with the correct answer
-		- take a minute to explain why the other answers are wrong
-- if stuck, give yourself a few minutes to actively work through the problem creating linkages between related concepts 
-	- if still stuck, go back to the material from the priming, in class notes, and post class immediate review stages
-		- if still stuck, this is when you take out the textbook or lecture and look for the information utilizing neighboring concepts to thoroughly provide the best answer possible
+		- for multiple choice: take a minute to explain why the other answers are wrong
+- if stuck, give yourself few minutes to actively work through the problem creating linkages between related concepts 
+	- still stuck, go back to the material from the priming, in class notes, and post class immediate review stages
+		- still stuck, take out the textbook or lecture and look for the info to provide the best answer possible
 - check the correct answer and explanation 
 	- if your answer matches with correct answer - great!
 	- if not - also great!
@@ -127,5 +117,6 @@ The processes outlined can seem tedious and rather time consuming...
 - but you won't need to revisit the material as often  - saving you hours or even days 
 *tip: ask the teacher for past papers of the exam. there is nothing better than having that scope of focus on what the exam will be about*
 
+After this, worksheets for you to use in each stage 
 
 
