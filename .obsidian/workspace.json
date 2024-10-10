@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leanring_Vault/Study Notes/Personal/Jin Yuh.md",
+                "file": "Leanring_Vault/Study Notes/Computers/C++/Programming Principles with C++.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "dbdf43439bc24b80",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "books/C++, 3rd Edition  Anna’s Archive.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "05fe884608cf291d",
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leanring_Vault/Study Notes/Personal/Jin Yuh.md",
+                "file": "books/C++, 3rd Edition  Anna’s Archive.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leanring_Vault/Study Notes/Personal/Jin Yuh.md",
+                "file": "books/C++, 3rd Edition  Anna’s Archive.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leanring_Vault/Study Notes/Personal/Jin Yuh.md"
+                "file": "books/C++, 3rd Edition  Anna’s Archive.pdf"
               }
             }
           }
@@ -157,9 +169,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c337dbd0b596855d",
+  "active": "dbdf43439bc24b80",
   "lastOpenFiles": [
+    "Leanring_Vault/Study Notes/Computers/C++/Programming Principles with C++.md",
+    "books/C++, 3rd Edition  Anna’s Archive.pdf",
+    "Leanring_Vault/Study Notes/Computers/C++/videos.md",
     "Leanring_Vault/Study Notes/Personal/The Learning System Notes.md",
+    "Leanring_Vault/Study Notes/Personal/Jin Yuh.md",
     "Leanring_Vault/Study Notes/Computers/SQL/SQL.md",
     "Leanring_Vault/Study Notes/Computers/SQL/SQL in 60 min.md",
     "Leanring_Vault/Study Notes/Computers/SQL/Resources.md",
@@ -186,7 +202,6 @@
     "Leanring_Vault/Prefixes/a.Daily Notes/September-24-2024.md",
     "Leanring_Vault/Prefixes/a.Daily Notes/October-2-2024.md",
     "Leanring_Vault/Prefixes/ExcaliDraw/Drawing 2024-09-25 13.50.15.excalidraw.md",
-    "Leanring_Vault/Prefixes/ExcaliDraw/Drawing 2024-09-25 13.49.21.excalidraw.md",
     "Leanring_Vault/Prefixes/Attachments/Pasted image 20240927144554.png",
     "Leanring_Vault/Prefixes/Attachments/Pasted image 20240927144428.png",
     "Leanring_Vault/Prefixes/Attachments/Pasted image 20240927144058.png",
@@ -197,8 +212,6 @@
     "Leanring_Vault/Prefixes/Attachments/Pasted image 20240925140437.png",
     "Leanring_Vault/Prefixes/Attachments/Pasted image 20240925134612.png",
     "Leanring_Vault/Prefixes/Attachments/Pasted image 20240924194133.png",
-    "Leanring_Vault/Study Notes/Personal/Jin Yuh.md",
-    "Leanring_Vault/Study Notes/Computers/Kali Linux/Network Recon.md",
     "books/the learning system.pdf",
     "books/cybersec/Getting Started Becoming a Master Hacker Hacking is the Most Important Skill Set of the 21st Century (Occupytheweb) (z-lib.org).pdf",
     "books/cybersec/Linux Basics for Hackers- getting started with networking, scripting and security in kali.pdf",

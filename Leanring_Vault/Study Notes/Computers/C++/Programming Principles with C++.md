@@ -49,9 +49,6 @@ double d = 7.7;
 // we can let the compiler deduce the type from the initializer (after =)
 auto x = 7;
 auto d = 7.7;
-
-
-
 ```
 
 
@@ -399,3 +396,17 @@ we can 'tokenize'
 		+ 7
 
 ### 5.3.3 Implementing Token 
+
+```C++
+	class Token  // simple user defined type
+	{ 
+	public:
+		char kind;
+		double value;
+	
+	}
+```
+
+-  `token` is a type like `int` or `char` so it can be defined variables and hold values
+- 
+- 
