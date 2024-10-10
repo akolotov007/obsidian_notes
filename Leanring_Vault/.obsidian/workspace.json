@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "a4e2e70196e40a61",
+        "id": "15c4be8d8d9f73bd",
         "type": "tabs",
         "children": [
           {
-            "id": "051ecb80f8778119",
+            "id": "aac0038dc44ceb35",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Study Notes/Computers/Mentors/CodingwithMosh/Docker/Docker for Beginners.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 267.5004348754883
   },
   "right": {
     "id": "46eb03fd3242f204",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Study Notes/Computers/Mentors/CodingwithMosh/Docker/Docker for Beginners.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Study Notes/Computers/Mentors/CodingwithMosh/Docker/Docker for Beginners.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Study Notes/Computers/Mentors/CodingwithMosh/Docker/Docker for Beginners.md"
+              }
             }
           },
           {
@@ -150,55 +159,93 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "051ecb80f8778119",
+  "floating": {
+    "id": "577a42f0df699fa4",
+    "type": "floating",
+    "children": [
+      {
+        "id": "5915816f18e4b705",
+        "type": "window",
+        "children": [
+          {
+            "id": "77651e0b88576237",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c3fa95b54e266d99",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Study Notes/Computers/Mentors/Fireship.io/Linux/6. WTF is $PATH.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1252,
+        "y": 117,
+        "width": 600,
+        "height": 600,
+        "maximize": true,
+        "zoom": 3
+      }
+    ]
+  },
+  "active": "aac0038dc44ceb35",
   "lastOpenFiles": [
-    "Study Notes/Computers/Fireship.io/Git and Github/Git - All commands.md",
-    "Study Notes/Computers/Fireship.io/Git and Github/2. installing git.md",
-    "Study Notes/Computers/Fireship.io/Git and Github/1. what is git.md",
-    "Study Notes/Personal/The Learning System Notes.md",
-    "Study Notes/Personal/Jin Yuh.md",
-    "Study Notes/Computers/Kali Linux/Misc Notes.md",
-    "Prefixes/a.Daily Notes/October-3-2024.md",
-    "Study Notes/Computers/JavaScript/W3 Schools JS notes.md",
-    "Study Notes/Computers/JavaScript/Javascript notes.md",
-    "Study Notes/Computers/JavaScript/async await.md",
-    "Study Notes/Computers/JavaScript/resources.md",
-    "Prefixes/a.Daily Notes/October-2-2024.md",
-    "Prefixes/a.Daily Notes/September-30-2024.md",
-    "Study Notes/Computers/CompTIA/Network+/4. Designing the Cloud.md",
+    "Prefixes/a.Daily Notes/October-9-2024.md",
+    "Study Notes/Computers/Mentors/CodingwithMosh/Docker/Docker for Beginners.md",
+    "Study Notes/Computers/Mentors/Fireship.io/Linux/6. WTF is $PATH.md",
+    "Study Notes/Look into.md",
+    "Study Notes/Linux/Introduction to Linux.md",
+    "Study Notes/Computers/Mentors/Fireship.io/Linux/3. Linux 101.md",
+    "Study Notes/Computers/Mentors/Fireship.io/Linux/4. 10 Essential Commands.md",
+    "Study Notes/Computers/Mentors/Fireship.io/Linux/5. The File System.md",
+    "Study Notes/Computers/Mentors/Fireship.io/Linux/7. File Permissions.md",
+    "Study Notes/Computers/Mentors/Fireship.io/Linux/8. Sudo.md",
+    "Study Notes/Computers/Mentors/Fireship.io/Linux/26. Mount a Volume.md",
+    "Study Notes/Computers/Mentors/Fireship.io/Linux/27. Final Checklist.md",
+    "Study Notes/Computers/Mentors/Fireship.io/Linux/28c. Docker 101.md",
+    "Study Notes/Computers/Mentors/Fireship.io/Linux/28d. Ansible.md",
+    "Study Notes/Computers/Mentors/Fireship.io/Linux/28b. Linux in 100 seconds.md",
+    "Study Notes/Computers/Mentors/Fireship.io/Linux/28. Bonus info.md",
+    "Study Notes/Computers/Mentors/Fireship.io/Linux/28a. Linux History.md",
+    "Study Notes/Computers/Mentors/Fireship.io/Linux/22. SSL.md",
+    "Study Notes/Computers/Mentors/Fireship.io/Linux/23. Nginx.md",
+    "Study Notes/Computers/Mentors/Fireship.io/Linux/24. Env Vars.md",
+    "Study Notes/Computers/Mentors/Fireship.io/Linux/25. systemd.md",
+    "Study Notes/Linux",
+    "Prefixes/ExcaliDraw/Drawing 2024-09-25 13.49.21.excalidraw.md",
+    "Study Notes/Computers/Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/23. Linux Commands.md",
+    "Prefixes/ExcaliDraw/basics of US constitution.md",
+    "Study Notes/Computers/Mentors/ProfessorMesser",
+    "Study Notes/Computers/Mentors",
+    "Prefixes/Attachments/Pasted image 20241009154231.png",
+    "Study Notes/Computers/Mentors/CodingwithMosh",
+    "Prefixes/Attachments/Pasted image 20241009144244.png",
+    "Prefixes/Attachments/Pasted image 20241009141630.png",
+    "Prefixes/Attachments/Pasted image 20241009141609.png",
+    "Prefixes/Attachments/Pasted image 20241009141437.png",
+    "Study Notes/Computers/Mentors/Fireship.io/JavaScript/3. Algorithms.md",
+    "Study Notes/Computers/Mentors/CodingwithMosh/Docker",
+    "Study Notes/Computers/Mentors/Fireship.io/JavaScript/2. Advanced Concepts.md",
+    "Prefixes/Attachments/Pasted image 20241008184733.png",
+    "Prefixes/Attachments/Pasted image 20241004145048.png",
     "Prefixes/Attachments/Pasted image 20240927144554.png",
     "Prefixes/Attachments/Pasted image 20240927144428.png",
     "Prefixes/Attachments/Pasted image 20240927144058.png",
-    "Prefixes/Attachments/Pasted image 20240927144030.png",
-    "Prefixes/Attachments/Pasted image 20240927143752.png",
-    "Study Notes/Computers/CompTIA/Network+/3. Networking Functions.md",
-    "Study Notes/Computers/CompTIA/Network+/2. Networking Devices.md",
-    "Study Notes/Computers/CompTIA/Network+/1. Understanding the OSI model.md",
-    "Prefixes/Attachments/Pasted image 20240927131525.png",
-    "Study Notes/Computers/CompTIA/Network+/0. Course Resources.md",
-    "Prefixes/a.Daily Notes/September-27-2024.md",
-    "Study Notes/Data Structures and Algorithms/0. resources.md",
-    "Study Notes/Data Structures and Algorithms/Data Structures and Algorithms made easy - Narasimha Karumanchi.md",
-    "Prefixes/Attachments/Pasted image 20240925141026.png",
-    "Untitled.md",
-    "Prefixes/Attachments/Pasted image 20240925140437.png",
-    "Prefixes/Excalidraw/Drawing 2024-09-25 13.50.15.excalidraw.md",
-    "Prefixes/ExcaliDraw/Drawing 2024-09-25 13.50.15.excalidraw.md",
     "Untitled.canvas",
-    "Prefixes/Excalidraw/Drawing 2024-09-25 13.49.21.excalidraw.md",
-    "Prefixes/ExcaliDraw/Drawing 2024-09-25 13.49.21.excalidraw.md",
-    "Prefixes/Attachments/Pasted image 20240925134612.png",
-    "Prefixes/Attachments/Pasted image 20240924194133.png",
-    "Study Notes/Computers/CompTIA/Pentest+",
+    "Study Notes/Computers/Mentors/ProfessorMesser/CompTIA/Pentest+",
     "Random Notes/AI replies",
-    "Study Notes/Data Structures and Algorithms",
+    "Study Notes/Computers/Data Structures and Algorithms",
     "Study Notes/Computers/C++/C++ cheatsheet.pdf",
     "Study Notes/Computers/JavaScript",
-    "Study Notes/Computers/mySQL",
-    "Prefixes/Canvas/Untitled.canvas",
-    "Study Notes/Computers/C++",
-    "Study Notes/Computers/Fireship.io/JavaScript/advanced concepts",
-    "Study Notes/Computers/Fireship.io/JavaScript",
-    "Study Notes/Computers/Fireship.io/Git and Github"
+    "Prefixes/Canvas/Untitled.canvas"
   ]
 }

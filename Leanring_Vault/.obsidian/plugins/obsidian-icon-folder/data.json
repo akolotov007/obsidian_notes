@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "SiMysql",
-      "SiAlwaysdata",
-      "LiDatabase",
-      "SiKalilinux",
-      "SiC"
+      "SiLinux",
+      "SiPrecommit",
+      "SiMarriott",
+      "SiDocker",
+      "SiMysql"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -47,10 +47,6 @@
     "iconColor": "#2d87e6"
   },
   "Study Notes/For College/Civil Literacy Exam Prep": "LiSailboat",
-  "Study Notes/Computers/CompTIA": {
-    "iconName": "SiComptia",
-    "iconColor": "#ff0000"
-  },
   "Prefixes/Canvas": {
     "iconName": "LiClipboard",
     "iconColor": "#e8872c"
@@ -58,22 +54,6 @@
   "Study Notes/Personal": {
     "iconName": "SiConventionalcommits",
     "iconColor": "#8a16fe"
-  },
-  "Study Notes/Computers/Fireship.io": {
-    "iconName": "SiFireship",
-    "iconColor": "#ee7717"
-  },
-  "Study Notes/Computers/Fireship.io/Linux": {
-    "iconName": "SiLinux",
-    "iconColor": "#cfccff"
-  },
-  "Study Notes/Computers/Fireship.io/Git and Github": {
-    "iconName": "SiGit",
-    "iconColor": "#ff470a"
-  },
-  "Study Notes/Computers/Fireship.io/JavaScript": {
-    "iconName": "SiJavascript",
-    "iconColor": "#ffec1f"
   },
   "Study Notes/Computers/C++": {
     "iconName": "SiC",
@@ -83,20 +63,56 @@
     "iconName": "SiPython",
     "iconColor": "#2c9cf2"
   },
-  "Study Notes/Computers/Kali Linux": {
-    "iconName": "SiKalilinux",
-    "iconColor": "#ffffff"
-  },
   "Study Notes/Computers/JavaScript": {
     "iconName": "SiJavascript",
     "iconColor": "#ffde38"
   },
-  "Study Notes/Data Structures and Algorithms": {
+  "Study Notes/Computers/mySQL": {
+    "iconName": "SiMysql",
+    "iconColor": "#ffffff"
+  },
+  "Study Notes/Computers/Mentors/Fireship.io": {
+    "iconName": "SiFireship",
+    "iconColor": "#ee7717"
+  },
+  "Study Notes/Computers/Mentors/Fireship.io/Git and Github": {
+    "iconName": "SiGit",
+    "iconColor": "#ff470a"
+  },
+  "Study Notes/Computers/Mentors/Fireship.io/JavaScript": {
+    "iconName": "SiJavascript",
+    "iconColor": "#ffec1f"
+  },
+  "Study Notes/Computers/Mentors/Fireship.io/Linux": {
+    "iconName": "SiLinux",
+    "iconColor": "#cfccff"
+  },
+  "Study Notes/Computers/Mentors/CodingwithMosh": {
+    "iconName": "SiMarriott",
+    "iconColor": "#78207e"
+  },
+  "Study Notes/Computers/Mentors/CodingwithMosh/Docker": {
+    "iconName": "SiDocker",
+    "iconColor": "#2f67c1"
+  },
+  "Study Notes/Computers/Mentors/ProfessorMesser/CompTIA": {
+    "iconName": "SiComptia",
+    "iconColor": "#ff0000"
+  },
+  "Study Notes/Computers/Data Structures and Algorithms": {
     "iconName": "SiAlwaysdata",
     "iconColor": "#ff5900"
   },
-  "Study Notes/Computers/mySQL": {
-    "iconName": "SiMysql",
+  "Study Notes/Computers/Mentors/ProfessorMesser": {
+    "iconName": "SiPrecommit",
+    "iconColor": "#d7ffd6"
+  },
+  "Study Notes/Linux": {
+    "iconName": "SiLinux",
+    "iconColor": "#ffffff"
+  },
+  "Study Notes/Linux/Kali Linux": {
+    "iconName": "SiKalilinux",
     "iconColor": "#ffffff"
   }
 }

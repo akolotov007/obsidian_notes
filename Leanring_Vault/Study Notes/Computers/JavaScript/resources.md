@@ -10,11 +10,18 @@ https://www.youtube.com/watch?v=NCwa_xi0Uuc
 DOM manipulation in 18 minutes
 https://www.youtube.com/watch?v=y17RuWkWdn8
 
+DOM manipulation in 2:41:20
+https://www.youtube.com/watch?v=5fb2aPlgoys
+
 Event listeners in 18 minutes
 https://www.youtube.com/watch?v=XF1_MlZ5l6M
 
 Async Javascript
 https://www.youtube.com/watch?v=cCOL7MC4Pl0
+
+Async Javascript course - Async/await, promises, callbacks Fetch API
+https://www.youtube.com/watch?v=OFpqvaJ3QYg
+
 
 ---
 
