@@ -326,11 +326,183 @@ now do `docker build -t react-app .` to build an image from dockerfile
 ## Copying files and directories
 `COPY` - copy files from current directory to in-container directory
 - `COPY . /app/` // copy all files to /app 
-- `WORKDIR /app`
-- `COPY . .` // copy all files to relative path (/app)
+- or set work directory (what we will do)
+- in Dockerfile:
+	- `WORKDIR /app`
+	- `COPY . .` // copy all files to relative path (/app)
+
 
 `ADD` - 2 additional features
 - grab from url like https:/.../.json
 - add compressed files | auto decompress them and make it a directory
 
-lesson 35
+## Run Command
+- `RUN` - runs a command
+	- in Dockerfile:  `RUN npm install`
+- now lets build the image again
+	- `docker build -t react-app .`
+	- and run it interactively
+	- `docker run -it react-app sh`
+
+## Setting Environment Variables
+- `ENV {key=value}`
+- in Dockerfile:	`ENV API_URL=http://api.myapp.com`
+build image, run a container
+- inside container:
+	- `printenv` - shows all env vars
+	- or
+	- `echo $API_URL`
+
+## Exposing Ports
+- keep in mind that a container can expose a port that the **host** will not expose.
+	-  run `npm start` in project folder `react-app`
+		- can connect with `localhost:3000`
+	- will happen inside container 
+- In Docker-file
+	- `EXPOSE 3000` - expose port 3000 / done for documentation over function
+
+
+## Setting the User
+- docker runs containers with root privileges
+	- security risk
+	- lets go through the step needed to create another user that has less privileges 
+-  in alpine:
+	- lets create a group and add a system-user to that group
+	- `addgroup app` 
+- `adduser -S -G app app` // group:app username:app
+	- having a user with the same group name is common and best practice in linux   
+- `groups app` // show users within the app group
+
+- let's concatenate the commands
+	- `addgroup app && adduser -S -G app app`
+	- now lets add => Dockerfile
+
+- in Dockerfile
+	- `RUN addgroup app && adduser -S -G app app`
+	- `USER APP`
+
+## Defining Entrypoints
+- try to run the app with `npm start` from image
+	- `docker run react-app npm start`
+		- get error: permission denied
+- what did we forget to do?
+	- build the newest image!
+	- `docker build -t react-app .`
+
+- in Dockerfile:
+	- `CMD npm start`
+		- let's add this line so that the container will start npm on launch
+	- build new image w/ this change 
+
+But what's the difference btwn `CMD` and `RUN`?
+- `RUN` - is when we are building an image
+- `CMD`- commands at runtime
+	- 2 ways to write out CMD commands ->
+
+- `CMD npm start` - shell form / spawns another shell to run command
+- `CMD ["npm","start"]` execution form / runs inside current shell
+	- best practice
+
+- `ENTRYPOINT` - similar to CMD | certain that command runs at runtime
+	- has shell/exec form 
+- `ENTRYPOINT ["npm","start"]`
+	- *can easy change the CMD on container start, but with entrypoint, must add --entrypoint flag*
+		- `docker run react-app --entrypoint {command}`\
+
+Current dockerfile:
+``` D
+FROM node:14.16.0-alpine3.13
+RUN 
+USER app
+WORKDIR /app
+COPY . .
+RUN npm-install
+ENV API_URL=http://app.myapi/com/
+EXPOSE 3000
+# can also be CMD []
+ENTRYPOINT ["npm","start"]
+```
+
+
+## Speeding up builds
+- our container have layers
+	- `docker history react-app`
+- we can see the commands and how much space they take up
+	- instead of rebuilding an image from scratch
+		- compare any changes to a **cache** of the image
+- let's modify our dockerfile  
+	- separate 3rd party install 
+
+in dockerfile: 
+```D
+WORKGROUP /app
+COPY package*.json .
+RUN npm install 
+COPY . .
+ENV //
+```
+- build image - regular time
+	- now if we change a file (readme.md) 
+		- and re-build - way faster build
+- **NOTE**
+	- anything below a changed command has to be rebuilt from scratch by the docker engine when creating a containers
+
+#### Key Takeaway
+- optimize your Dockerfile by having stable instructions at the top, and changing instructions towards the bottom
+
+![[Pasted image 20241010195945.png]]
+
+
+## Removing Images
+- `docker images` 
+	- "dangling images"
+- `docker image prune` // delete dangling images
+
+- similarly, `docker ps -a` // show all containers
+	- `docker container prune` // remove all stopped containers 
+- `docker image rm {image_name/ID}` 
+
+## Tagging Images
+- 2 ways to tag an image
+	- at build
+	- post build
+- naming conventions:
+			- :76, :77
+			- :3.1.5 , :3.2
+			- :buster, :alice
+
+- **at build**
+	- `docker build -t {image}:{tag}`
+		- `docker build -t react-app:1.2`
+ - **post-build**
+	 - `docker image tag {image} {tag}`
+		 - `docker image tag react-app:latest react-app:1`
+		- `docker image tag b06{ID head} react-app:latest`
+- **note** - the latest tag can get out of order
+	- since it is only a tag and doesn't automatically apply to the latest build
+		- have to manually set it
+
+## Sharing Images
+- creating a repo on docker hub
+	- then tag image same as repo name
+		- ![[Pasted image 20241012111751.png]]
+- `docker login`
+	-  `docker push codewithmosh/react-app:2`
+
+- make small change in readme (for concept) 
+	- then `docker build -t react-app:3 . `  
+	- `docker images`
+		![[Pasted image 20241012112154.png]]
+	- `docker image tag-react-app:3 codewithmosh/react-app:3`
+	- `docker push codewithmosh/react-app 3`
+
+## Saving and loading images
+- **docker image save**
+	- save one or more images to a tar archive 
+	- `docker image save -o react-app.tar react-app:3`
+- **docker image load**
+	- load an image from a tar archive
+	- `docker image load -i react-app.tar
+
+
+lesson 45

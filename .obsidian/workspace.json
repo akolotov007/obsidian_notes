@@ -8,29 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c337dbd0b596855d",
+            "id": "5af70f07e6c68dd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leanring_Vault/Study Notes/Computers/C++/Programming Principles with C++.md",
+                "file": "Leanring_Vault/Study Notes/Computers/Mentors/CodingwithMosh/Docker/Docker for Beginners.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "dbdf43439bc24b80",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "books/C++, 3rd Edition  Anna’s Archive.pdf"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 281.500732421875,
     "collapsed": true
   },
   "right": {
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/C++, 3rd Edition  Anna’s Archive.pdf",
+                "file": "Leanring_Vault/Study Notes/Computers/Mentors/CodingwithMosh/Docker/Docker for Beginners.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/C++, 3rd Edition  Anna’s Archive.pdf",
+                "file": "Leanring_Vault/Study Notes/Computers/Mentors/CodingwithMosh/Docker/Docker for Beginners.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,12 +134,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/C++, 3rd Edition  Anna’s Archive.pdf"
+                "file": "Leanring_Vault/Study Notes/Computers/Mentors/CodingwithMosh/Docker/Docker for Beginners.md"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -169,8 +158,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dbdf43439bc24b80",
+  "active": "5af70f07e6c68dd9",
   "lastOpenFiles": [
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241012112154.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241012111751.png",
+    "2024-10-12.md",
+    "Leanring_Vault/Study Notes/Computers/Mentors/CodingwithMosh/Docker/Docker for Beginners.md",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241010195945.png",
+    "Untitled.md",
     "Leanring_Vault/Study Notes/Computers/C++/Programming Principles with C++.md",
     "books/C++, 3rd Edition  Anna’s Archive.pdf",
     "Leanring_Vault/Study Notes/Computers/C++/videos.md",
@@ -199,9 +194,6 @@
     "Leanring_Vault/Prefixes/a.Daily Notes/September-30-2024.md",
     "Leanring_Vault/Prefixes/a.Daily Notes/September-27-2024.md",
     "Leanring_Vault/Prefixes/a.Daily Notes/September-25-2024.md",
-    "Leanring_Vault/Prefixes/a.Daily Notes/September-24-2024.md",
-    "Leanring_Vault/Prefixes/a.Daily Notes/October-2-2024.md",
-    "Leanring_Vault/Prefixes/ExcaliDraw/Drawing 2024-09-25 13.50.15.excalidraw.md",
     "Leanring_Vault/Prefixes/Attachments/Pasted image 20240927144554.png",
     "Leanring_Vault/Prefixes/Attachments/Pasted image 20240927144428.png",
     "Leanring_Vault/Prefixes/Attachments/Pasted image 20240927144058.png",
@@ -210,8 +202,6 @@
     "Leanring_Vault/Prefixes/Attachments/Pasted image 20240927131525.png",
     "Leanring_Vault/Prefixes/Attachments/Pasted image 20240925141026.png",
     "Leanring_Vault/Prefixes/Attachments/Pasted image 20240925140437.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20240925134612.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20240924194133.png",
     "books/the learning system.pdf",
     "books/cybersec/Getting Started Becoming a Master Hacker Hacking is the Most Important Skill Set of the 21st Century (Occupytheweb) (z-lib.org).pdf",
     "books/cybersec/Linux Basics for Hackers- getting started with networking, scripting and security in kali.pdf",
