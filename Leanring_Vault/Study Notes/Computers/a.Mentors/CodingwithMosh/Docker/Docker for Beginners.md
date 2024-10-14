@@ -89,8 +89,8 @@ we can now check the docker image that was created:
 and finally we can run it:
 `docker run hello-docker`
 
-# Section 2/3
-#linux
+# Section 2/3 : Linux 
+#linux 
 ## Knowing the Linux Basics
 - a lot of docker builds upon the basics of linux
 - lets get a ubuntu container
@@ -505,4 +505,79 @@ ENV //
 	- `docker image load -i react-app.tar
 
 
-lesson 45
+# Section 5 : Working with Containers
+
+## Starting Containers
+-  `docker ps`
+	- see docker running processes 
+		- every container is a special process
+		- has own file system 
+- `docker run -d react-app`
+	- -d flag = detached   
+- `docker run -d --name blue-sky react-app`
+	- giving a name to a container of "blue-sky"
+
+
+## Viewing the Logs
+	`docker log --help`
+- *on a running container*
+	- `docker logs react-app/{id}`
+- see whatever is being written to logs live:
+	- `docker logs -f` /feed
+
+
+## Publishing Ports
+`docker run -p {host_port:container_port}`
+- `-p 80:3000`
+
+- `docker run -d -p 80:3000 --name c1 react-app`
+	- do `ps` to see port mapping
+
+
+## Executing Commands in Running Containers
+- `docker exec {running_container} {command}`
+	- `docker exec c1 ls`
+- `docker exec -it c1 sh`
+	- run an interactive shell in the running container
+
+
+## Stopping and Starting Containers
+- `docker stop/start {container}`
+	- `docker stop c1`
+
+## Removing Containers
+- `docker rm {container}`
+	-  if you try to stop a running container, error:
+		- Stop container and then remove
+		- or force remove
+			- `docker rm -f c1`
+
+- then you can do a `container prune`
+	- will remove all stopped containers
+		- `docker container prune`
+
+## Containers File System 
+- *assuming running container*
+	- `docker exec -it {container} sh`
+-  if your 2 containers off the same image, they have separate file systems
+	- *test it by running 2 containers, adding a file in A and then run an interactive session in B*
+
+
+## Persisting Data using Volumes
+- `docker volume`
+	- `create`
+	- `inspect`
+	- `ls`
+	- `prune`
+	- `rm`
+
+- `docker volume create app-data`
+	- `docker volume inspect app-data`
+		- will show mountpoint for the volume:
+			- C:/program Files/docker ...
+			- /var/lib/docker/volumes/
+- now let's use the volume
+	- `docker run -d -p 4000:3000 -v app-data:/app/data react-app`
+
+lesson 54
+ 
