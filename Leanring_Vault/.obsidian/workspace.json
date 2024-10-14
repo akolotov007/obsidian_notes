@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "15c4be8d8d9f73bd",
+        "id": "29e80decb67e66e6",
         "type": "tabs",
         "children": [
           {
-            "id": "aac0038dc44ceb35",
+            "id": "70a245b25539d9d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study Notes/Computers/Mentors/CodingwithMosh/Docker/Docker for Beginners.md",
+                "file": "Study Notes/Computers/mySQL/SQL.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study Notes/Computers/Mentors/CodingwithMosh/Docker/Docker for Beginners.md",
+                "file": "Study Notes/Computers/mySQL/SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study Notes/Computers/Mentors/CodingwithMosh/Docker/Docker for Beginners.md",
+                "file": "Study Notes/Computers/mySQL/SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study Notes/Computers/Mentors/CodingwithMosh/Docker/Docker for Beginners.md"
+                "file": "Study Notes/Computers/mySQL/SQL.md"
               }
             }
           },
@@ -159,93 +159,55 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "floating": {
-    "id": "577a42f0df699fa4",
-    "type": "floating",
-    "children": [
-      {
-        "id": "5915816f18e4b705",
-        "type": "window",
-        "children": [
-          {
-            "id": "77651e0b88576237",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c3fa95b54e266d99",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Study Notes/Computers/Mentors/Fireship.io/Linux/6. WTF is $PATH.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -1252,
-        "y": 117,
-        "width": 600,
-        "height": 600,
-        "maximize": true,
-        "zoom": 3
-      }
-    ]
-  },
-  "active": "aac0038dc44ceb35",
+  "active": "70a245b25539d9d5",
   "lastOpenFiles": [
-    "Prefixes/a.Daily Notes/October-9-2024.md",
+    "Study Notes/Computers/mySQL/Resources.md",
     "Study Notes/Computers/Mentors/CodingwithMosh/Docker/Docker for Beginners.md",
-    "Study Notes/Computers/Mentors/Fireship.io/Linux/6. WTF is $PATH.md",
-    "Study Notes/Look into.md",
-    "Study Notes/Linux/Introduction to Linux.md",
-    "Study Notes/Computers/Mentors/Fireship.io/Linux/3. Linux 101.md",
-    "Study Notes/Computers/Mentors/Fireship.io/Linux/4. 10 Essential Commands.md",
-    "Study Notes/Computers/Mentors/Fireship.io/Linux/5. The File System.md",
-    "Study Notes/Computers/Mentors/Fireship.io/Linux/7. File Permissions.md",
-    "Study Notes/Computers/Mentors/Fireship.io/Linux/8. Sudo.md",
-    "Study Notes/Computers/Mentors/Fireship.io/Linux/26. Mount a Volume.md",
-    "Study Notes/Computers/Mentors/Fireship.io/Linux/27. Final Checklist.md",
-    "Study Notes/Computers/Mentors/Fireship.io/Linux/28c. Docker 101.md",
-    "Study Notes/Computers/Mentors/Fireship.io/Linux/28d. Ansible.md",
-    "Study Notes/Computers/Mentors/Fireship.io/Linux/28b. Linux in 100 seconds.md",
-    "Study Notes/Computers/Mentors/Fireship.io/Linux/28. Bonus info.md",
-    "Study Notes/Computers/Mentors/Fireship.io/Linux/28a. Linux History.md",
-    "Study Notes/Computers/Mentors/Fireship.io/Linux/22. SSL.md",
-    "Study Notes/Computers/Mentors/Fireship.io/Linux/23. Nginx.md",
-    "Study Notes/Computers/Mentors/Fireship.io/Linux/24. Env Vars.md",
-    "Study Notes/Computers/Mentors/Fireship.io/Linux/25. systemd.md",
-    "Study Notes/Linux",
-    "Prefixes/ExcaliDraw/Drawing 2024-09-25 13.49.21.excalidraw.md",
-    "Study Notes/Computers/Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/23. Linux Commands.md",
-    "Prefixes/ExcaliDraw/basics of US constitution.md",
-    "Study Notes/Computers/Mentors/ProfessorMesser",
-    "Study Notes/Computers/Mentors",
+    "Study Notes/Personal/Advice from James.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/7. Microsoft Management Console.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/9. Windows Control Panel.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/8. Additional windows tools.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/70. Remote Access.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/69. Scripting Use Cases.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/68. Scripting Languages.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/67. Professionalism.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/66. Communiation.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/65. Privacy, Licensing, and Policies.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/64. Environmental Impacts.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/63. Safety Procedures.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/62. Managing Electrostatic Discharge.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/61. Managing Backups.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/60. Change management.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/6. Task Manager.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/59. Document Types.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/58. Asset Management.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/57. Ticketing systems.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/56. Troubleshooting Mobile Device Security.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/55. Troubleshooting Mobile Devices.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/54. Removing Malware.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/53. Troubleshooting Security Issues.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/52. Troubleshooting Solutions.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1101 (Core 1)",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/Security+",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/Network+",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA",
+    "Study Notes/Computers/a.Mentors/Fireship.io/Linux",
+    "Study Notes/Computers/a.Mentors/Fireship.io/JavaScript",
+    "Study Notes/Computers/a.Mentors/Fireship.io/Git and Github",
+    "Study Notes/Computers/a.Mentors/CodingwithMosh/Docker",
+    "Prefixes/Attachments/Pasted image 20241012112154.png",
+    "Prefixes/Attachments/Pasted image 20241012111751.png",
+    "Prefixes/Attachments/Pasted image 20241010195945.png",
     "Prefixes/Attachments/Pasted image 20241009154231.png",
-    "Study Notes/Computers/Mentors/CodingwithMosh",
     "Prefixes/Attachments/Pasted image 20241009144244.png",
     "Prefixes/Attachments/Pasted image 20241009141630.png",
     "Prefixes/Attachments/Pasted image 20241009141609.png",
     "Prefixes/Attachments/Pasted image 20241009141437.png",
-    "Study Notes/Computers/Mentors/Fireship.io/JavaScript/3. Algorithms.md",
-    "Study Notes/Computers/Mentors/CodingwithMosh/Docker",
-    "Study Notes/Computers/Mentors/Fireship.io/JavaScript/2. Advanced Concepts.md",
     "Prefixes/Attachments/Pasted image 20241008184733.png",
     "Prefixes/Attachments/Pasted image 20241004145048.png",
-    "Prefixes/Attachments/Pasted image 20240927144554.png",
-    "Prefixes/Attachments/Pasted image 20240927144428.png",
-    "Prefixes/Attachments/Pasted image 20240927144058.png",
     "Untitled.canvas",
-    "Study Notes/Computers/Mentors/ProfessorMesser/CompTIA/Pentest+",
-    "Random Notes/AI replies",
-    "Study Notes/Computers/Data Structures and Algorithms",
-    "Study Notes/Computers/C++/C++ cheatsheet.pdf",
-    "Study Notes/Computers/JavaScript",
     "Prefixes/Canvas/Untitled.canvas"
   ]
 }
