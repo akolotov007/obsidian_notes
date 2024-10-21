@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=pTFZFxd4hOI
 Remainder is from his course
 ___
 
-# Section 1 
+# Section 1: What is Docker
 ## What is Docker?
 - a platform for building, running and shipping applications
 - ##### Problems we encounter
@@ -89,10 +89,10 @@ we can now check the docker image that was created:
 and finally we can run it:
 `docker run hello-docker`
 
-# Section 2/3 : Linux 
-#linux 
+# Section 2/3 : Linux command line
+
 ## Knowing the Linux Basics
-- a lot of docker builds upon the basics of linux
+- a lot of docker builds upon the basics of Linux
 - lets get a ubuntu container
 	- `docker run ubuntu` // if not found locally, it'll download it and then run it 
 - but it doesn't run, it stops prematurely
@@ -272,7 +272,7 @@ change permissions
 to add permissions for others to run:
 `chmod o+x john.sh`
 
-# Section 4 
+# Section 4: Building Images
 
 ## Images and Containers
 - ##### Images
@@ -579,5 +579,519 @@ ENV //
 - now let's use the volume
 	- `docker run -d -p 4000:3000 -v app-data:/app/data react-app`
 
-lesson 54
+
+## Copying Files between the Host and Containers
+- #### From container to Host
+- *in a running container*
+	- `docke exec -it {image} sh`
+- let's create a simple log file
+	- `echo some random characters > log.txt`
+	- `exit`
+- then we can do copy:
+	- `docker cp (from) (to)`
+	- `docker cp {image}:{full filepath} {destination}`
+		- `docker cp e1c9043ea8ce:/app/log.txt .`
+
+- #### From host to container
+	- `docker cp secret.txt e1c:/app`
+
+
+## Sharing the Source code with a Container
+- when publishing changes
+	- ##### for production:
+		- build a new image every time, and properly tag it 
+	- #### for development: 
+		- ~~build new image~~
+		- ~~copy files~~
+		- mapping directory from host to directory to container
+		- ![[Pasted image 20241015134118.png]]
+- `docker run -d -p 5001:3000 -v $(pwd):/app/data react-app` 
+	- run container in detached state
+	- host port 5001 -> container port 3000
+	- **!** volume maps from current working directory -> containers: /app/data
+
+
+# Section 6: Running multi-container apps
+
+## Installing Docker Compose
+- comes shipped with Docker Desktop by default (for Mac and Windows)
+ - `docker-compose --version`
+
+## Cleaning up our our workspace
+*this will clear out all your images and containers*
+- we know: `docker rm {image} {image2} ... `
+	- takes to long
+	- `docker image ls -q`
+		- lists all images ID
+
+- First remove containers:
+	- `docker container rm -f $(docker container -ls -aq)` 
+		- forcefully remove all containers including stopped ones
+- secondly, remove unnecessary images 
+	- `docker image rm -f $(docker image -ls -aq)` 
+
+
+## The Sample Web Application
+- *don't have it, but its a frontend, backend and database*
+- has `docker-compose.yml` file
+	- *in same directory*
+	- `docker-compose up`
+
+## JSON and YAML Formats
+- json is a human readable language that holds data about objects:
+```json
+{
+"name" : "The Ultimate Docker Course",
+"price" : 149,
+"is_published" : true,
+"tags" : ["software","devops"],
+"author" : {
+	"first_name": "Mosh",
+	"last_name": "Hamedani",
+	}
+}
+```
+
+same data represented in YAML, 
+
+```yaml
+___
+name : The Ultimate Docker Course
+price : 149
+is_published : true
+tags :
+ - software
+ - devops
+author:
+	first_name: Mosh,
+	last_name: Hamedani
+```
+
+- why don't we use YAML for everything? 
+	- bc parsing is slower in YAML, since all data is read as string and then guessed to be a certain data type
+
+
+## Creating a Compose File
+
+- to find latest version of compose, check docs
+- each service has its own docker file inside of it
+``` 
+frontend
+	|- dockerfile
+backend
+	|- dockerfile
+database
+	|- dockerfile
+```
+
+```yml
+// vidly is the name of the app 
+version : "3.8"
+services:
+	web:
+		build: ./frontend
+		ports:
+			- 3000:3000
+		environment: // creating env variables
+			DB_URL: mongodb://db/vidly
+		
+	api:
+		build: ./backend
+		ports:
+			- 3001:3001
+	db:
+		image: mongo:4.0-xenial
+		// pulling an image instead of building one
+		ports:
+			- 27017:27017
+		volumes:
+			- vidly:/data/db
+volumes:
+vidly:
+
+```
+
+## Building Images 
+- `docker-compose build`
+	- `docker images`
+		- vidly_api
+		- vidly_web
+		- mongo
+- if you want a complete re-build wo/ any cache
+	- `docker-compose build --no-cache`
+	- `docker-compose up`
+## Starting and stopping the Application
+- combining building and starting
+	- `docker-compose up --build`
+- running in detached state
+	- `docker-compose up -d`
+- see running processes
+	- `docker-compose ps`
+![[Pasted image 20241015145336.png]]
+
+#### To Stop
+- `docker-compose down`
+
+
+## Docker networking
+- `docker network ls`
+	- 3 default:
+		- ![[Pasted image 20241015145543.png]]
+
+
+- *assuming docker-compose was run, and has running containers*- 
+- `docker ps`![[Pasted image 20241015145730.png]]
+- let's enter a shell session in the `web` to ping `api`
+	- `docker exec -it -u root 8c6 sh`
+		- `ping api`
+
+## Viewing Logs
+-  `docker logs --help`
+	- `docker-compose logs --help`
+- `docker logs {image} -f` // follow
+
+## Publishing Changes
+- in the project directory:
+	- vidly/backend
+		- `npm install`
+	- reason being is that we will need the dependences installed in order for them to be shared across containers
+
+- in our docker-compose.yml:
+
+``` yaml
+// vidly is the name of the app 
+version : "3.8"
+services:
+	web:
+		build: ./frontend
+		ports:
+			- 3000:3000
+		environment: // creating env variables
+			DB_URL: mongodb://db/vidly
+// NEW LINE
+		volumes:
+			- ./backend:/app
+		
+	api:
+		build: ./backend
+		ports:
+			- 3001:3001
+	db:
+		image: mongo:4.0-xenial
+		// pulling an image instead of building one
+		ports:
+			- 27017:27017
+		volumes:
+			- vidly:/data/db
+volumes:
+vidly:
+```
+
+
+## Migrating the database
+ - *inside project, migrate-database script exists*
+	 - goes on to explain how it works, and how to call it
+
+- *in projects docker-compose file:*
+```yaml
+volumes: 
+	- ./backend:/app
+// new line
+command: migrate-mongo up && npm start
+```
+- problem: what if our database isn't ready yet when we run this command?
+	- solution: wait for it to start
+
+*added wait-for-it.sh script inside backend folder*
+```yaml
+volumes: 
+	- ./backend:/app
+// new line
+command: ./wait-for db:27017 && migrate-mongo up && npm start
+
+db:
+	image:mongo:4.0-xenial
+	ports:
+		- 27017:27017
+```
+- long command, lets reduce it to an `entrypoint` script
+	- in backend:
+		-  `docker-entrypoint.sh`
+```sh
+#!/bin/bash
+
+echo "waiting for mongoDB to start"
+./wait-for db:27017 
  
+echo "Migrating the database"
+migrate-mongo up 
+
+echo "starting server"
+npm start
+```
+- replace our long command with script:
+
+```yaml
+command: ./docker-entrypoint.sh
+```
+
+
+## Running Tests
+- *inside frontend folder* 
+	- `npm test`
+- simple way to test, fast
+
+- can do tests inside a docker as well
+- in `docker-compose.yml`
+```yaml
+services: 
+	web: 
+		build: ./frontend
+		ports:
+			- 3000:3000
+		volumes:
+			 - ./frontend:/app
+// lets copy web and make web-tests
+
+	web-test: 
+			image:vidly_web 
+		volumes:
+			 - ./frontend:/app
+	    command: npm test 
+```
+
+- *in terminal ./vidly*
+	- `docker-compose up`
+	- in the logs we can see our test being run
+	- ![[Pasted image 20241018124017.png]]
+
+
+# Section 7: Deployment
+
+
+## Deployment Options
+- single host deployment
+	- single server
+		- if fails, service fails, rip
+-  cluster deployment
+	- high availability
+
+- cluster solutions
+	- built-in: docker swarm
+	- google product: Kuberentes
+
+*in the case of this course, Mosh decided to show how to run a single host deployment, and not a cluster, given the complexity of it*
+
+
+## Getting a VPS (Virtual Private Server)
+- VPS Options
+	- Digital Ocean
+	- Google cloud platform
+	- Microsoft azure
+	- AWS
+	- etc.
+- *down the list, from most simple to more complex / being given more options*
+
+*also, your paying for a VPS*
+
+
+## Installing Docker Machine
+![[Pasted image 20241018124637.png]]
+- `docker machine` talks to `docker engine` on the server
+
+- does a github pull to install docker machine in ./vidly
+
+## Provisioning a Host
+```bash
+#! bin/bash
+# this can be written in the terminal it's just multiline
+
+docker-machine create \
+--driver digitalocean \ 
+--digitalocean-access-token b3f0b9d492b7775a5d6.... \ 
+# providing an option based on the provider / created in digitalocean
+--engine-install-curl "https://releases.rancher.com/install-docker/..."\
+# at time of recording, digitalocean had issue, had to pull a prev version of dockerengine
+> vidly 
+# giving name to server
+```
+
+
+## Connecting to the Host
+- `docker-machine ls`![[Pasted image 20241018125739.png]]
+
+- we connect via SSH
+	- `docker-machine` abstracts that for us
+- `docker-machine ssh vidly`
+
+## Defining the Production Configuration 
+- *from docker-compose.yml file*
+	- copy content, create new file `docker-compose.prod.yml`
+```yml
+services:
+	 web: 
+		 build: ./frontend
+	 ports:
+		 - 80:3000 # 80 host -> 3000 app
+	## deleted volume mapping, and web-test
+	restart: unless-stopped
+	api: 
+		build: ./backend
+		ports:
+			- 3001:3001
+		environment: 
+			DB_URL: mongodb://db/vidly
+		## deleted volume mapping
+		
+		restart: unless-stopped
+	db:
+		image: mongo:4.0-xenial
+		ports:
+			- 27017:27017
+		volumes:
+			- vidly:/data/db
+		restart: unless-stopped
+vidly:
+```
+
+
+## Reducing the Image Size
+- *since proj uses react, react has feature to create optimized assets *
+	- creates build folder, with all assets optimized
+
+- *from dockerfile, copy and create another*
+	- `Dockerfile.prod`
+```dockerfile
+# step 1: build stage
+FROM node:14.16.0-apline3.13 AS build-stage
+WORKDIR /app 
+COPY package*.json ./
+run npm install
+COPY . . 
+RUN npm run build
+
+# Step 2: Production 
+FROM nginx:1.12-apline AS production-stage
+RUN addgroup app && adduser -S -G app app
+USER app
+COPY --from=build-stage /app/build /usr/share/nginx/html
+# copying from the build stage (^)
+EXPOSE 80
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
+```
+
+*in ./frontend*:
+- `docker build -t vidly_web_opt -f Dockerfile.prod`
+
+- now let's see the change in size 
+![[Pasted image 20241018134336.png]]
+
+1 more step, let's configure our `docker-compose.prod` to run `Dockerfile.prod`
+*in docker-compose.prod.yml*
+```yml
+services:
+	 web: 
+		 build: 
+			 context: ./frontend
+			 dockerfile: Dockerfile.prod
+	 ports:
+		 - 80:80 # since we changed the port to 80 for nginx
+```
+
+*in terminal ./vidly*
+- `docker-compose -f docker-compose.prod.yml build`
+- now we optimized both of our images
+![[Pasted image 20241018134708.png]]
+
+
+## Deploying the Application 
+![[Pasted image 20241018134821.png]]
+- in terminal: `eval $(docker-machine vidly)`
+	- now we connected to our machine being hosted on digital ocean
+
+*in connected terminal*
+	- `docker-compose -f docker-compose.prod.yml up -d`
+
+
+## Troubleshooting Deployment Issues
+
+-  `docker-machine ls`
+	- given IP of machine, tries to connect, frontend isn't showing
+
+- `docker ps`
+	- grab container ID
+	- `docker logs {image}`
+		- something about perms denied
+
+- *in dockerfile.prod*
+```dockerfile
+# Step 2: Production 
+FROM nginx:1.12-apline AS production-stage
+
+// deleted creation of user | bad from security standpoint, but to prove a point 
+
+COPY --from=build-stage /app/build /usr/share/nginx/html
+# copying from the build stage (^)
+EXPOSE 80
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
+```
+
+*in terminal ./vidly*
+- `docker-compose -f docker-compose.prod.yml up --build`
+	- rebuild images
+- now connect to machine IP
+	- problem: frontend can't talk to backend
+	- troubleshoot with dev tools
+		- `api.js` is calling localhost:3001 when it should be calling machine IP:3001
+
+*in api.js*
+```js
+const baseUrl = process.env.REACT_APP_API_URL || "http//localhost:3001/api"
+// REACT_APP_API_URL needs to be set / lets do it in dockerfile
+```
+
+*in Dockerfile.prod*
+```dockerfile
+# step 1: build stage
+FROM node:14.16.0-apline3.13 AS build-stage
+WORKDIR /app 
+COPY package*.json ./
+run npm install
+COPY . . 
+# New line
+ENV REACT_APP_API_URL= http://104.131.24.150:3001 
+
+RUN npm run build
+
+```
+
+*in terminal*
+- `docker-compose -f docker-compose.prod.yml up --build`
+
+then connect to machine and reload
+`docker-machine ls`
+- `docker-machine env vidly`
+- `eval $(docker-machine vidly)`
+- `docker-compose up`
+
+## Publishing Changes
+*in production machine terminal*
+- `docker ps`
+	- we can't see the images version, add that in docker-compose.prod.yml
+
+*docker-compose.prod.yml*
+```yml
+web:
+..
+	image: vidly_web:1
+api:
+	image: vidly_api:1 
+```
+- lets rebuild `docker-compose -f docker-compose.prod.yml build`
+
+`docker ps`
+- can see version of images
+
+manual and time consuming
+-  use continuous deployment tools
+	- can check latest changes in github and auto tag new images being built 

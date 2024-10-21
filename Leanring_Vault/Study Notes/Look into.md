@@ -1,3 +1,14 @@
+## To be:
+
+
+What is a RESTful API 18 min
+https://www.youtube.com/watch?v=Q-BpqyOT3a8
+
+
+
+___
+## Watched:
+
 cyber security home lab tutorial 
 https://www.youtube.com/watch?v=kku0fVfksrk&list=PLG6KGSNK4PuBWmX9NykU0wnWamjxdKhDJ
 
@@ -10,7 +21,4 @@ very good explanation
 every programming language explained in 15 minutes
 https://www.youtube.com/watch?v=ajIcjx0PeYU
 - a review of the video (1 hr long): https://www.youtube.com/watch?v=jQiYW3RXkFU
-
-
-
 

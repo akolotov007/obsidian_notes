@@ -57,5 +57,15 @@ Later down the line learn AWS
 	- while applying it to a project 
 
 - learn js
-	- learn react.js 
-		- learn next.js
+	- learn reactjs (express, NextJS, other backend frameworks)
+		- 1. nextjs- full-stack framework that integrates frontend and backend | API Routes Allows developers to write server-side code directly within the Next.js app
+			- app router
+			- page route
+
+___
+
+if starting to build personal brand
+	tweet hunter
+
+
+ORM 

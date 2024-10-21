@@ -6,13 +6,13 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "IbGraphLineUp",
       "SiLinux",
       "SiPrecommit",
       "SiMarriott",
-      "SiDocker",
-      "SiMysql"
+      "SiDocker"
     ],
-    "recentlyUsedIconsSize": 5,
+    "recentlyUsedIconsSize": 8,
     "rules": [],
     "extraMargin": {
       "top": 0,
@@ -66,17 +66,9 @@
     "iconName": "SiMysql",
     "iconColor": "#ffffff"
   },
-  "Study Notes/Computers/Mentors/ProfessorMesser/CompTIA": {
-    "iconName": "SiComptia",
-    "iconColor": "#ff0000"
-  },
   "Study Notes/Computers/Data Structures and Algorithms": {
     "iconName": "SiAlwaysdata",
     "iconColor": "#ff5900"
-  },
-  "Study Notes/Computers/Mentors/ProfessorMesser": {
-    "iconName": "SiPrecommit",
-    "iconColor": "#d7ffd6"
   },
   "Study Notes/Linux": {
     "iconName": "SiLinux",
@@ -85,5 +77,9 @@
   "Study Notes/Linux/Kali Linux": {
     "iconName": "SiKalilinux",
     "iconColor": "#ffffff"
+  },
+  "Study Notes/Stats2023": {
+    "iconName": "IbGraphLineUp",
+    "iconColor": "#69fe2a"
   }
 }
