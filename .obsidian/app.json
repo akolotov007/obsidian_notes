@@ -1,3 +1,4 @@
 {
-  "attachmentFolderPath": "Leanring_Vault/Prefixes/Attachments"
+  "attachmentFolderPath": "Leanring_Vault/Prefixes/Attachments",
+  "promptDelete": false
 }

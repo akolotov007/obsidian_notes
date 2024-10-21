@@ -20,7 +20,7 @@
 3. **Apply**		: The student can apply their knowledge to predict how changes in temperature might affect the rate of photosynthesis.
 4. **Analyze**		: The student can compare and contrast photosynthesis to other biological processes, like cellular respiration.
 5. **Evaluate**		: The student can prioritize the key factors influencing the rate of photosynthesis, ranking them by their relative importance, such as light intensity, temperature, and carbon dioxide concentration
-6. **Create**		: The student can design an educational presentation to teach their peers about photosynthesis.
+6. **Create**		: The student can design an educational presentation to teach their peers about photosynthesis.	
 
 Many students engage solely on the lower orders of thinking, and being unable to **apply, analyze, evaluate and create** information. 
 - it is also important to mention that knowledge throughout your education will build on itself. 
@@ -28,7 +28,7 @@ Many students engage solely on the lower orders of thinking, and being unable to
 
 ## It Starts and Ends With the "Big Picture"
 
-Students focus too much on understanding every  detail of a concept before moving on - w/o thinking about how the information is relevant to overall topic 
+Students focus too much on understanding every detail of a concept before moving on - w/o thinking about how the information is relevant to overall topic 
 - They forget concepts they learned earlier, and have to revisit them repeatedly 
 - They fail to answer inference-based questions on exams 
 	- which is the dominant form of higher education
@@ -65,7 +65,7 @@ If you design your learning system to behave like that web where it captures all
 ##### In-class active recall questions
 - in the beginning, ask simple question like "what is...." to clarify fundamental concepts or definitions.
 - Once you become more familiar with the process, aim to reduce amount of questions and increase the quality of each question.
-	- create questions that facilitate higher-order thinking; 
+	- create questions that facilitate higher-order thinking: 
 		- *How does this information relate to what we’ve previously learned?* 
 		- *Can you provide an example that illustrates this concept?*
 		- *Why is this information important?* 
