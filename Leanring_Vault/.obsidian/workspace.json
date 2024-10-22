@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study Notes/Computers/JavaScript/async await.md",
+                "file": "Study Notes/Stats2023/Section 3.1 3.2 3.3.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "async await"
+              "title": "Section 3.1 3.2 3.3"
             }
           }
         ]
@@ -140,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study Notes/Computers/JavaScript/async await.md"
+                "file": "Study Notes/Stats2023/Section 3.1 3.2 3.3.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of async await"
+              "title": "Outline of Section 3.1 3.2 3.3"
             }
           },
           {
@@ -179,6 +179,7 @@
   },
   "active": "e272aeac702a2267",
   "lastOpenFiles": [
+    "Study Notes/Computers/JavaScript/async await.md",
     "Study Notes/Stats2023/Section 3.1 3.2 3.3.md",
     "Prefixes/Attachments/Pasted image 20241021145303.png",
     "Prefixes/Attachments/Pasted image 20241021145035.png",
