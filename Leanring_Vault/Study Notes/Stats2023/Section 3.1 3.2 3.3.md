@@ -204,21 +204,21 @@ Range, Standard deviation and variance
 1. find mean
 	1. add all values : 430
 	2. count how many values: 11
-	3. 430/11 =~ 39
+	3. 430/11 $\approx$ 39
 
-| 2. Subtract Mean | 3. Square each Deviation | Sum all Deviations |
-| ---------------- | ------------------------ | ------------------ |
-| 10.91            | 119                      |                    |
-| -14.09           | 198.6                    |                    |
-| 35.91            | 1289.5                   |                    |
-| -4.09            | 16.7                     |                    |
-| 10.91            | 119                      |                    |
-| -14.09           | 198.6                    |                    |
-| -9.09            | 82.6                     |                    |
-| 10.91            | 119.0                    |                    |
-| 5.91             | 34.9                     |                    |
-| -14.09           | 198.5                    | *total*            |
-| -19.09           | 364.5                    | 2740.9             |
+| 2. Subtract Mean from data values | 3. Square each Deviation | Sum all Deviations |
+| --------------------------------- | ------------------------ | ------------------ |
+| 10.91                             | 119                      |                    |
+| -14.09                            | 198.6                    |                    |
+| 35.91                             | 1289.5                   |                    |
+| -4.09                             | 16.7                     |                    |
+| 10.91                             | 119                      |                    |
+| -14.09                            | 198.6                    |                    |
+| -9.09                             | 82.6                     |                    |
+| 10.91                             | 119.0                    |                    |
+| 5.91                              | 34.9                     |                    |
+| -14.09                            | 198.5                    | *total*            |
+| -19.09                            | 364.5                    | 2740.9             |
 - count how many values (n):  11 -1 : 10 
 1. divide sum by n-1
 $$ 2740.9 / 10 = 274.09$$
@@ -242,7 +242,7 @@ $$ \sqrt{274.09} = 16.56$$
 ### Variance of a Sample and a Population 
 - Variance  = a measure of variation equal to the square of the SD
 	- Sample Variance = $S^2$
-	- Population Variance = $\sigma^2$
+	- Population Variance = $\sigma^2$ = standard deviation$^2$
 - not resistant ^1
 - never negative
 - sample variance $s^2$ is **unbiased estimator** of population variance $\sigma^2$
@@ -301,4 +301,80 @@ $$ x = \frac{36}{50} *100 = 72 $$
 ##### Example
 
 ![[Pasted image 20241022221054.png]]
+- find the value of the 25th percentile
 
+Pulling the equation:
+$L = \frac{k}{100}n$
+k = percentile in question
+n = number of values  
+
+we use k = 25 (25th percentile)
+n = 50 (data values)
+
+$L = \frac{25}{100}*50 = 12.5$
+- since we can only have **whole** numbers, we have to round up, to 13
+- now we count 13 positions, from the lowest to highest
+	- in table, 13th value is 25
+	- roughly speaking, about 25% of wait times are less than 25 minutes and 75% of wait times are more than 25 minutes
+
+
+### Quartiles
+- measure of location, *Q1*, *Q2*, *Q3*,*Q4*
+	- divides a set of data into 4 groups with about 25% of the values of each group
+	- *n* = total number of points in data set
+- Q1 = $P_{25}$
+	- $\frac{(n+1)}{4}$
+- Q2 = $P_{50}$ = same as median. 
+	- separates the bottom 50% of sorted values from the top 50%
+	-  $\frac{(n+1)}{2}$
+- Q3 = $P_{75}$ 
+	- separates bottom 75% of sorted values from the top 25%
+	-  $\frac{3(n+1)}{4}$
+	![[Pasted image 20241024135814.png]]
+
+### 5 Number Summary
+- Minimum
+- Q1
+- Median (Q2)
+- Q3
+- Maximum
+
+#### Example
+![[Pasted image 20241024135918.png]]
+- find the 5 number summary for this set of data
+
+Since already sorted, we have our min and max values
+min = **10**
+max = **110**
+
+now to find Q1, Q2(median) Q3
+- get percentile equation 
+
+$L = \frac{k}{100}n$
+k = percentile in question
+n = number of values  
+- Q1 = 25/100 * 50 = 12.5 ~~ 13th position from bottom
+	- data point: 25
+- Q2 = 50/100 * 50 = **25**th position | given whole number, additional steps to take
+	- find 25th data value: **35**, 
+	- find 26th data value: **35**,
+		- add both, divide by 2
+		- (35+35) / 2 = **35**
+- Q2 (Median) = **35**
+- Q3 = 75/100 * 50 = 37.5 ~~ 38 position from bottom
+	- data point: 50
+
+final:
+
+| Min | Q1  | Median | Q3  | Max |
+| --- | --- | ------ | --- | --- |
+| 10  | 25  | 35     | 50  | 110 |
+
+
+### Boxplot 
+- a graph of a data set  
+- line extends from the min value to max value
+- box extends from Q1 to Q3
+
+*referencing previous example*
+- ![[Pasted image 20241024141301.png]]
