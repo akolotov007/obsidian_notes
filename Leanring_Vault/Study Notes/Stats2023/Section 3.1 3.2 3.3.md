@@ -1,7 +1,7 @@
 ## 3.1 - Describing, Exploring, and Comparing Data
 
 - Measures of center = value at the middle of a data set
-	- different ways to find the middle = measure***s***
+	- different ways to find the middle 
 - resistant statistic = statistic that isn't drastically affected by extreme values (outlier) ^1
 ### finding the center of data
 
@@ -201,7 +201,7 @@ Range, Standard deviation and variance
 #### Example
 ![[Pasted image 20241021194849.png]]
 
-1. find mean
+1. find **mean**
 	1. add all values : 430
 	2. count how many values: 11
 	3. 430/11 $\approx$ 39
@@ -240,7 +240,7 @@ $$ \sqrt{274.09} = 16.56$$
 - only difference is division by population size: `N`
 
 ### Variance of a Sample and a Population 
-- Variance  = a measure of variation equal to the square of the SD
+- Variance  = SD$^2$
 	- Sample Variance = $S^2$
 	- Population Variance = $\sigma^2$ = standard deviation$^2$
 - not resistant ^1

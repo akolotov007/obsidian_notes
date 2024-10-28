@@ -11,7 +11,7 @@
 - **largest** number that can belong to each of the different classes 
 ###### Class boundaries 
 - numbers used to separate the classes but without gaps created by class limits
-	- 10-19
+- 10-19
 - 20-29
 - 30-39
 ###### Class midpoints 
