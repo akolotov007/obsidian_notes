@@ -387,3 +387,137 @@ public class LinkedList{
 }
 ```
 
+solution
+	addFirst
+
+
+```java
+public class LinkedList{
+	private class Node {
+		private int value;
+		private Node next;
+		public Node (int num){
+			this.value =  num; 
+		}
+	
+	}
+	
+	private Node first;
+	
+	public void addLast(int item) {
+		var node  = new Node(item); 
+		// our node will never not have a value
+		if (isEmpty()) 
+			first = last = node;
+		else {
+			last.next = node;
+			last = node;
+		}
+		
+	}
+
+
+ // new line
+	public void addFirst(int item){
+	var node = new Node(item);
+	if (isEmpty())
+		first = last = node;
+	else{
+		node.next = first;
+		first = node;
+		}	
+	} 
+
+	// isEmpty as a check
+	private boolean isEmpty() {
+		return first = null;
+	}
+}
+```
+
+
+Solution
+	indexOf
+
+```java
+
+public int indexOf(int item){
+	int index = 0;
+	var current = first;
+	while(current != null){
+	if (current.value == item) return index;
+	current = current.next;
+	index++;  
+	}
+	return -1;
+}
+```
+
+
+solution 
+	contains
+
+```java
+public boolean contains(int item){
+	return indexOf(item) != -1;
+}
+```
+
+solution
+	removefirst
+ // {10 -> 20 -> 30}
+ //first -> 10 ==> first -> 20
+ // cant' simply change first-> 20, item 10 stays around, garbage collector doesn't pick it up
+	 // break link btwn 10 -> 20
+	// loses connection to linked list
+add another variable 
+
+
+``` java
+public void removeFirst(){
+	if (isEmpty()) // if list is empty
+		throw new NoSuchElementException();
+
+	if (first == last){ // if list contains 1 element
+		first = last = null;
+		return;
+	
+var second = first.next;
+first.next = null;
+first = second;
+}
+``` 
+
+
+solution
+	removeLast
+ // {10 -> 20 -> 30}
+ // keep track of 20, second to last
+ //  
+
+```java
+public void removeLast() {
+	if (isEmpty()) // if list is empty
+		throw new NoSuchElementException();
+
+	if (first == last){ // if list contains 1 element
+		first = last = null;
+		return;
+	
+	var previous = getPrevious(last);
+	last = previous;
+	last.previous = null;
+	
+}
+
+// lets create a private method getPrevious and put the above logic into it
+
+private Node getPrevious (Node node){
+ var current = first;
+	while (current != null){
+		if (current.next == node) return current;
+		current = current.next;
+	}
+	return null;
+}
+```

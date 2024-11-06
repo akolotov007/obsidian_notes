@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leanring_Vault/Study Notes/Stats2023/Section 3.1 3.2 3.3.md",
+                "file": "Leanring_Vault/Study Notes/Computers/a.Mentors/CodingwithMosh/Data Structures and Algorithms/Data Struct and Algorithms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Section 3.1 3.2 3.3"
+              "title": "Data Struct and Algorithms"
             }
           }
         ]
@@ -150,10 +150,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leanring_Vault/Study Notes/Stats2023/Section 3.1 3.2 3.3.md"
+                "file": "Leanring_Vault/Study Notes/Computers/a.Mentors/CodingwithMosh/Data Structures and Algorithms/Data Struct and Algorithms.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Section 3.1 3.2 3.3"
+              "title": "Outline of Data Struct and Algorithms"
             }
           }
         ],
@@ -161,7 +161,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,20 +178,29 @@
   },
   "active": "3b7f7346ab08f868",
   "lastOpenFiles": [
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241022221054.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241022220902.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241022220740.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241022215947.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241022215914.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241022213618.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241022213517.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241022212705.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241022212233.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241022211114.png",
-    "Leanring_Vault/Study Notes/Stats2023/Section 3.1 3.2 3.3 part 2.md",
+    "Leanring_Vault/Study Notes/Computers/Data Structures and Algorithms/Data Structures and Algorithms made easy - Narasimha Karumanchi.md",
+    "Leanring_Vault/Study Notes/markdown-cheat-sheet.md",
+    "Leanring_Vault/Study Notes/Stats2023/Section 4.1 4.2.md",
+    "Leanring_Vault/Prefixes/a.Daily Notes/October-28-2024.md",
+    "Leanring_Vault/Prefixes/a.Daily Notes/October-27-2024.md",
     "Leanring_Vault/Study Notes/Stats2023/Section 3.1 3.2 3.3.md",
+    "Leanring_Vault/Study Notes/Math Notation in Markdown Cheatsheet.md",
+    "Leanring_Vault/Prefixes/a.Daily Notes/October-25-2024.md",
+    "Leanring_Vault/Prefixes/a.Daily Notes/October-24-2024.md",
+    "Leanring_Vault/Prefixes/a.Daily Notes/October-23-2024.md",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241024163715.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241024163706.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241024162138.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241024150947.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241024141829.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241024141708.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241024141301.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241024135918.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241024135814.png",
     "Leanring_Vault/Study Notes/Stats2023/Section 2.1 2.2 2.3.md",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241021194849.png",
+    "Leanring_Vault/Study Notes/Stats2023/Chapter 1 Intro to Stats.md",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241022221054.png",
+    "Leanring_Vault/Study Notes/Stats2023/Section 3.1 3.2 3.3 part 2.md",
     "Untitled.md",
     "Leanring_Vault/Study Notes/Computers/a.Mentors/CodingwithMosh/Docker/Docker for Beginners.md",
     "Leanring_Vault/Study Notes/Linux/Kali Linux/Network Recon.md",
@@ -205,17 +215,8 @@
     "Leanring_Vault/Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1101 (Core 1)/23. Network Cables.md",
     "Leanring_Vault/Study Notes/Computers/a.Mentors/Fireship.io/Linux/6. WTF is $PATH.md",
     "Leanring_Vault/Study Notes/Personal/The Learning System Notes.md",
-    "Leanring_Vault/Study Notes/Personal/Jin Yuh.md",
-    "Leanring_Vault/Study Notes/Computers/a.Mentors/CodingwithMosh/Data Structures and Algorithms/Data Struct and Algorithms.md",
     "Leanring_Vault/Study Notes/Computers/a.Mentors/CodingwithMosh/Data Structures and Algorithms",
-    "Leanring_Vault/Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1101 (Core 1)/0. Course Resources.md",
-    "Leanring_Vault/Study Notes/Linux/Introduction to Linux.md",
-    "Excalidraw/Drawing 2024-10-12 14.01.26.excalidraw.md",
     "Excalidraw",
-    "Leanring_Vault/Study Notes/Computers/a.Mentors/Fireship.io/Linux/5. The File System.md",
-    "Leanring_Vault/Study Notes/Computers/a.Mentors/Fireship.io/Linux/11. Text Editors.md",
-    "Leanring_Vault/Study Notes/Computers/a.Mentors/Fireship.io/Linux/10. Bash Config.md",
-    "Leanring_Vault/Study Notes/Computers/a.Mentors/Fireship.io/Linux/13. Process Management.md",
     "books/C++ cheatsheet.pdf",
     "books/Data struct and algo/Data Structures and Algorithms Made Easy Data Structure and Algorithmic Puzzles (Karumanchi, Narasimha) (Z-Library).pdf",
     "books/C++, 3rd Edition  Anna’s Archive.pdf",
