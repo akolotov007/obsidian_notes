@@ -163,7 +163,7 @@ int[] numbers = {10,20,30};
 System.out.println(numbers.length) // 3
 ```
 
-### Exercise: Building an Array\
+### Exercise: Building an Array
 let's create an array that we can add and remove items, by making it a **class** to call from:
 ```java
 Array numbers = new Array(length:3);
