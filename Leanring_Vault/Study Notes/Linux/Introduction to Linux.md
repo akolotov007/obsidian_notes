@@ -27,7 +27,7 @@ ___
 
 ## The terminal/ Shell 
  - the command line 
- - .`sh `file extension
+ - `.sh` file extension
  - *you'll spend most of your time here*
 
 - There are variations of the shell (visually?)
@@ -57,7 +57,7 @@ ___
 
 ## [[Docker for Beginners#Navigating the Linux File System| Navigating with the terminal]]
 - `pwd`
-	- p rint working directory
+	- print working directory
 - `ls`
 	- list files
 - `mkdir` - make directory
