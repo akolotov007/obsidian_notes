@@ -26,7 +26,7 @@ cybersecurity is even in more demand
 
 can't do cybersecurity without knowing how to code 
 - one of the best ways is social engineering
-	- someone used a deepfake to get someone from a company to wirre them $60k
+	- someone used a deepfake to get someone from a company to wire them $60k
 		- you don't read a lot about deepfake hacks since they are individually made by the hackers
 
 FOMO 
