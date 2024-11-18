@@ -69,15 +69,15 @@
 
 #### Linear Algebra: Vectors[](https://www.upyesp.org/posts/makrdown-vscode-math-notation/#linear-algebra-vectors)
 
-|Notation|Example|Inline|Code Block|
-|---|---|---|---|
-|Vectors|vv‾v⃗vvv|$\mathbf{v}\overline{v}\vec{v}$|$$  \mathbf{v} \overline{v} \vec{v}  $$|
-|Row Vector|v=(123)v=(1​2​3​)|$v=\begin{pmatrix}1&2&3\end{pmatrix}$|$$  v = \begin{pmatrix}  1 & 2 & 3  \end{pmatrix}  $$|
-|Column Vector|w=(456)w=⎝⎛​456​⎠⎞​|$w=\begin{pmatrix}4\cr5\cr6\cr\end{pmatrix}$|$$  w=\begin{pmatrix}  4 \cr  5 \cr  6 \cr  \end{pmatrix}  $$|
-|Dot Product|v⋅wv⋅w  (v,w)(v,w)  <v∣w>⟨v∣w⟩|$\mathbf{v} \cdot \mathbf{w}$$(v,w)$$\left<v \| w\right>$|$$  \mathbf{v}\cdot\mathbf{w}  (v,w)  \left<v\|w \right>  $$|
-|Cross Product|v×wv×w|$v \times w$|$$  v \times w  $$|
-|Length of v|∣v∣∣v∣|$\|v\|$|$$  \|v\|  $$|
-|Norm of v|∣∣v∣∣∣∣v∣∣|$\|v\|$|$$  \|v\|  $$|
+| Notation      | Example                        | Inline                                                    | Code Block                                                    |
+| ------------- | ------------------------------ | --------------------------------------------------------- | ------------------------------------------------------------- |
+| Vectors       | vv‾v⃗vvv                       | $\mathbf{v}\overline{v}\vec{v}$                           | $$  \mathbf{v} \overline{v} \vec{v}  $$                       |
+| Row Vector    | v=(123)v=(1​2​3​)              | $v=\begin{pmatrix}1&2&3\end{pmatrix}$                     | $$  v = \begin{pmatrix}  1 & 2 & 3  \end{pmatrix}  $$         |
+| Column Vector | w=(456)w=⎝⎛​456​⎠⎞​            | $w=\begin{pmatrix}4\cr5\cr6\cr\end{pmatrix}$              | $$  w=\begin{pmatrix}  4 \cr  5 \cr  6 \cr  \end{pmatrix}  $$ |
+| Dot Product   | v⋅wv⋅w  (v,w)(v,w)  <v∣w>⟨v∣w⟩ | $\mathbf{v} \cdot \mathbf{w}$$(v,w)$$\left<v \| w\right>$ | $$  \mathbf{v}\cdot\mathbf{w}  (v,w)  \left<v\|w \right>  $$  |
+| Cross Product | v×wv×w                         | $v \times w$                                              | $$  v \times w  $$                                            |
+| Length of v   | ∣v∣∣v∣                         | $\|v\|$                                                   | $$  \|v\|  $$                                                 |
+| Norm of v     | ∣∣v∣∣∣∣v∣∣                     | $\|v\|$                                                   | $$  \|v\|  $$                                                 |
 
 #### Linear Algebra: Matrices[](https://www.upyesp.org/posts/makrdown-vscode-math-notation/#linear-algebra-matrices)
 

@@ -397,7 +397,7 @@ public class LinkedList{
 		private int value;
 		private Node next;
 		public Node (int num){
-			this.value =  num; 
+			this.value = num; 
 		}
 	
 	}
@@ -510,7 +510,7 @@ public void removeLast() {
 	
 }
 
-// lets create a private method getPrevious and put the above logic into it
+// lets create a private method getPrevious and put the above logic into it /did
 
 private Node getPrevious (Node node){
  var current = first;
@@ -521,3 +521,263 @@ private Node getPrevious (Node node){
 	return null;
 }
 ```
+
+
+So far:
+
+```java
+public class LinkedList{
+	private class Node {
+		private int value;
+		private Node next;
+		public Node (int num){
+			this.value =  num; 
+		}
+	
+	}
+	
+	private Node first;
+	private Node last;
+	private int size;
+	
+	public void addLast(int item) {
+		var node  = new Node(item); 
+		// our node will never not have a value
+		if (first == null) 
+			first = last = node;
+		else {
+			last.next = node;
+			last = node;
+		}
+	}
+	public void addFirst(int item){
+		var node = new Node(item);
+		if (isEmpty())
+			first = last = node;
+		else{
+			node.next = first;
+			first = node;
+			}	
+	} 
+
+	// isEmpty as a check
+	private boolean isEmpty() {
+		return first = null;
+	}
+	
+	public boolean contains(int item){
+	return indexOf(item) != -1;
+	}
+
+	public int indexOf(int item){
+		int index = 0;
+		var current = first;
+		while(current != null){
+		if (current.value == item) return index;
+		current = current.next;
+		index++;  
+		}
+		return -1;
+	}
+
+	public void removeFirst(){
+	if (isEmpty()) // if list is empty
+		throw new NoSuchElementException();
+
+	if (first == last){ // if list contains 1 element
+		first = last = null;
+		return;
+	
+	var second = first.next;
+	first.next = null;
+	first = second;
+	}
+	public void removeLast() {
+		if (isEmpty()) // if list is empty
+			throw new NoSuchElementException();
+	
+		if (first == last){ // if list contains 1 element
+			first = last = null;
+			return;
+		
+		var previous = getPrevious(last);
+		last = previous;
+		last.previous = null;
+		
+	}
+	private Node getPrevious (Node node){
+	 var current = first;
+		while (current != null){
+			if (current.next == node) return current;
+			current = current.next;
+		}
+		return null;
+	}
+
+
+}
+```
+
+Now lets add 
+Solution: indexOf()
+- create private `int size`
+	-  add +1 to size in addLast function
+	- add +1 to size in addFirst function
+	- remove -1 to size in removeFirst and removeLast
+
+``` java
+public class LinkedList{
+	private class Node {
+		private int value;
+		private Node next;
+		public Node (int num){
+			this.value = num; 
+		}
+	
+	}
+	
+	private Node first;
+	private Node first;
+	private int size;
+
+	public void addLast(int item) {
+		var node  = new Node(item); 
+		// our node will never not have a value
+		if (first == null) 
+			first = last = node;
+		else {
+			last.next = node;
+			last = node;
+		}
+		size++;
+	}
+	public void addFirst(int item){
+		var node = new Node(item);
+		if (isEmpty())
+			first = last = node;
+		else{
+			node.next = first;
+			first = node;
+			}	
+		size++;
+	} 
+
+	// isEmpty as a check
+	private boolean isEmpty() {
+		return first = null;
+	}
+	
+	public boolean contains(int item){
+	return indexOf(item) != -1;
+	}
+
+	public int indexOf(int item){
+		int index = 0;
+		var current = first;
+		while(current != null){
+		if (current.value == item) return index;
+		current = current.next;
+		index++;  
+		}
+		return -1;
+	}
+
+	public void removeFirst(){
+	if (isEmpty()) // if list is empty
+		throw new NoSuchElementException();
+
+	if (first == last)
+		first = last = null;
+	else {
+		var second = first.next;
+		first.next = null;
+		first = second;
+	}
+	size--;
+	}
+	
+	public void removeLast() {
+		if (isEmpty()) // if list is empty
+			throw new NoSuchElementException();
+	// slighly changed logic 
+		if (first == last)
+			first = last = null;
+		else{
+			var previous = getPrevious(last);
+			last = previous;
+			last.previous = null;
+		}
+	size--;
+	}
+	
+	private Node getPrevious (Node node){
+	 var current = first;
+		while (current != null){
+			if (current.next == node) return current;
+			current = current.next;
+		}
+		return null;
+	}
+
+
+	// sizeOf
+	// O(1) 
+	public int size(){
+		return size;
+		}
+}
+```
+
+
+converting linked lists to arrays
+```java
+public int[] toArray {
+	int[] array = new int[size];
+	// traverse each node in the list, and add it to the array 
+	var current = first;
+	var index = 0;
+	while (current != null) {
+	array[index++] = current.value;
+	current = current.next;
+	}
+	return array;
+}
+```
+
+
+### Differences between Array and Linked Lists
+- differences in acquired memory and time complexity of various operations
+
+**Space**
+- static arrays have a fixed size
+- dynamic arrays grow by 50-100%
+- linked lists don't waste memory 
+	- although take up a little extra space to store address of next node
+- use arrays if you know the number of items to store
+
+**Time**
+![[Pasted image 20241106194346.png]]
+
+### Types of Linked Lists
+![[Pasted image 20241106194556.png]]
+
+ ![[Pasted image 20241106194751.png]]
+- is also circular, has use case
+	- music player, traversing from the bottom back to the top once your finished 
+
+
+
+### Reversing a Linked List
+`10->20->30` => `10<-20<-30` aka/or `30->20->10`
+
+as by example:
+```java
+list.reverse();
+var arr = list.toArray();
+System.out.println(Arrays.toString(arr));
+```
+
+
+
+
+
