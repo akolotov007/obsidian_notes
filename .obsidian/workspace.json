@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3b7f7346ab08f868",
+            "id": "8c5104c21a79981b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leanring_Vault/Study Notes/College/Stats2023/Section 7.1 7.2.md",
+                "file": "Leanring_Vault/Study Notes/Money/Economics/Principles of Economics by G. Mankiw.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Section 7.1 7.2"
+              "title": "Principles of Economics by G. Mankiw"
             }
           }
         ]
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.500732421875,
-    "collapsed": true
+    "width": 295.500732421875
   },
   "right": {
     "id": "05fe884608cf291d",
@@ -150,10 +149,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leanring_Vault/Study Notes/College/Stats2023/Section 7.1 7.2.md"
+                "file": "Leanring_Vault/Study Notes/Money/Economics/Principles of Economics by G. Mankiw.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Section 7.1 7.2"
+              "title": "Outline of Principles of Economics by G. Mankiw"
             }
           }
         ],
@@ -175,18 +174,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3b7f7346ab08f868",
+  "active": "8c5104c21a79981b",
   "lastOpenFiles": [
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241202181814.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241202180246.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241202174017.png",
+    "Leanring_Vault/books/Economics and Finance/Principles of Economics, 10e (N. Gregory Mankiw) (Z-Library).pdf",
+    "Leanring_Vault/Study Notes/Money/Economics/Principles of Economics by G. Mankiw.md",
+    "Leanring_Vault/Study Notes/College/Stats2023/Section 7.1 7.2.md",
+    "Leanring_Vault/Study Notes/College/Stats2023/Section 6.1 6.2 6.4.md",
     "Leanring_Vault/Prefixes/Attachments/Pasted image 20241118131749.png",
     "Leanring_Vault/Study Notes/Math Notation in Markdown Cheatsheet.md",
-    "Leanring_Vault/Study Notes/College/Stats2023/Section 7.1 7.2.md",
     "Leanring_Vault/Prefixes/Attachments/Pasted image 20241114195727.png",
     "Leanring_Vault/Prefixes/Attachments/Pasted image 20241114194935.png",
     "Leanring_Vault/Prefixes/Attachments/Pasted image 20241114193559.png",
     "Leanring_Vault/Prefixes/Attachments/Pasted image 20241114193323.png",
     "Leanring_Vault/Study Notes/Computers/a.Mentors/CodingwithMosh/Docker/Docker for Beginners.md",
     "Leanring_Vault/Study Notes/markdown-cheat-sheet.md",
-    "Leanring_Vault/books/Economics and Finance/Principles of Economics, 10e (N. Gregory Mankiw) (Z-Library).pdf",
     "Untitled.md",
     "Leanring_Vault/Study Notes/Computers/a.Mentors/CodingwithMosh/Data Structures and Algorithms/Data Struct and Algorithms.md",
     "Leanring_Vault/Prefixes/Attachments/Pasted image 20241106194751.png",
@@ -200,9 +204,6 @@
     "Leanring_Vault/Prefixes/a.Daily Notes/October-25-2024.md",
     "Leanring_Vault/Prefixes/a.Daily Notes/October-24-2024.md",
     "Leanring_Vault/Prefixes/a.Daily Notes/October-23-2024.md",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241024163715.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241024163706.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20241024162138.png",
     "Leanring_Vault/Study Notes/Stats2023/Section 2.1 2.2 2.3.md",
     "Leanring_Vault/Study Notes/Stats2023/Chapter 1 Intro to Stats.md",
     "Leanring_Vault/Study Notes/Stats2023/Section 3.1 3.2 3.3 part 2.md",
@@ -212,8 +213,6 @@
     "Leanring_Vault/Study Notes/Computers/Python/Data Types Examples.md",
     "Leanring_Vault/Study Notes/Computers/mySQL/SQL.md",
     "Leanring_Vault/Study Notes/Computers/mySQL/SQL in 60 min.md",
-    "Leanring_Vault/Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1102 (Core 2)/23. Linux Commands.md",
-    "Leanring_Vault/Study Notes/Computers/a.Mentors/Fireship.io/Linux/4. 10 Essential Commands.md",
     "Untitled.canvas",
     "Leanring_Vault/Study Notes/Computers/a.Mentors/CodingwithMosh/Data Structures and Algorithms",
     "Excalidraw",
