@@ -4,25 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "1d04020a4573a880",
+        "id": "8077ac357063afff",
         "type": "tabs",
         "children": [
           {
-            "id": "358db3a2c3cee6ff",
+            "id": "7692eb8db018d6d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study Notes/College/Stats2023/Section 10.2.md",
+                "file": "Study Notes/FIU/COT 3100 Discrete Structures/Module 1 - Speaking Mathematically.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Section 10.2"
+              "title": "Module 1 - Speaking Mathematically"
+            }
+          },
+          {
+            "id": "cc02b421bf2080cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study Notes/Math Notation in Markdown Cheatsheet.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Math Notation in Markdown Cheatsheet"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study Notes/College/Stats2023/Section 10.2.md"
+                "file": "Study Notes/Math Notation in Markdown Cheatsheet.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Section 10.2"
+              "title": "Outline of Math Notation in Markdown Cheatsheet"
             }
           },
           {
@@ -177,54 +193,53 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "358db3a2c3cee6ff",
+  "active": "cc02b421bf2080cf",
   "lastOpenFiles": [
-    "Study Notes/College/Stats2023/Section 11.2.md",
-    "Prefixes/a.Daily Notes/December-9-2024.md",
-    "Study Notes/College/Stats2023/Section 10.2.md",
-    "Prefixes/a.Daily Notes/December-6-2024.md",
-    "Study Notes/College/Stats2023/Section 9.2 9.3.md",
-    "Prefixes/a.Daily Notes/December-2-2024.md",
-    "Prefixes/Attachments/Pasted image 20241202141735.png",
-    "Prefixes/a.Daily Notes/December-1-2024.md",
-    "Study Notes/College/Stats2023/Section 3.1 3.2 3.3.md",
-    "Prefixes/a.Daily Notes/November-28-2024.md",
-    "Study Notes/College/Stats2023/Section 8.1 8.2 8.3.md",
-    "Prefixes/a.Daily Notes/November-26-2024.md",
-    "Prefixes/a.Daily Notes/November-24-2024.md",
-    "Prefixes/Attachments/Pasted image 20241122141835.png",
+    "Study Notes/FIU/COT 3100 Discrete Structures/Module 1 - Speaking Mathematically.md",
     "Study Notes/Math Notation in Markdown Cheatsheet.md",
-    "Prefixes/a.Daily Notes/November-22-2024.md",
+    "Prefixes/Attachments/Pasted image 20250110104959.png",
+    "Prefixes/a.Daily Notes/January-10-2025.md",
+    "Study Notes/Computers/mySQL/SQL.md",
+    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1101 (Core 1)/2. Laptop Displays.md",
+    "Study Notes/Computers/a.Mentors/CodingwithMosh/Docker/Docker for Beginners.md",
+    "Study Notes/College/Stats2023/Section 6.1 6.2 6.4.md",
+    "Study Notes/College/Stats2023/Chapter 1 Intro to Stats.md",
+    "Study Notes/Computers/a.Mentors/Fireship.io/freeship tampermonkey script.md",
+    "Study Notes/FIU/Programming II Java",
+    "Study Notes/FIU/COT 3100 Discrete Structures",
+    "Study Notes/FIU",
+    "Study Notes/Computers/a.Mentors/Fireship.io/JavaScript/3. Algorithms.md",
+    "Study Notes/Computers/a.Mentors/Fireship.io/JavaScript/2. Advanced Concepts.md",
+    "Study Notes/Computers/a.Mentors/Fireship.io/JavaScript/1. JS crash course.md",
+    "Study Notes/Computers/a.Mentors/Fireship.io/Git and Github/2. installing git.md",
+    "Study Notes/Computers/a.Mentors/Fireship.io/Git and Github/Git - All commands.md",
+    "Study Notes/Computers/a.Mentors/CodingwithMosh/Data Structures and Algorithms/Data Struct and Algorithms.md",
+    "Study Notes/Computers/mySQL/Resources.md",
+    "Study Notes/Computers/mySQL/SQL in 60 min.md",
+    "Study Notes/Computers/Data Structures and Algorithms/Data Structures and Algorithms made easy - Narasimha Karumanchi.md",
+    "Study Notes/Personal/The Learning System Notes.md",
+    "Study Notes/Personal/Jin Yuh.md",
+    "Study Notes/Personal/Advice from James.md",
+    "Study Notes/Money/Economics/Principles of Economics by G. Mankiw.md",
+    "Prefixes/a.Daily Notes/January-8-2025.md",
+    "Study Notes/College/Stats2023/Section 7.1 7.2.md",
+    "Study Notes/College/Stats2023/Section 8.1 8.2 8.3.md",
+    "Prefixes/Attachments/Pasted image 20241202181814.png",
+    "Prefixes/Attachments/Pasted image 20241202180246.png",
+    "Prefixes/Attachments/Pasted image 20241202174017.png",
+    "Prefixes/Attachments/Pasted image 20241202141735.png",
+    "Prefixes/Attachments/Pasted image 20241122141835.png",
     "Prefixes/Attachments/Pasted image 20241121135847.png",
     "Prefixes/Attachments/Pasted image 20241121125826.png",
-    "Prefixes/a.Daily Notes/November-21-2024.md",
-    "Study Notes/College/Stats2023/Section 7.1 7.2.md",
-    "Study Notes/Money/roadmap.md",
-    "Prefixes/a.Daily Notes/November-18-2024.md",
-    "Prefixes/a.Daily Notes/November-19-2024.md",
     "Study Notes/Money/Economics/0.Principles",
-    "Study Notes/Look into.md",
-    "Study Notes/Personal/Advice from James.md",
     "Study Notes/Money/Economics/2.Macro",
     "Study Notes/Money/Economics/1.Micro",
     "Study Notes/Money/Economics",
     "Study Notes/Money",
-    "Study Notes/Money.md",
-    "Study Notes/Linux/Introduction to Linux.md",
-    "Study Notes/Computers/a.Mentors/CodingwithMosh/Docker/Docker for Beginners.md",
-    "Prefixes/a.Daily Notes/November-14-2024.md",
-    "Prefixes/a.Daily Notes/November-13-2024.md",
     "Study Notes/Computers/C++/C++ cheatsheet.pdf",
     "Prefixes/Attachments/Pasted image 20241106132620.png",
     "Prefixes/Attachments/Pasted image 20241106130648.png",
-    "Prefixes/Attachments/Pasted image 20241106124308.png",
-    "Prefixes/Attachments/Pasted image 20241106123118.png",
-    "Prefixes/Attachments/Pasted image 20241106122912.png",
-    "Prefixes/Attachments/Pasted image 20241106121626.png",
     "Study Notes/Computers/a.Mentors/CodingwithMosh/Data Structures and Algorithms",
-    "Study Notes/College/Stats2023",
-    "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/Pentest+",
-    "Study Notes/College/Statistics",
     "Untitled.canvas",
     "Prefixes/Canvas/Untitled.canvas"
   ]

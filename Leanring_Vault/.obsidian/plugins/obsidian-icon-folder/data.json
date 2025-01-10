@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiCat",
       "IbGraphLineUp",
       "SiLinux",
       "SiPrecommit",
@@ -81,5 +82,9 @@
   "Study Notes/College/Stats2023": {
     "iconName": "IbGraphLineUp",
     "iconColor": "#69fe2a"
+  },
+  "Study Notes/FIU": {
+    "iconName": "LiCat",
+    "iconColor": "#2734ec"
   }
 }

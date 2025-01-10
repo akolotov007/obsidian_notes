@@ -24,11 +24,11 @@
 
 ### Comparison[](https://www.upyesp.org/posts/makrdown-vscode-math-notation/#comparison)
 
-|Notation|Example|Inline|Code Block|
-|---|---|---|---|
-|a Less Than b  a Greater Than b|a<ba<b  a>ba>b|$a<b$  $a>b$|$$  a<b  $$|
-|a Less Than or Equal To b  a Greater Than or Equal To b|a≤ba≤b  a≥ba≥b|$a \leq b$  $a \geq b$|$$  a \leq b  $$|
-|a Much Smaller Than b  a Much Larger Than b|a≪ba≪b  a≫ba≫b|$a \ll b$  $a \gg b$|$$  a \ll b  $$|
+| Notation                                                | Example        | Inline                 | Code Block       |
+| ------------------------------------------------------- | -------------- | ---------------------- | ---------------- |
+| a Less Than b  a Greater Than b                         | a<ba<b  a>ba>b | $a<b$  $a>b$           | $$  a<b  $$      |
+| a Less Than or Equal To b  a Greater Than or Equal To b | a≤ba≤b  a≥ba≥b | $a \leq b$  $a \geq b$ | $$  a \leq b  $$ |
+| a Much Smaller Than b  a Much Larger Than b             | a≪ba≪b  a≫ba≫b | $a \ll b$  $a \gg b$   | $$  a \ll b  $$  |
 
 ### Algebra[](https://www.upyesp.org/posts/makrdown-vscode-math-notation/#algebra)
 
@@ -142,3 +142,7 @@
 | Chi     | χχ    | $\chi$     | XX    |
 | Psi     | ψψ    | $\psi$     | ΨΨ    |
 | Omega   | ωω    | $\omega$   | ΩΩ    |
+
+## Additional resources
+https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols 
+![[Pasted image 20250110104959.png]]
