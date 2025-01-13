@@ -56,7 +56,7 @@ $A \subset A$
 
 
 #### Set Roster Notation 
-- putting elements inside of {} 
+- putting elements inside of { } 
 
 *there are times when we have enormous sets filled with elements. If there is some pattern amongst the elements, we can indicate that with "..."*
 

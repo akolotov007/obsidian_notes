@@ -107,12 +107,12 @@
 
 ### Complex Numbers[](https://www.upyesp.org/posts/makrdown-vscode-math-notation/#complex-numbers)
 
-|Notation|Example|Inline|Block|
-|---|---|---|---|
-|Imaginary Unit ii|z=3+2iz=3+2i|$z=3+2i$|$$  z=3+2i  $$|
-|Real Part Of Complex Number|ℜ(z)=3ℜ(z)=3  Re⁡(z)=3Re(z)=3|$\Re(z)=3$  $\operatorname{Re}(z)=3$|$$  \Re(z)=3  \operatorname{Re}(z)=3  $$|
-|Imaginary Part Of Complex Number|ℑ(z)=2ℑ(z)=2  Im⁡(z)=2Im(z)=2|$\Im(z)=2$  $\operatorname{Im}(z)=2$|$$  \Im(z)=2  \operatorname{Im}(z)=2  $$|
-|Complex Conjugate|zˉ=z∗=3−2izˉ=z∗=3−2i|$\bar{z}=z^*=3-2i$|$$  \bar{z}=z^*=3-2i  $$|
+| Notation                         | Example                       | Inline                               | Block                                    |
+| -------------------------------- | ----------------------------- | ------------------------------------ | ---------------------------------------- |
+| Imaginary Unit ii                | z=3+2iz=3+2i                  | $z=3+2i$                             | $$  z=3+2i  $$                           |
+| Real Part Of Complex Number      | ℜ(z)=3ℜ(z)=3  Re⁡(z)=3Re(z)=3 | $\Re(z)=3$  $\operatorname{Re}(z)=3$ | $$  \Re(z)=3  \operatorname{Re}(z)=3  $$ |
+| Imaginary Part Of Complex Number | ℑ(z)=2ℑ(z)=2  Im⁡(z)=2Im(z)=2 | $\Im(z)=2$  $\operatorname{Im}(z)=2$ | $$  \Im(z)=2  \operatorname{Im}(z)=2  $$ |
+| Complex Conjugate                | zˉ=z∗=3−2izˉ=z∗=3−2i          | $\bar{z}=z^*=3-2i$                   | $$  \bar{z}=z^*=3-2i  $$                 |
 
 ### Greek Alphabet[](https://www.upyesp.org/posts/makrdown-vscode-math-notation/#greek-alphabet)
 
