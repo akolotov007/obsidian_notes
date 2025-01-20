@@ -1,5 +1,4 @@
-# Important Background Information 
-## Physiology
+# Important Background Information ## Physiology
 
 ![[Pasted image 20240912140630.png]]
 

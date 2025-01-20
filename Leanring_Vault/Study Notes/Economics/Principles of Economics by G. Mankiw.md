@@ -145,7 +145,7 @@ In 2022, US inflation was surging, consumer prices were 7.9% higher than last ye
 
 
 
-### Principle 10: Society Faces a Short-Run Trade-Off between Inflation and Unemployment
+### 10: Society Faces a Short-Run Trade-Off between Inflation and Unemployment
 while increase in quantity of money primarily raises prices in long-term, short term is more complex.
 
 ##### short term effects are as follows:

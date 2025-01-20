@@ -1,4 +1,4 @@
-## Speaking Mathematically
+## Chapter 1: Speaking Mathematically
 
 ### 1.1 Variables
 - placeholder for something
@@ -287,3 +287,108 @@ A function ***F*** from a set $A$ to a set $B$ is a relation with domain $A$ and
 
 
 ### 1.4 The Language of Graphs
+- we can use graphs to visualize relations 
+![[Pasted image 20250113185048.png]]
+
+- a dot is called a *vertex* - plural is vertices
+- a line is called an *edge* 
+![[Pasted image 20250113185302.png]]
+two vertices that are connected by an edge are called *adjacent*
+
+- an edge that connects a vertex is called a *loop*
+	- a vertex is said to be *adjacent to itself*
+- when two edges connect the same pair of vertices, they are *parallel*
+- when a vertex is unconnected to anything, it is *isolated*
+
+you can represent the relation between edges and endpoints in a table:
+*for example*:
+![[Pasted image 20250113190639.png]]
+
+##### How different graphs can represent the same thing
+![[Pasted image 20250113192027.png]]
+![[Pasted image 20250113192038.png]]
+
+
+#### Using a Graph to Represent a Network
+- a typical network is called a *hub and spoke model*
+![[Pasted image 20250113193023.png]]
+
+A **directed graph** is (digraph) consists of two finite sets $V(G)$ of vertices and a set $D(G)$ of directed edges, where each is associated with an ordered pair of vertices called its **endpoints**. If edge $e$ is associated with the pair $(v,w)$ of vertices, then $e$ is said to be the **(directed) edge** from $v \text{ to }w$
+
+#### Using Graphs to Represent Knowledge
+![[Pasted image 20250114081226.png]]
+
+for example:
+- from the knowledge that the *Los Angeles Times* is a big-city daily and that big-city daily contains national news, AI could infer that *LA times* contains national news.
+
+Definition:
+Let $G$ be a graph and $v$ a vertex of $G$. The **degree of $V$** denoted $deg(v)$, equals of edges that are incident on $v$, with an edge that is a loop counted twice.
+
+Example:
+Find the degree of each vertex of the graph $G$:
+![[Pasted image 20250114081953.png]]
+
+- solution:
+	- $deg(v1) = 0$, since no edge is incident on $v_1$
+	- $deg(v2) = 2$ 
+	- $deg(v3) = 4$
+		- since $e_1$ and $e_2$ are incident on $v_3$ and the loop $e_3$ is also incident on $v_3$ (and contributes 2 degrees of $v_3$)
+
+
+## Chapter 2: The Logic of Compound Statements
+
+### Logical Form and Logical Equivalence
+- An argument is a sequence of statements aimed at demonstrating the truth of an assertion. 
+	- the assertion at the end of the sequence =  **conclusion**
+	- the preceding statements  = **premises**
+
+In logic, the *form* of the argument is distinguished from it *content*.
+- logical analysis helps analyze the arguments form to figure out whether the truth of the conclusion follows **necessarily** from the truth of the premises.
+
+Example:
+$p$ = the bell rings
+$q$ = the flag drops
+$r$ = the race is over
+
+If the bell rings or the flag drops, then the race is over.
+$\therefore$  (therefore) If the race is not over, then the bell hasn't rung and the flag hasn't dropped.
+
+The common form of the argument is:
+- If $p$ or $q$, then $r$.
+- $\therefore$ If not $r$, then not $p$ and not $q$
+
+#### Statements
+- a (proposition) is a sentence that is true or false but not both
+
+#### Compound Statement 
+- *~* | $\neg$ = not
+- $\land$ = and 
+- $\lor$ = or
+
+$p \land q$ = P and Q
+$p \lor q$ = P or Q
+$\neg p$ = not P
+
+Order of Operations:
+$\neg$ comes first
+- $\neg p \land q = (\neg p) \land q$
+- $\neg (p \land q)$ = negation of the conjunction of $p$ and $q$ 
+
+A variety of English words translate into logical symbols.
+- *but* = *and*
+	- generally, the word *but* is used in place of *and* when a part of the sentence that follows is unexpected.
+	- "Jim is tall but he not heavy"
+	- $p$ but $q$ = $p$ and $q$ 
+- *Neither-nor* = *not*
+	- neither $p$ nor $q$ =  $\neg p \text{ and } \neg q$
+
+#### and, or, and inequalities
+1. $x \leq 3$
+	1. $q \lor r$
+2. $0<x<3$
+	1. $p \land q$
+3. $0<x\leq 3$
+	1. $p \land (q \lor r)$
+
+#### Truth Values
+- we built compound sentences of components statements and the terms **not, and, or**. 
