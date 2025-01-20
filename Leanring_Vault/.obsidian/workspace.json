@@ -4,41 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "8077ac357063afff",
+        "id": "798075574953c23d",
         "type": "tabs",
         "children": [
           {
-            "id": "7692eb8db018d6d4",
+            "id": "987cd32ed300eac8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study Notes/FIU/COT 3100 Discrete Structures/Module 1 - Speaking Mathematically.md",
+                "file": "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module 1 - Speaking Mathematically"
-            }
-          },
-          {
-            "id": "cc02b421bf2080cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study Notes/Math Notation in Markdown Cheatsheet.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Math Notation in Markdown Cheatsheet"
+              "title": "Discrete Mathematics with Applications"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study Notes/Math Notation in Markdown Cheatsheet.md"
+                "file": "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Math Notation in Markdown Cheatsheet"
+              "title": "Outline of Discrete Mathematics with Applications"
             }
           },
           {
@@ -193,11 +177,45 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "cc02b421bf2080cf",
+  "active": "987cd32ed300eac8",
   "lastOpenFiles": [
+    "Prefixes/Attachments/Pasted image 20250114081953.png",
+    "Prefixes/Attachments/Pasted image 20250114081226.png",
+    "Prefixes/Attachments/Pasted image 20250113193023.png",
+    "Prefixes/Attachments/Pasted image 20250113192038.png",
+    "Prefixes/Attachments/Pasted image 20250113192027.png",
+    "Prefixes/Attachments/Pasted image 20250113190639.png",
+    "Prefixes/Attachments/Pasted image 20250113185302.png",
+    "Prefixes/Attachments/Pasted image 20250113185048.png",
     "Study Notes/FIU/COT 3100 Discrete Structures/Module 1 - Speaking Mathematically.md",
+    "Prefixes/a.Daily Notes/January-20-2025.md",
+    "Study Notes/markdown-cheat-sheet.md",
+    "Prefixes/a.Daily Notes/January-15-2025.md",
+    "Study Notes/Computers/Data Structures and Algorithms/Data Structures and Algorithms made easy - Narasimha Karumanchi.md",
+    "Prefixes/Attachments/Pasted image 20240714151041.png",
+    "Prefixes/Attachments/Pasted image 20240716194137.png",
+    "Prefixes/Attachments/Pasted image 20240716192320.png",
+    "LaTeX_papers/Discrete Structures/HW 1 response/HW 1 Response - Anthony K.pdf",
+    "LaTeX_papers/Discrete Structures/HW 1 response/HW 1 Response - Anthony K.synctex(busy)",
+    "books/Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library).pdf",
+    "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
+    "Study Notes/Economics/Principles of Economics by G. Mankiw.md",
+    "Study Notes/Economics",
+    "LaTeX_papers/Discrete Structures/HW 1 response/HW 1 Response - Anthony K.tex",
+    "LaTeX_papers/Discrete Structures/HW 1 response/HW 1 Response - Anthony K.synctex.gz",
+    "LaTeX_papers/Discrete Structures/HW 1 response/HW 1 Response - Anthony K.log",
+    "LaTeX_papers/Discrete Structures/HW 1 response/HW 1 Response - Anthony K.aux",
+    "LaTeX_papers/Discrete Structures/HW 1 response",
+    "LaTeX_papers/Discrete Structures",
+    "Study Notes/Money/Economics/Principles of Economics by G. Mankiw.md",
+    "Study Notes/Computers/OOP vs Procedural Programming.md",
+    "Study Notes/Computers/Python/Data Types Examples.md",
+    "Study Notes/Computers/Python/Introduction to Python.md",
+    "Prefixes/a.Daily Notes/September-30-2024.md",
+    "Prefixes/a.Daily Notes/July-25-2024.md",
+    "Prefixes/a.Daily Notes/August-6-2024.md",
+    "Prefixes/a.Daily Notes/January-13-2025.md",
     "Study Notes/Math Notation in Markdown Cheatsheet.md",
-    "Prefixes/Attachments/Pasted image 20250110104959.png",
     "Prefixes/a.Daily Notes/January-10-2025.md",
     "Study Notes/Computers/mySQL/SQL.md",
     "Study Notes/Computers/a.Mentors/ProfessorMesser/CompTIA/A+/220-1101 (Core 1)/2. Laptop Displays.md",
@@ -205,41 +223,8 @@
     "Study Notes/College/Stats2023/Section 6.1 6.2 6.4.md",
     "Study Notes/College/Stats2023/Chapter 1 Intro to Stats.md",
     "Study Notes/Computers/a.Mentors/Fireship.io/freeship tampermonkey script.md",
-    "Study Notes/FIU/Programming II Java",
-    "Study Notes/FIU/COT 3100 Discrete Structures",
-    "Study Notes/FIU",
     "Study Notes/Computers/a.Mentors/Fireship.io/JavaScript/3. Algorithms.md",
     "Study Notes/Computers/a.Mentors/Fireship.io/JavaScript/2. Advanced Concepts.md",
-    "Study Notes/Computers/a.Mentors/Fireship.io/JavaScript/1. JS crash course.md",
-    "Study Notes/Computers/a.Mentors/Fireship.io/Git and Github/2. installing git.md",
-    "Study Notes/Computers/a.Mentors/Fireship.io/Git and Github/Git - All commands.md",
-    "Study Notes/Computers/a.Mentors/CodingwithMosh/Data Structures and Algorithms/Data Struct and Algorithms.md",
-    "Study Notes/Computers/mySQL/Resources.md",
-    "Study Notes/Computers/mySQL/SQL in 60 min.md",
-    "Study Notes/Computers/Data Structures and Algorithms/Data Structures and Algorithms made easy - Narasimha Karumanchi.md",
-    "Study Notes/Personal/The Learning System Notes.md",
-    "Study Notes/Personal/Jin Yuh.md",
-    "Study Notes/Personal/Advice from James.md",
-    "Study Notes/Money/Economics/Principles of Economics by G. Mankiw.md",
-    "Prefixes/a.Daily Notes/January-8-2025.md",
-    "Study Notes/College/Stats2023/Section 7.1 7.2.md",
-    "Study Notes/College/Stats2023/Section 8.1 8.2 8.3.md",
-    "Prefixes/Attachments/Pasted image 20241202181814.png",
-    "Prefixes/Attachments/Pasted image 20241202180246.png",
-    "Prefixes/Attachments/Pasted image 20241202174017.png",
-    "Prefixes/Attachments/Pasted image 20241202141735.png",
-    "Prefixes/Attachments/Pasted image 20241122141835.png",
-    "Prefixes/Attachments/Pasted image 20241121135847.png",
-    "Prefixes/Attachments/Pasted image 20241121125826.png",
-    "Study Notes/Money/Economics/0.Principles",
-    "Study Notes/Money/Economics/2.Macro",
-    "Study Notes/Money/Economics/1.Micro",
-    "Study Notes/Money/Economics",
-    "Study Notes/Money",
-    "Study Notes/Computers/C++/C++ cheatsheet.pdf",
-    "Prefixes/Attachments/Pasted image 20241106132620.png",
-    "Prefixes/Attachments/Pasted image 20241106130648.png",
-    "Study Notes/Computers/a.Mentors/CodingwithMosh/Data Structures and Algorithms",
     "Untitled.canvas",
     "Prefixes/Canvas/Untitled.canvas"
   ]
