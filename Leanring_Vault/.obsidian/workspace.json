@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library).pdf",
+                "file": "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library)"
+              "title": "Outline of Discrete Mathematics with Applications"
             }
           },
           {
@@ -191,52 +191,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "floating": {
-    "id": "4cd589ef84c0111c",
-    "type": "floating",
-    "children": [
-      {
-        "id": "c094dc33ce79016e",
-        "type": "window",
-        "children": [
-          {
-            "id": "ae8cd84b53207b4a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "04fc0e44a7a13991",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "books/Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library).pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library)"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -8,
-        "y": -8,
-        "width": 1936,
-        "height": 1056,
-        "maximize": true,
-        "zoom": 2
-      }
-    ]
-  },
-  "active": "04fc0e44a7a13991",
+  "active": "1d4b24111a33fbf8",
   "lastOpenFiles": [
+    "Study Notes/Math Notation in Markdown Cheatsheet.md",
     "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
-    "Prefixes/Attachments/Pasted image 20250208161336.png",
+    "Prefixes/a.Daily Notes/February-10-2025.md",
     "books/Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library).pdf",
+    "Prefixes/Attachments/Pasted image 20250208161336.png",
     "Prefixes/Attachments/Pasted image 20250208160528.png",
     "Prefixes/Attachments/Pasted image 20250208160358.png",
     "Prefixes/Attachments/Pasted image 20250208155847.png",
-    "Study Notes/Math Notation in Markdown Cheatsheet.md",
     "Prefixes/Attachments/Pasted image 20250208155433.png",
     "Prefixes/Attachments/Pasted image 20250208155311.png",
     "Prefixes/Attachments/Pasted image 20250208155051.png",
@@ -274,7 +238,6 @@
     "Study Notes/Money/roadmap.md",
     "Study Notes/Linux/Introduction to Linux.md",
     "Study Notes/Computers/a.Mentors/Fireship.io/Linux/4. 10 Essential Commands.md",
-    "Prefixes/a.Daily Notes/August-27-2024.md",
     "Untitled.canvas",
     "Prefixes/Canvas/Untitled.canvas"
   ]

@@ -1,6 +1,6 @@
 {
   "folder": "Prefixes/a.Daily Notes",
   "template": "",
-  "autorun": true,
+  "autorun": false,
   "format": "MMMM-D-YYYY"
 }

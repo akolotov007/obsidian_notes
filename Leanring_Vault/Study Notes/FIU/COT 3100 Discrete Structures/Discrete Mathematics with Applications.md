@@ -1352,7 +1352,6 @@ To assume what is to be proved is a variation of jumping to a conclusion. As an 
 - A more subtle way to jump to a conclusion occurs when the conclusion is restated using a variable.
 
 ###### 6. Use of *any* when the correct word is *some*.
-- 
 
 ###### 7. Misuse of the word *if*
 - another common error is not serious in itself, but it reflects imprecise thinking that sometimes leads to problems later in a proof. This error involves using the word if when the word because is really meant. Consider the following proof fragment:
