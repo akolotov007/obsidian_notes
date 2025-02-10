@@ -229,7 +229,7 @@ Once economy reaches an efficient point, the only way to produce more of a produ
 
 ### The Economist as a Policy Adviser 
 - when economists are trying to explain the world, they are scientists. 
-- When they are giving advise 
+- When they are giving advice ... 
 
 
 ## Interdependence and the Gains from Trade

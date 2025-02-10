@@ -146,3 +146,8 @@
 ## Additional resources
 https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols 
 ![[Pasted image 20250110104959.png]]
+![[Pasted image 20250120114737.png]]
+![[Pasted image 20250120115329.png]]
+
+
+https://tikzmaker.com/editor
