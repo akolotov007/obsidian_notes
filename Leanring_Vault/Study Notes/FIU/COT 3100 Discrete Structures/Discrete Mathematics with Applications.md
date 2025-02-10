@@ -1535,12 +1535,82 @@ Example:
 
 ### 4.10  Application: Algorithms
 **Algorithm** - step by step method for preforming some action
+- for, for each, while, if-elif-else
+#### A Division algorithm
+![[Pasted image 20250209222900.png]]
 
-$\cdots$
-
-![[Pasted image 20250208161336.png]]
 
 ## Chapter 5: Sequences, Mathematical Induction and Recursion
+
+### 5.1 Sequences 
+
+**Sequence** - a function who's domain is either all the integers between two given integers or all the integers greater than or equal to a given integer.
+
+We typically represent a sequence as a set of elements written in a row. In the sequence denoted:
+$a_m,a_{m+1},a_{m+2}\cdots a_{n}$
+- each individual element is a **term** ($a_k$)
+- : denotes an *infinite sequence*
+
+An **explicit formula** or **general formula** for a sequence is a rule that shows how the values of $a_k$ depend on $k$.
+
+#### Summation Notation 
+If $m$ and $n$ are integers and $m \leq n$, the symbol $\displaystyle\sum_{k=m}^{n} a_k$  , read the **summation from** k = *m* to *n* of $a_k$, is the sum of all terms $a_m, + a_{m+1}, a_{m+2}\cdots , a_n$. This is called the expanded form.
+- $k$ is the index of summation
+- $m$ is the **lower** limit
+- $n$ is the **upper** limit
+
+**Practice**
+![[Pasted image 20250209211927.png]]
+##### When the terms of a Summation are Given by a Formula
+![[Pasted image 20250209212712.png]]
+
+##### Changing from Summation Notation to Expanded Form
+![[Pasted image 20250209212747.png]]
+
+##### Small Values of *n*
+![[Pasted image 20250209212349.png]]
+
+### Product Notation
+$\displaystyle\prod^5_{k=1}a_k = a_1 a_2 a_3 a_4 a_5$
+
+If *m* and *n* are integers and *m* $\leq$ n, the symbol reads: the product from *k* = *m* to *n* of $a_k$ is the product of all the terms $a_m \times a_{m+1} \times a_{m_2}\cdots a_n$
+
+
+#### Properties of Summations and Products
+![[Pasted image 20250209214230.png]]
+
+##### Using Properties of Summations and Products
+![[Pasted image 20250209214517.png]]
+
+#### Factorial Notation and "n choose r" Notation
+##### Factorial Notation
+for each positive integer *n*, the quantity *n* **factorial** denoted: $n!$ is defined to be the product of all the integers from $1$ to $n$:
+$n! = n \cdot (n - 1)  \cdots 3,2,1$
+
+**Zero Factorial** is defined to be 1:
+$0! = 1$
+
+
+An important use for the factorial notation is in calculating values of quantities, called *n choose r*, that occur in many branches of mathematics, especially those connected with the study of counting techniques and probability.
+
+##### N choose R
+Let $n$ and $r$ be integers with $0\leq r \leq n$ then symbol:
+$$\binom{n}{r} = \frac{n!}{r!(n-r)!}$$
+represents the number of subsets of size $r$ that can be chosen from a set with $n$ elements.
+
+![[Pasted image 20250209220526.png]]
+
+
+### 5.2 Mathematical Induction I : Proving Formulas
+![[Pasted image 20250209221049.png]]
+
+![[Pasted image 20250209221550.png]]
+>To see the connection between this image and the principle of mathematical induction, let $P(n)$ be the sentence “The $n$th domino falls backward.” It is given that for each $k \geq 1$, if $P(k)$ is true (the $k$th domino falls backward), then $P(k+1)$ is also true (the $(k + 1)$st domino falls backward). 
+>It is also given that $P(1)$ is true (the first domino falls backward). Thus by the principle of mathematical induction, $P(n)$ (the nth domino falls backward) is true for every integer $n \geq 1$
+
+
+![[Pasted image 20250209223703.png]]
+
 
 
 
