@@ -27,6 +27,7 @@ can be rewritten in ways to make them appear purely universal or conditional:
 - *universal*
 	- for every dog *a*, *a* is a mammal
 	- all dogs are mammals
+
 **Universal Existential Statement**
 - statement that is *universal* because its first part says that a certain property is true for all objects of a given type, and it is *existential* because its second part asserts the existence of something
 	- every real number has an additive inverse
@@ -1085,7 +1086,7 @@ $\exists x \text{ in } D such that P(x)$ can be written as $\exists x (x \text{ 
 #### Universal Modus Tollens
 
 *formally*
-- $\forall x \text{ if } P(x) then Q(x)$
+- $\forall x \text{ if } P(x) \text{ then } Q(x)$
 - $\neg Q(a),$ for a particular *a*
 - $\therefore \neg P(a)$
 
@@ -1163,7 +1164,7 @@ Example:
 - if *a* and *b* are integers, is 10*a* + 8*b* + 1 odd?
 	- Yes, bc = 2(5*a*+4*b*)+1 and 5*a*+4*b* is an integer since it's sum of products of ints 
 - Is every integer either even or odd?
-		-  Yes, every integer is either even or odd. However, the reason for this fact is not im- mediately apparent. It can be deduced using the method of proof by contradiction, which is introduced in Section 4.7
+		-  Yes, every integer is either even or odd. However, the reason for this fact is not immediately apparent. It can be deduced using the method of proof by contradiction, which is introduced in Section 4.7
 
 **Prime**
 - A int *n* is **prime** iff, n>1 and for all positive ints *r* and *s*, if $n=rs$ then either *r* or *s* equals *n*.
@@ -1437,6 +1438,57 @@ The double of a rational number is rational
 
 ![[Pasted image 20250208135814.png]]
 
+#### Greatest Common Divisor and Least Common Multiple
+
+##### GCD (Greatest Common Divisor)
+$x = \frac{12}{36} = \frac{p}{q}, p=12, q=36$
+What integers divide 12 & 36 without remainders?
+$2|12, 3|12, 6|12, 12|12$ |  read as : $n$ divides 12
+$2|36, 3|36, 6|36, 12|36$ |   read as : $n$ divides 36
+
+the largest integer (from the list) that divides both 12 and 36 is : 12
+$\therefore$ GCD is 12
+can be written as $GCD(12,36) = 12$
+
+**Relative Prime**
+$GCD(2,3) = 1$
+- there are no integers that can divide both 2 and 3 except 1. 
+- $p$ and $q$ are *relative prime*
+
+$d = gcd(a,q) = 1$ unless $a$ is a multiple of *p*
+
+##### Least Common Multiple (LCM) 
+$LCM(a,b)$ is the smallest integer that is divisible by both $a$ and $b$
+
+$LCM(5,10) = 10$
+$LCM(2,3) = 6$
+$LCM(24,36) = 72$
+
+
+#### The Euclidean Algorithm
+- https://www.youtube.com/watch?v=JUzYl1TYMcU
+- used to find the GCD of two numbers 
+
+$gcd(a,b) = gcd(a, a\mod b)$
+- this process is repeated until $b=0$ and at that point the GCD is $a$
+Step by step:
+$a = bq_1 + r_1$
+$b = r_1q_2 + r_2$
+$r_1 = r_2q_3 + r_3$
+$\cdots$ 
+until $r_n = 0$
+
+or in code:
+```python
+x = a \\ assuming a >= b
+y = b
+while (y> 0)
+	r = x mod y
+	x = y
+	y = r
+return x
+```
+
 
 #### The Unique Factorization of Integers Theorem 
 *aka fundamental theorem of arithmetic*
@@ -1472,11 +1524,13 @@ $r=a \text{ mod } d$
 #### Div and Mod
 ![[Pasted image 20250208143856.png]]
 
-Example:
+#### Key Explanation 
 - compute 32 *div* 9 
 - compute 32 *mod* 9 
 ![[Pasted image 20250208144005.png]]
 
+
+#### Examples
 ![[Pasted image 20250208144827.png]]
 
 
@@ -1486,15 +1540,27 @@ Example:
 
 *IMPORTANT* : Note the subtle differences of the box around $X$
 - Bottom of box is drawn, *floor*
-- Top of box it drawn, *ceiliing*
+	- $\lfloor x \rfloor$ 
+- Top of box it drawn, *ceiling*
+	- $\lceil x \rceil$
 
-**Floor of X**
+#### Simple Explanation
+- If x = 1, then floor and ceiling are the same, (=1)
+- if x = 0.5, floor is 0, ceiling is 1
+- if x = -1.5, floor is -2, ceiling is -1
+
+- floor = round down
+- ceiling = round up
+
+
+##### Floor of X
 ![[Pasted image 20250208153440.png]]
 
-**Ceiling of X**
+##### Ceiling of X
 
 ![[Pasted image 20250208153523.png]]
 
+##### Computing Floors and Ceilings
 ![[Pasted image 20250208153958.png]]
 
 
@@ -1547,11 +1613,14 @@ Example:
 **Sequence** - a function who's domain is either all the integers between two given integers or all the integers greater than or equal to a given integer.
 
 We typically represent a sequence as a set of elements written in a row. In the sequence denoted:
-$a_m,a_{m+1},a_{m+2}\cdots a_{n}$
+$$a_m,a_{m+1},a_{m+2}\cdots a_{n}$$
 - each individual element is a **term** ($a_k$)
 - : denotes an *infinite sequence*
 
 An **explicit formula** or **general formula** for a sequence is a rule that shows how the values of $a_k$ depend on $k$.
+
+
+
 
 #### Summation Notation 
 If $m$ and $n$ are integers and $m \leq n$, the symbol $\displaystyle\sum_{k=m}^{n} a_k$  , read the **summation from** k = *m* to *n* of $a_k$, is the sum of all terms $a_m, + a_{m+1}, a_{m+2}\cdots , a_n$. This is called the expanded form.
@@ -1559,7 +1628,7 @@ If $m$ and $n$ are integers and $m \leq n$, the symbol $\displaystyle\sum_{k=m}^
 - $m$ is the **lower** limit
 - $n$ is the **upper** limit
 
-**Practice**
+##### Practice
 ![[Pasted image 20250209211927.png]]
 ##### When the terms of a Summation are Given by a Formula
 ![[Pasted image 20250209212712.png]]
@@ -1569,6 +1638,13 @@ If $m$ and $n$ are integers and $m \leq n$, the symbol $\displaystyle\sum_{k=m}^
 
 ##### Small Values of *n*
 ![[Pasted image 20250209212349.png]]
+
+##### Double Summation Notation
+If you want to find the summation of a 2D array, you would do it with a *double summation*:
+- Given function $F(i,j)$ sum all possible values with $n=4$
+$\displaystyle\sum^n _{j=1}\sum^n _{i=1} f(i,j)$
+$(\text{S)olution} = f(1,1)+f(1,2)+f(1,3)+f(1,4)+f(2,1)+f(2,2)+f(2,3)+f(2,4)+f(3,1)+f(3,2)+f(3,3)+f(3,4)+f(4,1)+f(4,2)+f(4,3)+f(4,4)$
+
 
 ### Product Notation
 $\displaystyle\prod^5_{k=1}a_k = a_1 a_2 a_3 a_4 a_5$
@@ -1601,7 +1677,12 @@ represents the number of subsets of size $r$ that can be chosen from a set with 
 ![[Pasted image 20250209220526.png]]
 
 
+
+
 ### 5.2 Mathematical Induction I : Proving Formulas
+https://www.youtube.com/watch?v=GdM_iA1Zek4 | Intro To Mathematical Induction
+https://www.youtube.com/watch?v=5Hn8vUE3cBQ | A visual Explanation of Mathematical Induction
+
 ![[Pasted image 20250209221049.png]]
 
 ![[Pasted image 20250209221550.png]]
@@ -1609,7 +1690,39 @@ represents the number of subsets of size $r$ that can be chosen from a set with 
 >It is also given that $P(1)$ is true (the first domino falls backward). Thus by the principle of mathematical induction, $P(n)$ (the nth domino falls backward) is true for every integer $n \geq 1$
 
 
+#### Method of Proof by Mathematical Induction
+
 ![[Pasted image 20250209223703.png]]
+
+![[Pasted image 20250210130954.png]]
+
+**Example**
+##### Sum of a Geometric Sequence
+![[Pasted image 20250210132117.png]]
+![[Pasted image 20250210132130.png]]
+
+
+### 5.3 Mathematical Induction II: Applications
+In *Section 5.2* we showed how to use mathematical induction to prove formulas. In this section we will show how to apply it in a broader variety of situations.
+
+![[Pasted image 20250210134238.png]]
+
+
+
+### 5.4 Strong Mathematical Induction and the Well-Ordering principle for the Integers
+- Strong mathematical induction is similar to ordinary mathematical induction in that it is a technique for establishing the truth of a sequence of statements about integers. 
+	- Also, a proof by strong mathematical induction consists of a basis step and an inductive step. 
+	- However, the basis step may contain proofs for **several initial values**, and in the inductive step the truth of the predicate $P(n)$ is assumed not just for one value of $n$ but for *all values through* $k$, and then the truth of $P(k + 1)$ is proved.
+- Any statement that can be proved with ordinary mathematical induction can be proved with strong mathematical induction
+
+![[Pasted image 20250211172924.png]]
+
+
+
+
+
+
+
 
 
 
@@ -1724,7 +1837,7 @@ $n(n-1)(n-2)\dots 2\times 1 = n!$
 ![[Pasted image 20250206181507.png]]
 
 Example: Counting elements of General Union
-3. How many integers from 1 through 1,000 are multiples of 3 or multiples of 5?
+2. How many integers from 1 through 1,000 are multiples of 3 or multiples of 5?
 	- Let $A$  =  the set of all integers from 1 through 1,000 that are multiples of 3
 	- Let $B$ = the set of all integers from 1 through 1,000 that are multiples of 5.
 - Then $A \cup B =$ the set of all integers (^) that are multiples of 3 ***or*** 5
@@ -1733,18 +1846,18 @@ Example: Counting elements of General Union
 
 ![[Pasted image 20250206181839.png]]
 
-4. How many integers from 1 through 1,000 are neither multiples of 3 nor multiples of 5?
+3. How many integers from 1 through 1,000 are neither multiples of 3 nor multiples of 5?
 	- here are 1,000 integers from 1 through 1,000, and by part (a), 467 of these are multiples of 3 or multiples of 5. Thus, by the set difference rule, there are 1,000 - 467 = 533 that are neither multiples of 3 nor multiples of 5
 
 ##### Triple Intersection Counting:
 ![[Pasted image 20250206182217.png]]
 
-5. How many students did not take any of the three courses?
+4. How many students did not take any of the three courses?
 	1. By the difference rule, the number of students who did not take any of the three courses = the number in the class minus the number who took at least one course. 
 	2. Thus the number of students who did not take any of the three courses is $50-47=3$
-6. How many students took all three courses?
+5. How many students took all three courses?
 	- ![[Pasted image 20250206182531.png]]
-7. How many students took precalculus and calculus but not Python? How many students took precalculus but neither calculus nor Python?
+6. How many students took precalculus and calculus but not Python? How many students took precalculus but neither calculus nor Python?
 - ![[Pasted image 20250206182612.png]]
 - For example, since nine students took both precalculus and calculus and six took all three courses, 9 2 6 5 3 students took precalculus and calculus but not Python. Similarly, since 16 students took precalculus and Python and six took all three courses, 16 2 6 5 10 students took precalculus and Python but not calculus. 
 

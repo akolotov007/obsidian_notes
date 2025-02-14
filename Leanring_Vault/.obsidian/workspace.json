@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1d4b24111a33fbf8",
+            "id": "f3ca7965c91d2988",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
+                "file": "Prefixes/Canvas/Financial Accounts.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Discrete Mathematics with Applications"
+              "title": "Outline of Financial Accounts"
             }
           },
           {
@@ -175,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,22 +192,23 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "1d4b24111a33fbf8",
+  "active": "f3ca7965c91d2988",
   "lastOpenFiles": [
-    "Study Notes/Math Notation in Markdown Cheatsheet.md",
+    "Prefixes/Canvas/Financial Accounts.canvas",
     "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
-    "Prefixes/a.Daily Notes/February-10-2025.md",
     "books/Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library).pdf",
-    "Prefixes/Attachments/Pasted image 20250208161336.png",
-    "Prefixes/Attachments/Pasted image 20250208160528.png",
-    "Prefixes/Attachments/Pasted image 20250208160358.png",
-    "Prefixes/Attachments/Pasted image 20250208155847.png",
-    "Prefixes/Attachments/Pasted image 20250208155433.png",
-    "Prefixes/Attachments/Pasted image 20250208155311.png",
-    "Prefixes/Attachments/Pasted image 20250208155051.png",
-    "Prefixes/Attachments/Pasted image 20250208154956.png",
-    "Prefixes/Attachments/Pasted image 20250208154156.png",
-    "Prefixes/Attachments/Pasted image 20250208153958.png",
+    "Prefixes/Attachments/Pasted image 20250211172924.png",
+    "Prefixes/Attachments/Pasted image 20250210134238.png",
+    "Prefixes/Attachments/Pasted image 20250210132130.png",
+    "Prefixes/Attachments/Pasted image 20250210132117.png",
+    "Prefixes/Attachments/Pasted image 20250210130954.png",
+    "Prefixes/Attachments/Pasted image 20250209223703.png",
+    "Prefixes/Attachments/Pasted image 20250209222900.png",
+    "Prefixes/Attachments/Pasted image 20250209221550.png",
+    "Prefixes/Attachments/Pasted image 20250209221049.png",
+    "Prefixes/Attachments/Pasted image 20250209220526.png",
+    "Study Notes/Math Notation in Markdown Cheatsheet.md",
+    "Prefixes/a.Daily Notes/February-10-2025.md",
     "Prefixes/a.Daily Notes/February-8-2025.md",
     "Study Notes/Economics/Principles of Economics by G. Mankiw.md",
     "Prefixes/a.Daily Notes/February-7-2025.md",
@@ -238,7 +240,6 @@
     "Study Notes/Money/roadmap.md",
     "Study Notes/Linux/Introduction to Linux.md",
     "Study Notes/Computers/a.Mentors/Fireship.io/Linux/4. 10 Essential Commands.md",
-    "Untitled.canvas",
     "Prefixes/Canvas/Untitled.canvas"
   ]
 }

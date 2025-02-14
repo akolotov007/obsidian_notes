@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"267702556888405a","x":34,"y":34,"width":250,"height":96,"color":"#3124eb","type":"text","text":"American Express (AMEX)\n**Credit Card**\n- Delta SkyMiles "},
+		{"id":"78caa435fd0725bd","x":34,"y":170,"width":250,"height":100,"color":"3","type":"text","text":"PiBank\n**High Yield Savings Account**\n4.60% APY"},
+		{"id":"417d4940dd85a7d0","x":-520,"y":60,"width":325,"height":180,"color":"5","type":"text","text":"Chase\n**Credit Cards**\n- Main (Freedom Unlimited)\n- Secondary (Freedom Rise) \n\n**Main Checking**"}
+	],
+	"edges":[
+		{"id":"a6c598a6244b5fe2","fromNode":"417d4940dd85a7d0","fromSide":"right","toNode":"267702556888405a","toSide":"left","label":"pays"},
+		{"id":"49eb3dac395dde77","fromNode":"417d4940dd85a7d0","fromSide":"right","toNode":"78caa435fd0725bd","toSide":"left","label":"saves into"}
+	]
+}
