@@ -11,7 +11,7 @@
 **Conditional Statement**
 - says that if one thing is true then some other thing also has to be true. 
 	- If 378 is divisible by 18, then 378 is divisible by 6.
-**existential statement**
+**Existential statement**
 - Given a property that may or may not be true, an *existential statement* says that there is at least one thing for which the property is true
 	- there is a prime number that is even
 
@@ -624,7 +624,7 @@ Example of a Valid Argument:
 | T   | F   | F                 | T        |     |                |
 | F   | T   | T                 | F        |     |                |
 | F   | F   | T                 | F        |     |                |
-- The first row is the only which both premises are true, and the conclusion in that row is also true.
+- The first row is the only which **both** premises are true, and the conclusion in that row is also true.
 	- hence the argument form is valid
 
 ##### Modus Tollens
@@ -788,7 +788,7 @@ $\therefore$ B is also a knave - *by elimination*
 ![[Pasted image 20250123162140.png]]
 
 #### Black Boxes and Gates
-- the inside of a black box contains the detailed implementation of the circuit and is often ignored while attention is focused on the relation between the **input** and the **output** signals.
+- the inside of a black box contains the detailed implementation of the circuit and is often ***ignored*** while attention is focused on the relation between the **input** and the **output** signals.
 ![[Pasted image 20250123172518.png]]
 
 
@@ -840,6 +840,7 @@ Both circuits have the same truth table,
 -  $P \downarrow Q = \neg(P \lor Q)$
 
 
+Notice the dot at the end of AND NOR
 ![[Pasted image 20250129110043.png]]
 
 
@@ -1065,7 +1066,7 @@ $\forall$ real numbers *x* and y, $x+y = y+x$
 #### Formal Logic Notation 
 
 $\forall x \text{ in } D, P(x)$ can be written as $\forall x (x \text{ in }D \rightarrow P(x))$
-$\exists x \text{ in } D such that P(x)$ can be written as $\exists x (x \text{ in }D \land P(x))$
+$\exists x \text{ in  D such that } P(x)$ can be written as $\exists x (x \text{ in }D \land P(x))$
 
 
 ### 3.4 Arguments with Quantified Statements
@@ -1113,7 +1114,6 @@ $\exists x \text{ in } D such that P(x)$ can be written as $\exists x (x \text{ 
 - $\neg P(a)$ for a particular $a$
 - $\neg Q(a)$ | ***invalid conclusion*** 
 
-*Informal Version*
 - If *x* makes P(x) true, then *x* makes Q(x) true
 - *a* does not make P(x)
 - $\therefore$ a does not make Q(x) true | ***invalid conclusion***
@@ -1642,12 +1642,12 @@ If $m$ and $n$ are integers and $m \leq n$, the symbol $\displaystyle\sum_{k=m}^
 ##### Double Summation Notation
 If you want to find the summation of a 2D array, you would do it with a *double summation*:
 - Given function $F(i,j)$ sum all possible values with $n=4$
-$\displaystyle\sum^n _{j=1}\sum^n _{i=1} f(i,j)$
+$$\displaystyle\sum^n _{j=1}\sum^n _{i=1} f(i,j)$$
 $(\text{S)olution} = f(1,1)+f(1,2)+f(1,3)+f(1,4)+f(2,1)+f(2,2)+f(2,3)+f(2,4)+f(3,1)+f(3,2)+f(3,3)+f(3,4)+f(4,1)+f(4,2)+f(4,3)+f(4,4)$
 
 
 ### Product Notation
-$\displaystyle\prod^5_{k=1}a_k = a_1 a_2 a_3 a_4 a_5$
+$$\displaystyle\prod^5_{k=1}a_k = a_1 a_2 a_3 a_4 a_5$$
 
 If *m* and *n* are integers and *m* $\leq$ n, the symbol reads: the product from *k* = *m* to *n* of $a_k$ is the product of all the terms $a_m \times a_{m+1} \times a_{m_2}\cdots a_n$
 

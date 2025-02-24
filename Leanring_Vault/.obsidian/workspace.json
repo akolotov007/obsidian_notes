@@ -8,18 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f3ca7965c91d2988",
+            "id": "29ea452f13b9585b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "books/Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library).pdf"
               },
-              "icon": "lucide-file",
-              "title": "Discrete Mathematics with Applications"
+              "icon": "lucide-file-text",
+              "title": "Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library)"
             }
           }
         ]
@@ -141,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prefixes/Canvas/Financial Accounts.canvas",
+                "file": "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Financial Accounts"
+              "title": "Outline of Discrete Mathematics with Applications"
             }
           },
           {
@@ -192,11 +189,14 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f3ca7965c91d2988",
+  "active": "29ea452f13b9585b",
   "lastOpenFiles": [
-    "Prefixes/Canvas/Financial Accounts.canvas",
     "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
+    "LaTeX_papers/Discrete Structures/HW 1 response/HW 4.synctex(busy)",
     "books/Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library).pdf",
+    "LaTeX_papers/Discrete Structures/HW 1 response/HW 4.synctex.gz",
+    "LaTeX_papers/Discrete Structures/HW 1 response/HW 4.pdf",
+    "Prefixes/Canvas/Financial Accounts.canvas",
     "Prefixes/Attachments/Pasted image 20250211172924.png",
     "Prefixes/Attachments/Pasted image 20250210134238.png",
     "Prefixes/Attachments/Pasted image 20250210132130.png",
@@ -219,8 +219,6 @@
     "books/Fashion/The Fashion Business Manual  An Illustrated Guide to Building a Fashion Brand (Fashionary) (Z-Library).pdf",
     "books/Fashion/Bag Design A Handbook for Accessories Designers (Fashionary) (Z-Library).pdf",
     "books/Fashion",
-    "books/New folder",
-    "books/Bag Design A Handbook for Accessories Designers (Fashionary) (Z-Library).pdf",
     "Untitled 3.md",
     "Untitled 2.md",
     "Untitled 1.md",
@@ -228,7 +226,6 @@
     "Prefixes/a.Daily Notes/February-5-2025.md",
     "Study Notes/Computers/OOP vs Procedural Programming.md",
     "Prefixes/a.Daily Notes/February-3-2025.md",
-    "LaTeX_papers/Discrete Structures/HW 1 response/HW 3 Response.synctex(busy)",
     "Study Notes/markdown-cheat-sheet.md",
     "Prefixes/a.Daily Notes/January-31-2025.md",
     "Prefixes/a.Daily Notes/January-30-2025.md",
