@@ -4,19 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "48f2e4c295ab0783",
+        "id": "29b032428fe93b89",
         "type": "tabs",
         "children": [
           {
-            "id": "29ea452f13b9585b",
+            "id": "12a0eca3fd72c982",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "books/Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library).pdf"
+                "file": "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library)"
+              "icon": "lucide-file",
+              "title": "Discrete Mathematics with Applications"
+            }
+          },
+          {
+            "id": "0495e7bae2d92622",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study Notes/FIU/SYG2000 Intro to Sociology/A Sociology Experiment.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "A Sociology Experiment"
             }
           }
         ]
@@ -76,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5004348754883
+    "width": 213.50043487548828,
+    "collapsed": true
   },
   "right": {
     "id": "46eb03fd3242f204",
@@ -92,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prefixes/a.Daily Notes/September-23-2024.md",
+                "file": "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for September-23-2024"
+              "title": "Backlinks for Discrete Mathematics with Applications"
             }
           },
           {
@@ -111,12 +130,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Prefixes/a.Daily Notes/September-23-2024.md",
+                "file": "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from September-23-2024"
+              "title": "Outgoing links from Discrete Mathematics with Applications"
             }
           },
           {
@@ -138,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
+                "file": "books/Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library).pdf",
                 "followCursor": false,
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Discrete Mathematics with Applications"
+              "title": "Outline of Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library)"
             }
           },
           {
@@ -172,8 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,54 +207,103 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "29ea452f13b9585b",
+  "floating": {
+    "id": "67ef49673250c6e4",
+    "type": "floating",
+    "children": [
+      {
+        "id": "f9807ad9dbf72c4c",
+        "type": "window",
+        "children": [
+          {
+            "id": "d960a5001b2bbec3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "521cb8b6c13a530e",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "books/Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library).pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library)"
+                }
+              },
+              {
+                "id": "e5658cc0d8bcbd1d",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "books/A Sociology Experiment .pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "A Sociology Experiment"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1268,
+        "y": -81,
+        "width": 695,
+        "height": 600,
+        "maximize": true,
+        "zoom": 3
+      }
+    ]
+  },
+  "active": "521cb8b6c13a530e",
   "lastOpenFiles": [
     "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
-    "LaTeX_papers/Discrete Structures/HW 1 response/HW 4.synctex(busy)",
+    "Prefixes/Attachments/Pasted image 20250326095927.png",
     "books/Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library).pdf",
-    "LaTeX_papers/Discrete Structures/HW 1 response/HW 4.synctex.gz",
-    "LaTeX_papers/Discrete Structures/HW 1 response/HW 4.pdf",
-    "Prefixes/Canvas/Financial Accounts.canvas",
-    "Prefixes/Attachments/Pasted image 20250211172924.png",
-    "Prefixes/Attachments/Pasted image 20250210134238.png",
-    "Prefixes/Attachments/Pasted image 20250210132130.png",
-    "Prefixes/Attachments/Pasted image 20250210132117.png",
-    "Prefixes/Attachments/Pasted image 20250210130954.png",
-    "Prefixes/Attachments/Pasted image 20250209223703.png",
-    "Prefixes/Attachments/Pasted image 20250209222900.png",
-    "Prefixes/Attachments/Pasted image 20250209221550.png",
-    "Prefixes/Attachments/Pasted image 20250209221049.png",
-    "Prefixes/Attachments/Pasted image 20250209220526.png",
+    "Prefixes/Attachments/Pasted image 20250326001418.png",
+    "books/A Sociology Experiment .pdf",
+    "Study Notes/FIU/SYG2000 Intro to Sociology/A Sociology Experiment.md",
+    "22.md",
+    "Untitled.md",
+    "Study Notes/Linux/Kali Linux/Network Recon.md",
+    "Study Notes/Economics/Principles of Economics by G. Mankiw.md",
+    "books/Data struct and algo/Introduction.to.Algorithms.4th.pdf",
+    "Prefixes/Attachments/Pasted image 20250323143242.png",
+    "Prefixes/Attachments/Pasted image 20250323140238.png",
+    "Prefixes/Attachments/Pasted image 20250323125050.png",
+    "Prefixes/Attachments/Pasted image 20250320123228.png",
+    "Prefixes/Attachments/Pasted image 20250320112909.png",
+    "Prefixes/Attachments/Pasted image 20250320111307.png",
+    "Prefixes/Attachments/Pasted image 20250320111042.png",
+    "Prefixes/Attachments/Pasted image 20250320110903.png",
     "Study Notes/Math Notation in Markdown Cheatsheet.md",
+    "books/the learning system.pdf",
+    "Study Notes/markdown-cheat-sheet.md",
+    "books/Data struct and algo/Math in Minutes (Paul Glendinning) (Z-Library).pdf",
+    "Study Notes/Computers/mySQL/SQL.md",
+    "Study Notes/Computers/Python/Introduction to Python.md",
+    "Study Notes/Computers/Python/Data Types Examples.md",
+    "Study Notes/Computers/OOP vs Procedural Programming.md",
+    "Study Notes/Computers/Data Structures and Algorithms/Data Structures and Algorithms made easy - Narasimha Karumanchi.md",
+    "Study Notes/Computers/a.Mentors/CodingwithMosh/Data Structures and Algorithms/Data Struct and Algorithms.md",
+    "Study Notes/College/Stats2023/Section 8.1 8.2 8.3.md",
+    "books/Python/Python for Data Analysis Data Wrangling with Pandas, NumPy, and IPython by Wes McKinney (z-lib.org).pdf",
+    "books/Python/illustratedguidetopython3.pdf",
+    "LaTeX_papers/Discrete Structures/HW 1 response/HW 5 response.synctex(busy)",
+    "LaTeX_papers/Discrete Structures/HW 1 response/HW 5 response.synctex.gz",
+    "LaTeX_papers/Discrete Structures/HW 1 response/HW 5 response.pdf",
+    "Study Notes/CyberSecurity/MagStripes/Dave and Buster info.md",
+    "Study Notes/CyberSecurity/MagStripes/MagStripes.md",
+    "Study Notes/CyberSecurity/Resources.md",
+    "Study Notes/Untitled.md",
+    "Study Notes/Linux/Kali Linux/Changing MAC Address.md",
+    "Study Notes/Linux/Kali Linux/Misc Notes.md",
+    "Study Notes/Linux/Introduction to Linux.md",
+    "Study Notes/Linux/Kali Linux/VIM course.md",
+    "Prefixes/Canvas/Financial Accounts.canvas",
     "Prefixes/a.Daily Notes/February-10-2025.md",
     "Prefixes/a.Daily Notes/February-8-2025.md",
-    "Study Notes/Economics/Principles of Economics by G. Mankiw.md",
-    "Prefixes/a.Daily Notes/February-7-2025.md",
-    "Prefixes/a.Daily Notes/February-6-2025.md",
-    "books/Fashion/Handbag Designer 101 Everything You Need to Know About Designing, Making, and Marketing Handbags (Emily Blumenthal) (Z-Library).epub",
-    "books/Fashion/Sew Cute to Carry 12 Stylish Bag Patterns for Handbags, Purses and Totes (Melanie McNeice) (Z-Library).pdf",
-    "books/Fashion/Textilepedia (Fashionary International Limited) (Z-Library).pdf",
-    "books/Fashion/The Fashion Business Manual  An Illustrated Guide to Building a Fashion Brand (Fashionary) (Z-Library).pdf",
-    "books/Fashion/Bag Design A Handbook for Accessories Designers (Fashionary) (Z-Library).pdf",
-    "books/Fashion",
-    "Untitled 3.md",
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "Study Notes/Computers/a.Mentors/CodingwithMosh/Data Structures and Algorithms/Data Struct and Algorithms.md",
-    "Prefixes/a.Daily Notes/February-5-2025.md",
-    "Study Notes/Computers/OOP vs Procedural Programming.md",
-    "Prefixes/a.Daily Notes/February-3-2025.md",
-    "Study Notes/markdown-cheat-sheet.md",
-    "Prefixes/a.Daily Notes/January-31-2025.md",
-    "Prefixes/a.Daily Notes/January-30-2025.md",
-    "Untitled.md",
-    "Study Notes/FIU/COT 3100 Discrete Structures/Module 1 - Speaking Mathematically.md",
-    "Prefixes/a.Daily Notes/January-29-2025.md",
-    "Prefixes/a.Daily Notes/September-23-2024.md",
-    "Prefixes/a.Daily Notes/October-15-2024.md",
-    "Study Notes/Money/roadmap.md",
-    "Study Notes/Linux/Introduction to Linux.md",
-    "Study Notes/Computers/a.Mentors/Fireship.io/Linux/4. 10 Essential Commands.md",
     "Prefixes/Canvas/Untitled.canvas"
   ]
 }

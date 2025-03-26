@@ -1135,7 +1135,7 @@ $\therefore p \rightarrow r$
 
 
 ## Chapter 4: Elementary Number Theory and Methods of Proofs
-
+dhttps://www.youtube.com/watch?v=HIkIqt_ytdc
 
 ### 4.1 Direct Proof and Counterexample I : Introduction
 
@@ -1524,12 +1524,26 @@ $r=a \text{ mod } d$
 #### Div and Mod
 ![[Pasted image 20250208143856.png]]
 
+
+a $\equiv$ b (mod 7)
+a and b have the same remainder when you divide them by 7 
 #### Key Explanation 
 - compute 32 *div* 9 
 - compute 32 *mod* 9 
 ![[Pasted image 20250208144005.png]]
 
+Written as:
+- 32 mod 9 = 5
+	- can be re-written as 32 $\equiv$ 5 (mod 9)
+- meaning that when 32 is divided by 9 the remainder is 5. 
 
+32 $/$ 9 = 3.555 | the quotient (as an integer, no rounding) is 3 (bc 9 x 3 = 27, and 32 is just a little bit more than 27)
+now subtract 27 from 32:
+32-27 = 5
+this means that divide 32 by 9, you get a quotient of 3 and a remainder of 5. Therefore, 32 mod 9 = 5
+
+https://www.youtube.com/watch?v=5_tvw_3l-RI
+![[Pasted image 20250305135254.png]]
 #### Examples
 ![[Pasted image 20250208144827.png]]
 
@@ -1675,9 +1689,9 @@ $$\binom{n}{r} = \frac{n!}{r!(n-r)!}$$
 represents the number of subsets of size $r$ that can be chosen from a set with $n$ elements.
 
 ![[Pasted image 20250209220526.png]]
+###### r-combinations vs r-permutations
 
-
-
+![[Pasted image 20250323125050.png]]
 
 ### 5.2 Mathematical Induction I : Proving Formulas
 https://www.youtube.com/watch?v=GdM_iA1Zek4 | Intro To Mathematical Induction
@@ -1710,20 +1724,14 @@ In *Section 5.2* we showed how to use mathematical induction to prove formulas. 
 
 
 ### 5.4 Strong Mathematical Induction and the Well-Ordering principle for the Integers
+
+https://www.youtube.com/watch?v=rfA0h9udl7E  | video on strong math induction
 - Strong mathematical induction is similar to ordinary mathematical induction in that it is a technique for establishing the truth of a sequence of statements about integers. 
 	- Also, a proof by strong mathematical induction consists of a basis step and an inductive step. 
 	- However, the basis step may contain proofs for **several initial values**, and in the inductive step the truth of the predicate $P(n)$ is assumed not just for one value of $n$ but for *all values through* $k$, and then the truth of $P(k + 1)$ is proved.
 - Any statement that can be proved with ordinary mathematical induction can be proved with strong mathematical induction
 
 ![[Pasted image 20250211172924.png]]
-
-
-
-
-
-
-
-
 
 
 
@@ -1805,7 +1813,15 @@ $n(n-1)(n-2)\dots 2\times 1 = n!$
 	- *ab ac ba bc ca cb*
 - each such ordered is called a: 2-*permutation* of $\{a,b,c\}$
 
-**$r$-permutation**
+##### Permutations of the Letters in a word
+- How many ways can the letters in the word COMPUTER be arranged if the letters CO must remain next to each other (in order) as a unit?
+	- If the letter group CO is treated as a unit, then there are effectively only seven objects that are to be arranged in a row.
+		- CO M P U T E R 
+	- 7! = 5040 ways
+
+
+
+**$r$-permutation
 - a set of $n$ elements is an ordered selection of $r$ elements taken from the set of $n$ elements. 
 - The number of $r$-permutations of a set of $n$ elements is denoted $P(n, r)$
 
@@ -1866,3 +1882,55 @@ Example: Counting elements of General Union
 
 ![[Pasted image 20250206182743.png]]
  if $n$ pigeons fly into $m$ pigeonholes and $n > m$, then at least one hole must contain two or more pigeons.
+
+**Examples**
+1. In a group of six people, must there be at least two who were born in the same month? 
+	- A group of six people need not contain two who were born in the same month. For in- stance, the six people could have birthdays in each of the six months January through June.
+2. In a group of thirteen people, must there be at least two who were born in the same month? Why?
+- A group of 13 people, however, must contain at least two who were born in the same month, for there are only 12 months in a year and 13 >12. To get at the essence of this reasoning, think of the thirteen people as the pigeons and the twelve months of the year as the pigeonholes. 
+
+
+1. A drawer contains ten black and ten white socks. You reach in and pull some out without looking at them. What is the least number of socks you must pull out to be sure to get a matched pair? 
+	- If you pick just two socks, they may have different colors. But when you pick a third sock, it must be the same color as one of the socks already chosen. Hence the answer is *three*. 
+		- This answer could be phrased more formally as follows: Let the socks pulled out be denoted $S_1, S_2,S_3 \cdots S_n$ and consider the function *C*  that sends each sock to its color, as shown on the next apge
+	- ![[Pasted image 20250323140238.png]]
+
+#### Generalized Pigeonhole Principle
+For any function f from a finite set *X* with *n* elements to a finite set *Y* with *m* elements and for any positive integer *k*, if for each $y \in Y, f^{-1}(y)$ has at most *k* elements, then *X* has at most *km* elements; in other words, $n \leq km$
+
+#### Theory of the Pigeon Hole Principle
+
+![[Pasted image 20250323143242.png]]
+
+### Counting Subsets of a Set : Combinations
+![[Pasted image 20250326001418.png]]
+
+**Example**
+- Consider a set of 4 ppl: Ann, Bob, Cyd, and Dan. 
+- a. Given the set {Ann, Bob, Cyd, and Dan}, each subset of size 3 is a 3-combination of its elements. List all the 3-combinations of the set. 
+	- {Bob, Cyd, Dan} leave out Ann 
+	- {Ann, Cyd, Dan} leave out Bob 
+	- {Ann, Bob, Dan} leave out Cyd 
+	- {Ann, Bob, Cyd} leave out Dan
+- b. Use the result of part (a) to find $\binom43$
+	- here are 4 items in the list of 3-combinations in part (a). So $\binom43 =4$ 
+- c. In how many ways can the people in the set form a committee of size 3
+	- The number of ways for the people in the set to form a committee of size 3 is the number of distinct such committees, which is the same as the number of subsets of size 3 and equals the number of 3-combinations of elements in the set. Thus there are 4 ways the people in the set can form a committee of size 3.
+
+2 distinct methods that can be used to select *r* objects from a set of *n* elements
+**Ordered Selection** - elements are chosen but also the order in which they are chosen that matter
+**Unordered Selection** -  it is only the identity of the chosen elements that matters
+
+
+**Example**
+Unordered Selections
+ How many unordered selections of two elements can be made from the set {0, 1, 2, 3}? 
+ Solution:
+- An unordered selection of two elements from {0, 1, 2, 3} is the same as a 2-combination, or subset of size 2, taken from the set. These can be listed systematically: 
+- {0, 1}, {0, 2}, {0, 3} subsets containing 0 
+- {1, 2}, {1, 3} subsets containing 1 but not already listed 
+- {2, 3} subsets containing 2 but not already listed.
+Since the listing exhausts all possibilities there are six subsets in all. thus $\binom42 = 6$, which is the number of unordered selections of two elements from a set of four 
+
+![[Pasted image 20250326095927.png]]
+

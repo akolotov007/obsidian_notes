@@ -14,6 +14,9 @@ These are the elements outlined in John Gruber’s original design document. All
 # H1
 ## H2
 ### H3
+#### H4
+##### H5
+#### H6
 
 ### Bold
 
@@ -68,6 +71,9 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 | --------- | ----------- |
 | Header    | Title       |
 | Paragraph | Text        |
+|           |             |
+|           |             |
+|           |             |
 
 ### Fenced Code Block
 
@@ -90,9 +96,6 @@ Here's a sentence with a footnote. [^1]
 ### My Great Heading {#custom-id}
 
 ### Definition List
-
-term
-: definition
 
 ### Strikethrough
 

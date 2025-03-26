@@ -1,0 +1,112 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{ HW 6}
+\date{3/15/25}
+\author{Anthony Kolotov}
+
+\begin{document}
+	
+	\maketitle
+	
+	
+	\begin{enumerate}
+		\item A store sells clothes for men. It has 3 kinds of jackets, 7 kinds of shirts, and 5 kinds of pants. Find the number of ways a person can buy:
+		\begin{enumerate}
+			\item one of the items;
+			\subitem 3+7+5 = 15
+			\item one of each of the three kinds of clothes.
+			\subitem 3*7*5 = 105
+		\end{enumerate}
+		
+		\item A class has 10 male students and 8 female students. Find the number of ways the class can elect:
+		\begin{enumerate}
+			\item a class representative;
+			\subitem 10+8 = 18
+			\item 2 class representatives, one male and one female;
+			\subitem 10*8 = 80
+			\item a class president and a vice-president.
+			\subitem P(18,2) = 18 * 17 = 306
+		\end{enumerate}
+		
+		\item Find the number of three-letter words using only the letters from \{A,B,C,D,E,F,G\} without repetition.
+		\subitem P(7,3) = $\frac{7!}{7-3}! = \frac{7*6*5*4!}{4!} = 7*6*5 = 210$
+		
+		\item Find the number of six-letter words that can be formed using the letters of the word \textbf{BANANA}.
+		\subitem B, A happens 3 times, N happens 2 times = total 6
+		\subitem $\frac{6!}{3!\times2!} = \frac{720}{12} = 60 $ 
+		\item A multiple-choice test contains 12 questions. There are five possible answers for each question.
+		\begin{enumerate}
+			\item In how many ways can a student answer the questions if they answer every question?
+			\subitem $5^{12}$
+			\item In how many ways can a student answer the questions if they can leave answers blank?
+			\subitem $6^12$ , 5 possible answers + 1 blank option
+			
+		\end{enumerate}
+		
+		\item DNA molecules consist of two strands consisting of blocks known as nucleotides. Each nucleotide contains sub-components called bases. There are four types of bases: A, T, C, and G. How many 5-element DNA sequences:
+		\begin{enumerate}
+			\item end with A?
+			\subitem first 4 can be any choice, 4 choices
+			\subitem last base must be A,  - 1 choice 
+			\subitem $4^4 = 256$
+			\item start with T and end with G?
+			\subitem T and G, - 2 choices
+			\subitem $4^3 = 64$
+			\item contain only A and T?
+			\subitem A and T, 2 choices 
+			\subitem $2^5 = 32$ 
+			\item do not contain C?
+			\subitem 3 choices, A,T,G
+			\subitem $3^5 = 243$
+		\end{enumerate}
+		
+		\item A committee is formed consisting of one representative from each of the 50 states in the United States, where the representative from a state is either the governor or one of the two senators from that state. How many ways are there to form this committee?
+		\subitem 1 governor, 2 senators = total options 3
+		\subitem $3^50$ total ways to form a committee 
+		
+		\item How many bit strings of length 10 contain:
+		\begin{enumerate}
+			\item exactly four 1s?
+			\subitem choose 4 positions for 1s out of 10
+			\subitem $\binom{10}{4} = \frac{10!}{4!(10!-4!)} =\frac{10!}{4!(6!)} = 210 $
+			\item at most four 1s?
+			\subitem sum of cases where there are 0,1,2,3 or 4 ones:
+			\subitem $\binom{10}{1}  + \binom{10}{2} + \binom{10}{3} + \binom{10}{4} = 1+10+45+120+210 = 386$
+			\item at least four 1s?
+			\subitem 2
+			\item an equal number of 0s and 1s?
+			\subitem choose 5 positions for 1s, the remaining 5 will be 0s
+			\subitem $\binom{10}{5} = \frac{10!}{5!5!} = 252$
+		\end{enumerate}
+		
+		\item A drawer contains a dozen brown socks and a dozen black socks, all unmatched. A man takes socks out at random in the dark.
+		\begin{enumerate}
+			\item How many socks must he take out to be sure that he has at least two socks of the same color?
+			\subitem 12 brown and 12 black. Worst case is 1 black and 1 brown.
+			\subitem next sock has to match, therefore he has to take out at least 3 to match either the black or brown.
+			\item How many socks must he take out to be sure that he has at least two black socks?
+			\subitem 12 brown and 12 black. worst case is pulling all 12 brown. 
+			\subitem next 2 socks must be black, 12+2 = 4
+			
+		\end{enumerate}
+		
+		\item Suppose that all students of FIU class 2027 were born in 2005. They went into one of the ten large classrooms for orientation in August 2023. What is the minimum number of students to guarantee that there were two students in some classroom born on exactly the same day?
+		\subitem using the pigeon hole principle, we have 356 days in a year. 365 students. At least 2 kids on the same birthday would mean adding +1 to student count.
+		\subitem 366 students
+		
+		\item (20 points extra credit) Consider the following expression:
+		\begin{center}
+			$5 \diamond 5 \diamond 5 \diamond 5 \diamond 5.$
+		\end{center}
+		You can replace each of the four $\diamond$ symbols with either $+$ or $\times$ operator. You may also insert one or more pairs of parentheses to control the order of operations. How many different values can you get from such expressions? For example,
+		\begin{align*}
+			5 + 5 + 5 + 5 + 5 &= 25, \\
+			5 + (5 + 5) \times 5 + 5 &= 60.
+		\end{align*}
+		So 25 and 60 are two different values you can get from such expressions.
+	\end{enumerate}
+	\subitem $2^4 = 16$ possible combinations (not accounting for parenthesis) 
+	
+\end{document}
