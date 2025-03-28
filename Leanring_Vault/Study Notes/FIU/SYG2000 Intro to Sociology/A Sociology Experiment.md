@@ -1049,7 +1049,7 @@ The wage gap has narrowed significantly in recent decades, but some groups of wo
 - Studies of mothers who work show that the costs of raising a child are disproportionately felt by women
 	- 7% wage penalty per child
 
-**fatherhood bonus** - 
+**fatherhood bonus** - fathers get treated better then  
 
 **glass ceiling** -  a metaphor to describe barriers that women face in the workplace that prevent them from reaching higher positions
 
@@ -1069,9 +1069,108 @@ CDC reported approx. 1 in 5 women in the US experiences rape or attempted attemp
 	- “running away from home, difficulties in school, truancy… early marriage,” and promiscuity
 
 
+#### Review Sheet
+##### Key Points
+- Feminism is concerned with achieving equality between men and women. There are different kinds of feminisms, and people of all genders identify as feminists. Intersectional feminists take into account that gender can’t be separated from other social relations. 
+- Gender inequality is produced, maintained, and embedded in our institutions. Sexism in the workplace is one example. 
+- Women make less money than men. For full-time and part-time workers in the U.S., women earned 83% as much as men in 2015.
+- White men have higher wages than women of any race. 
+- Many jobs in the U.S. economy are low-paying and more likely to be held by women. Women of color are heavily represented in the low-wage job sector. 
+- The sorting of men and women into different occupations is partly shaped by discrimination and social norms. 
+- Studies of mothers who work show that the costs of raising a child are disproportionately felt by women. In no state do mothers, on average, make as much as fathers. 
+- There are differences in life expectancy based on gender and race. In general, women live longer than men, and Whites live longer than Blacks or Latinos. 
+- Violence and assault are disproportionately experienced by transgender people. 
+- 1 in 5 women in the U.S. has been the victim of rape or attempted rape. • Girls are more likely than boys to suffer child sexual abuse.
 
+##### Key Terms
+- **Gender inequality** – Unequal treatment and perceptions of individuals or groups based on gender. 
+- **Feminism** – Movements that advocate for equality for all sexes and genders. • Glass ceiling – Metaphor for barriers women face in the workplace that prevent them from reaching higher positions. 
+- **Androcentrism** – Centering the lives and experiences of men in our worldview and practices.
+- **Motherhood penalty** – Systematic disadvantages in wages, benefits, and other career factors that are associated with motherhood. 
+- **Fatherhood bonus** – Benefits in wages and perceived competence that fathers experience in the workplace.
+ 
 
-### Sexualities 
+### Sexuality 
 #### The creation of sexuality 
+sexuality is influenced by both biology and environment
+Like gender, sociologists think of sexuality as a social construction
+
+ Shift away from believing sex was primarily for reproduction and toward viewing sex as pleasurable mirrored the economic shift from a production- based economy to a consumer-based economy
+
+
+
 #### Intersectional sexualities
+
+**hyper sexuality** - extreme in sexual appearance or desire 
+**colonialism** - which one country politically and economically controls the people and resources of another geographic area.
+
+**Jezebel caricature** -  portrayed Black women as highly sexual and “lusty.”
+**Brute caricature** - portrayed Black men as savage sexual predators
+- These sexualized caricatures were used to justify slavery and later the Jim Crow system of discrimination, which legally enforced segregation between Blacks and Whites in the southern U.S.
+
+ A recent study shows that the predominant of Latina's in American media is highly sexualized, or “hot" while Latino men are overwhelmingly portrayed as dominant and “macho.”
+
 #### The social control of sexuality
+
+Puberty, the process of becoming a sexually mature individual, is a biological event. Once we go through it, we’re theoretically capable of sexual reproduction
+
+![[Pasted image 20250326161502.png]]
+
+**social control** - refers to the way we enforce normative behaviors through social interaction, values and worldviews, and laws
+
+**medicalized** a process in which society understands or defines a problem in medical terms
+- Alcoholism, pregnancy, attention-deficit disorder, and even baldness were all initially understood as social problems, but *became* understood as medical disorders.
+
+**Phallocentrism** - a worldview that centers around the **phallus** in sexual acts or society more broadly 
+- The medicalization of ED draws our attention toward it, so much so that penile-vaginal intercourse is understood as the only sex act worth our attention.
+
+**abstinence-only sex education** - students are taught that abstinence is expected of them
+
+**Comprehensive sex education** - "stresses the importance of waiting to have sex” while offering information about how contraception works, so students can avoid unwanted pregnancies and sexually-transmitted infections (STIs)
+
+Gender and sexuality are not simply unchanging facts of biology, but social relations that we actively construct, experience, and express.
+
+#### Review Sheet
+##### Key Points
+- In a 2016 Gallup poll, when asked if being gay or lesbian is something a person is born with or due to factors such as upbringing and environment, 46% answered “born with,” 33% answered “environment,” and 12% answered “both.” 
+- The word “heterosexual” first appeared in the U.S. in a medical journal article in 1892.
+- What we deem to be sexually appropriate behavior varies historically and culturally. Sexual behaviors and expressions change through time and aren’t exactly the same across cultures. 
+- Like gender, sexuality is a social construction. 
+- Similar to how we can understand gender as activity that we “do” in everyday life, we can think of sexual identity as a routine, daily accomplishment that we intentionally perform. 
+- Racialized sexual stereotypes perpetuate social, economic, and cultural inequalities.
+- Among women who have ever had a child, the average age of first childbirth is 23 years old in the U.S.; among men who ever have children, it’s almost 26 years old. 
+- Our social and cultural institutions exert social control over our sexuality.
+- 2017 was the 4th consecutive year of increasing rates of gonorrhea, chlamydia, and syphilis.
+##### Key Terms
+- **Hypersexual**: Depicted as extreme in sexual appearance or desire. 
+- **Jezebel caricature** – Stereotypical image that portrays Black women as extremely sexualized. 
+  **Brute caricature** – Stereotypical image that portrays Black men as savage sexual predators, especially of White women. 
+- **Puberty** – Process of becoming sexually mature. 
+- **Social control** – The way we enforce normative behaviors through social interactions, values and worldviews, and laws. 
+- **Medicalized** – When society understands a problem in medical terms. 
+- **Phallocentrism** – Worldview that centers the phallus in both sexual acts and society more broadly.
+- **Phallus** – Symbolic societal idea of the penis
+
+
+
+## Chapter 7 Race and Ethnicity 
+
+### Why are we still talking about race?
+#### Race and Ethnicity 
+#### Are race and ethnicity real? 
+#### The "science" of race
+### Explicit and Implicit Bias
+#### Implicit bias  
+#### Stereotypes and Prejudice
+#### A sociological approach toward stereotypes
+
+### Racism and Discrimination
+#### Racism in individual and institutions
+#### Affirmative Action
+
+### The Persistence of Racial Inequality 
+#### Trends in racial inequality 
+#### Understanding the persistence of racial inequality 
+#### A moment of change
+
+
