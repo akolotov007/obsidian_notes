@@ -13,21 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study Notes/FIU/SYG2000 Intro to Sociology/A Sociology Experiment.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "A Sociology Experiment"
-            }
-          },
-          {
-            "id": "c4104c46d07f2477",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
                 "mode": "source",
                 "source": false,
@@ -37,8 +22,7 @@
               "title": "Discrete Mathematics with Applications"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.50043487548828,
-    "collapsed": true
+    "width": 213.50043487548828
   },
   "right": {
     "id": "46eb03fd3242f204",
@@ -192,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.5,
-    "collapsed": true
+    "width": 205.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -255,6 +237,40 @@
         "height": 520,
         "maximize": true,
         "zoom": 3
+      },
+      {
+        "id": "57929d9b32002b2b",
+        "type": "window",
+        "children": [
+          {
+            "id": "80a5d2704718d07d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c4104c46d07f2477",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Study Notes/Math Notation in Markdown Cheatsheet.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Math Notation in Markdown Cheatsheet"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1045,
+        "y": 37,
+        "width": 648,
+        "height": 600,
+        "maximize": true,
+        "zoom": 3
       }
     ]
   },
@@ -263,20 +279,22 @@
     "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
     "books/Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library).pdf",
     "books/A Sociology Experiment .pdf",
+    "Prefixes/Attachments/Pasted image 20250331215321.png",
+    "Prefixes/Attachments/Pasted image 20250331215257.png",
+    "Prefixes/Attachments/Pasted image 20250331215212.png",
+    "Prefixes/Attachments/Pasted image 20250331215144.png",
+    "Prefixes/Attachments/Pasted image 20250331215137.png",
+    "Study Notes/FIU/SYG2000 Intro to Sociology/A Sociology Experiment.md",
+    "Study Notes/Math Notation in Markdown Cheatsheet.md",
+    "Untitled.md",
+    "Study Notes/markdown-cheat-sheet.md",
+    "Stars.md",
+    "Prefixes/Attachments/Pasted image 20250331214742.png",
     "Prefixes/Attachments/Pasted image 20250329145243.png",
     "Prefixes/Attachments/Pasted image 20250329145130.png",
     "Prefixes/Attachments/Pasted image 20250329145050.png",
     "Prefixes/Attachments/Pasted image 20250329145046.png",
-    "Prefixes/Attachments/Pasted image 20250329145025.png",
-    "Prefixes/Attachments/Pasted image 20250329143855.png",
-    "Prefixes/Attachments/Pasted image 20250329143829.png",
-    "Prefixes/Attachments/Pasted image 20250329143311.png",
-    "Prefixes/Attachments/Pasted image 20250329143247.png",
-    "Study Notes/FIU/SYG2000 Intro to Sociology/A Sociology Experiment.md",
-    "Stars.md",
-    "Prefixes/Attachments/Pasted image 20250329142448.png",
     "LaTeX_papers/Discrete Structures/HW responses/HW7 response.synctex(busy)",
-    "Untitled.md",
     "LaTeX_papers/Discrete Structures/HW responses/HW7 response.synctex.gz",
     "LaTeX_papers/Discrete Structures/HW responses/HW7 response.pdf",
     "LaTeX_papers/Discrete Structures/HW responses/HW7 response.aux",
@@ -286,9 +304,7 @@
     "Study Notes/Linux/Kali Linux/Network Recon.md",
     "Study Notes/Economics/Principles of Economics by G. Mankiw.md",
     "books/Data struct and algo/Introduction.to.Algorithms.4th.pdf",
-    "Study Notes/Math Notation in Markdown Cheatsheet.md",
     "books/the learning system.pdf",
-    "Study Notes/markdown-cheat-sheet.md",
     "Study Notes/Computers/mySQL/SQL.md",
     "Study Notes/Computers/Python/Introduction to Python.md",
     "Study Notes/Computers/Python/Data Types Examples.md",

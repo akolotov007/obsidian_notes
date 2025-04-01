@@ -1990,7 +1990,7 @@ Consider various ways of ordering the letters in the word MISSISSIPPI: IIMSSPISS
 ![[Pasted image 20250328124203.png]]
 
 
-## The Binomial Theorem and Pascal's Formula
+## 9.7 The Binomial Theorem and Pascal's Formula
 - In this section we derive several formulas for values of $\binom43$. The most important is *Pascal’s formula*, which is the basis for Pascal’s triangle and is a crucial component of one of the proofs of the binomial theorem. 
 - We offer two distinct proofs for both Pascal’s formula and the binomial theorem. 
 	- “algebraic” because it relies to a great extent on algebraic manipulation
@@ -2019,6 +2019,42 @@ Consider various ways of ordering the letters in the word MISSISSIPPI: IIMSSPISS
 
 **Example**
 ![[Pasted image 20250329145243.png]]
+
+### 9.8 Probability Axioms and expected Value
+![[Pasted image 20250331214742.png]]
+
+**Example**
+ - Suppose that A and B are events in a sample space *S*. If A and B are disjoint, could $P(A) = 0.6$ , $P(B) =0.8$
+	- No. Probability axiom 3 would imply that $P(A \cup B) = P(A)+P(B) = 0.6 + .08 = 1.4$, and since $1.4 > 1$ this result would violate probability axiom 1.
+
+![[Pasted image 20250331215137.png]]
+![[Pasted image 20250331215144.png]]
+
+
+![[Pasted image 20250331215212.png]]
+
+### 9.9 Conditional Probability Bayes Formula, and indep. events
+- Imagine a couple with two children, each of whom is equally likely to be a boy or a girl. Now suppose you are given the information that one is a boy. What is the probability that the other child is a boy?
+	- You can imagine that the first letter refers to the older child and the second letter to the younger. Thus the combination BG indicates that the older child is a boy and the younger is a girl.
+![[Pasted image 20250331215321.png]]
+- There are 3 combinations where one of the children is a  boy, and in one of these three combinations the other child is also a boy.  
+$$\frac{P(\text{at least one child is a boy and the other is also a boy})}{P(\text{at least one child is a boy})}= \frac{\frac{1}{4}}{\frac{3}{4}} = \frac{1}{3}$$
+
+![[Pasted image 20250331215257.png]]
+
+#### Bayes' Theorem 
+- one urn contains 3 blue and 4 gray balls 
+- second urn contains 5 blue and 3 gray balls. 
+- A ball is selected by choosing one of the urns at random and then picking a ball at random from that urn. 
+- If the chosen ball is blue, what is the probability that it came from the first urn?
+
+
+This problem can be solved by carefully interpreting all the information that is known and putting it together in just the right way. Let A be the event that the chosen ball is blue, $B_1$ the event that the ball came from the first urn, and $B_2$ the event that the ball came from the second urn. Because 3 of the 7 balls in urn one are blue, and 5 of the 8 balls in urn two are blue,
+$$P(A|B_1) = \frac{3}{7} \text{ and } P(A|B_2) = \frac{5}{8}$$
+and bc the urns are equally likely to be chosen: 
+$$P(B_1) = P(B_2) = \frac{1}{2}$$
+Moreover:
+$$P(A \cap B_1) = P(A|B_1)\cdot P(B_1) = \frac{3}{7} \cdot \frac{1}{2} = \frac{3}{14} \text{ and } P(A \cap B_2) = P(A|B_2)\cdot P(B_2) = \frac{5}{8} \cdot \frac{1}{2} = \frac{5}{16}$$
 
 
 ## Chapter 10 Theory of Graphs and Trees
