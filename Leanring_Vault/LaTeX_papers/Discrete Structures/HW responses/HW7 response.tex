@@ -1,0 +1,125 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+
+\title{HW 7}
+\date{3/28/25}
+\author{Anthony Kolotov}
+\begin{document}
+	\maketitle
+	
+
+	\begin{enumerate}
+		\item 
+		\begin{enumerate}
+			\item There are six different candidates for governor of a state. In how many different orders can the names of the candidates be printed on a ballot?
+			\subitem P(6,6) = 6! = 720
+			\item In how many different orders can five runners finish a race if no ties are allowed?
+			\subitem P (5,5) = 5! = 120
+		\end{enumerate}
+		
+		\item Six women (6W) and eight men (8M) are on the faculty of the math department in a college.
+		\begin{enumerate}
+			\item How many ways are there to select a committee of five members of the department if at least one woman must be on the committee?
+			\subitem Total committees = $\binom{14}{5}$ = $\frac{14!}{5!(14!-5!)} = 2002$
+			\subitem committees only consisting of men: $\binom{8}{5} = \frac{8!}{5!(8!-5!)} = 56$ 
+			\subitem Therefore, the number of ways to form a committee with at least 1 woman is: $2002 - 56 = 1946$
+			\item How many ways are there to select a committee of five members of the department if at least one woman and at least one man must be on the committee?
+			\subitem $\sum_{k=1}^{5} \binom{6}{k} \binom{8}{5-k}$:
+			\subitem \[
+			= \binom{6}{1} \binom{8}{4} + \binom{6}{2} \binom{8}{3} + \binom{6}{3} \binom{8}{2} + \binom{6}{4} \binom{8}{1} + \binom{6}{5} \binom{8}{0}
+			\]
+			
+			\[
+			= (6 \times 70) + (15 \times 56) + (20 \times 28) + (15 \times 8) + (6 \times 1)
+			\]
+			
+			\[
+			= 420 + 840 + 560 + 120 + 6 = 1,946
+			\]
+			
+			\[
+			\text{Answer: } 1,946 \text{ ways.}
+			\]
+			
+		\end{enumerate}
+		
+		\item How many ways are there for three (3) (distinct) penguins and six (6) (distinct) puffins to stand in a line so that:
+		\begin{enumerate}
+			\item all puffins stand together?
+			\subitem all 6 puffins + 1 penguin block = 7! = 5040
+			\item all penguins stand together?
+			\subitem 3! = 6
+			
+			\subitem 
+		\end{enumerate}
+		
+		\item A group contains $n$ men and $n$ women. How many ways are there to arrange these people in a row if the men and women must alternate?
+		\subitem n!$\times$n!
+		
+		\item 
+		\begin{enumerate}
+			\item What is the coefficient of $x^9$ in $(2 - x)^{19}$?
+			\subitem $ = \sum_{k=0}^{19}(2^{19-k})(-x)^k$
+			\subitem $x^9$ is where $k=9$: $\binom{19}{9}2^10(-1)^{-9})$
+			\subitem $\binom{19}{9}\times 1024 \times -1 = \frac{19!}{9!(10!)} \times 1024 \times -1 = -94,594,048 $
+			
+			
+			\item What is the coefficient of $x^8y^9$ in the expansion of $(3x + 2y)^{17}$? What about the coefficient of $x^8y^8$?
+			\subitem $\binom{17}{8,9}(3x)^8(2y)^9$ 
+			\subitem $\binom{17}{8}3^8 2^9$ 
+			\subitem $\binom{17}{8} = \frac{17!}{8!(9!)} = 24310$
+			\subitem $3^8 = 6561, 2^9 = 512$
+			\subitem $24310\times6561\times512 = 8,187,962,880$
+		\end{enumerate}
+		
+		\item Prove that a nonempty set has the same number of subsets with an odd number of elements as it has of subsets with an even number of elements.
+		\subitem using binomial theorem: 
+		$$(1+x)^n = \sum_{k=0}^n \binom{n}{k} x^k$$
+		\subitem if x=1:
+		\subitem$ 2^n =\sum_{k=0}^n \binom{n}{k}$ 
+		\subitem if x=-1:
+		\subitem$ 0^n =\sum_{k=0}^n \binom{n}{k} -1^k$ 
+		
+		\subitem $\sum_{\text{even k}}\binom{n}{k} - \sum_{\text{odd k}}\binom{n}{k} = 0$
+		\subitem even - odd = 0, even = odd	
+		
+		\item How many solutions are there to the equation $x_1 + x_2 + x_3 + x_4 = 18$, where each $x_i$, $1 \leq i \leq 4$ is a non-negative integer such that
+		\begin{enumerate}
+			\item $x_1 \geq 1$?
+			\subitem $x`_1 = x_1 - 1,$ so $x`_1 \leq 0 $ transforming the equation into:
+			\subitem $x`_1 + x_2 + x_3 + x_4 = 17$
+			\subitem $\binom{17+3}{3} = \binom{20}{3} = 1140$
+			
+			\item $x_i \geq 2$ for $i = 1,2,3,4$?
+			\subitem let $x`_i = x_i-2$ making the equation into: 
+			\subitem $x`_1 + x`_2 + x`_3 + x`_4 =18-8=10$
+			\subitem $\binom{10+3}{3} = \binom{13}{3} = 286$
+			
+			
+			\item $0 \leq x_1 \leq 9$?
+			\subitem 
+		
+		\end{enumerate}
+		
+		\item There are 12 questions on a Discrete Structures final exam. How many ways are there to assign scores to all the questions if the sum of these scores is 100 and each question is worth at least 5 points?
+		\subitem Let $y_i = x_i - 5 \geq 0$:
+		\subitem $y_1 + y_2 \cdots y_12 = 100 - 12(5) = 40$
+		\subitem using stars and bars:
+		\subitem $\binom{40+11}{11} = \binom{51}{11} = 3,586,825,500$
+		
+		\item There are 51 houses on a street. Each house has an address between 1000 and 1099, inclusive. Show that at least two houses have addresses that are consecutive integers.
+		\subitem there are 51 houses. 1000 and 1099 (100 possible numbers)
+		\subitem Since 51 $>$ 50 (pairs), pigeonhole principle guarantees that at one pair of houses must have consecutive numbers.
+		
+		\item Ten students $A,B, \dots, J$ are in a class. A committee of three is chosen at random to represent the class. Find the probability that:
+		\begin{enumerate}
+			\item A belongs to the committee;
+			\item Both A and B belong to the committee;
+			\item B belongs to the committee;
+			\item A or B (but not both) belongs to the committee.
+		\end{enumerate}
+		
+		
+	\end{enumerate}
+	
+\end{document}

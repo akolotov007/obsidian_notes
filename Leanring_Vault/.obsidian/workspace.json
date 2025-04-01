@@ -8,21 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "12a0eca3fd72c982",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Discrete Mathematics with Applications"
-            }
-          },
-          {
             "id": "0495e7bae2d92622",
             "type": "leaf",
             "state": {
@@ -36,8 +21,24 @@
               "icon": "lucide-file",
               "title": "A Sociology Experiment"
             }
+          },
+          {
+            "id": "c4104c46d07f2477",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Discrete Mathematics with Applications"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 205.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,10 +249,10 @@
           }
         ],
         "direction": "vertical",
-        "x": -1268,
-        "y": -81,
-        "width": 695,
-        "height": 600,
+        "x": -496,
+        "y": 503,
+        "width": 960,
+        "height": 520,
         "maximize": true,
         "zoom": 3
       }
@@ -259,28 +261,34 @@
   "active": "521cb8b6c13a530e",
   "lastOpenFiles": [
     "Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
-    "Prefixes/Attachments/Pasted image 20250326095927.png",
     "books/Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library).pdf",
-    "Prefixes/Attachments/Pasted image 20250326001418.png",
     "books/A Sociology Experiment .pdf",
+    "Prefixes/Attachments/Pasted image 20250329145243.png",
+    "Prefixes/Attachments/Pasted image 20250329145130.png",
+    "Prefixes/Attachments/Pasted image 20250329145050.png",
+    "Prefixes/Attachments/Pasted image 20250329145046.png",
+    "Prefixes/Attachments/Pasted image 20250329145025.png",
+    "Prefixes/Attachments/Pasted image 20250329143855.png",
+    "Prefixes/Attachments/Pasted image 20250329143829.png",
+    "Prefixes/Attachments/Pasted image 20250329143311.png",
+    "Prefixes/Attachments/Pasted image 20250329143247.png",
     "Study Notes/FIU/SYG2000 Intro to Sociology/A Sociology Experiment.md",
-    "22.md",
+    "Stars.md",
+    "Prefixes/Attachments/Pasted image 20250329142448.png",
+    "LaTeX_papers/Discrete Structures/HW responses/HW7 response.synctex(busy)",
     "Untitled.md",
+    "LaTeX_papers/Discrete Structures/HW responses/HW7 response.synctex.gz",
+    "LaTeX_papers/Discrete Structures/HW responses/HW7 response.pdf",
+    "LaTeX_papers/Discrete Structures/HW responses/HW7 response.aux",
+    "LaTeX_papers/Discrete Structures/HW responses/HW7 response.log",
+    "LaTeX_papers/Discrete Structures/HW responses/HW7 response.tex",
+    "22.md",
     "Study Notes/Linux/Kali Linux/Network Recon.md",
     "Study Notes/Economics/Principles of Economics by G. Mankiw.md",
     "books/Data struct and algo/Introduction.to.Algorithms.4th.pdf",
-    "Prefixes/Attachments/Pasted image 20250323143242.png",
-    "Prefixes/Attachments/Pasted image 20250323140238.png",
-    "Prefixes/Attachments/Pasted image 20250323125050.png",
-    "Prefixes/Attachments/Pasted image 20250320123228.png",
-    "Prefixes/Attachments/Pasted image 20250320112909.png",
-    "Prefixes/Attachments/Pasted image 20250320111307.png",
-    "Prefixes/Attachments/Pasted image 20250320111042.png",
-    "Prefixes/Attachments/Pasted image 20250320110903.png",
     "Study Notes/Math Notation in Markdown Cheatsheet.md",
     "books/the learning system.pdf",
     "Study Notes/markdown-cheat-sheet.md",
-    "books/Data struct and algo/Math in Minutes (Paul Glendinning) (Z-Library).pdf",
     "Study Notes/Computers/mySQL/SQL.md",
     "Study Notes/Computers/Python/Introduction to Python.md",
     "Study Notes/Computers/Python/Data Types Examples.md",
@@ -288,11 +296,6 @@
     "Study Notes/Computers/Data Structures and Algorithms/Data Structures and Algorithms made easy - Narasimha Karumanchi.md",
     "Study Notes/Computers/a.Mentors/CodingwithMosh/Data Structures and Algorithms/Data Struct and Algorithms.md",
     "Study Notes/College/Stats2023/Section 8.1 8.2 8.3.md",
-    "books/Python/Python for Data Analysis Data Wrangling with Pandas, NumPy, and IPython by Wes McKinney (z-lib.org).pdf",
-    "books/Python/illustratedguidetopython3.pdf",
-    "LaTeX_papers/Discrete Structures/HW 1 response/HW 5 response.synctex(busy)",
-    "LaTeX_papers/Discrete Structures/HW 1 response/HW 5 response.synctex.gz",
-    "LaTeX_papers/Discrete Structures/HW 1 response/HW 5 response.pdf",
     "Study Notes/CyberSecurity/MagStripes/Dave and Buster info.md",
     "Study Notes/CyberSecurity/MagStripes/MagStripes.md",
     "Study Notes/CyberSecurity/Resources.md",
@@ -303,7 +306,6 @@
     "Study Notes/Linux/Kali Linux/VIM course.md",
     "Prefixes/Canvas/Financial Accounts.canvas",
     "Prefixes/a.Daily Notes/February-10-2025.md",
-    "Prefixes/a.Daily Notes/February-8-2025.md",
     "Prefixes/Canvas/Untitled.canvas"
   ]
 }

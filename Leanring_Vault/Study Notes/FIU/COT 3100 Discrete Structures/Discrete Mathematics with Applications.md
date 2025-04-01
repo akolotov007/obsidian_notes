@@ -1898,16 +1898,21 @@ Example: Counting elements of General Union
 #### Generalized Pigeonhole Principle
 For any function f from a finite set *X* with *n* elements to a finite set *Y* with *m* elements and for any positive integer *k*, if for each $y \in Y, f^{-1}(y)$ has at most *k* elements, then *X* has at most *km* elements; in other words, $n \leq km$
 
+![[Pasted image 20250329125013.png]]
+![[Pasted image 20250329125055.png]]
+
+
 #### Theory of the Pigeon Hole Principle
 
 ![[Pasted image 20250323143242.png]]
 
-### Counting Subsets of a Set : Combinations
+
+### 9.5 Counting Subsets of a Set : Combinations
 ![[Pasted image 20250326001418.png]]
 
 **Example**
 - Consider a set of 4 ppl: Ann, Bob, Cyd, and Dan. 
-- a. Given the set {Ann, Bob, Cyd, and Dan}, each subset of size 3 is a 3-combination of its elements. List all the 3-combinations of the set. 
+- a. Given the set *{Ann, Bob, Cyd, and Dan}*, each subset of size 3 is a 3-combination of its elements. List all the 3-combinations of the set. 
 	- {Bob, Cyd, Dan} leave out Ann 
 	- {Ann, Cyd, Dan} leave out Bob 
 	- {Ann, Bob, Dan} leave out Cyd 
@@ -1922,15 +1927,100 @@ For any function f from a finite set *X* with *n* elements to a finite set *Y* w
 **Unordered Selection** -  it is only the identity of the chosen elements that matters
 
 
-**Example**
-Unordered Selections
+**Example** Unordered Selections
+
  How many unordered selections of two elements can be made from the set {0, 1, 2, 3}? 
  Solution:
 - An unordered selection of two elements from {0, 1, 2, 3} is the same as a 2-combination, or subset of size 2, taken from the set. These can be listed systematically: 
 - {0, 1}, {0, 2}, {0, 3} subsets containing 0 
 - {1, 2}, {1, 3} subsets containing 1 but not already listed 
 - {2, 3} subsets containing 2 but not already listed.
-Since the listing exhausts all possibilities there are six subsets in all. thus $\binom42 = 6$, which is the number of unordered selections of two elements from a set of four 
+Since the listing exhausts all possibilities there are six subsets in all. thus $\binom42 = 6$, which is the number of unordered selections of two elements from a set of four.
+
+**Example** Relation between Permutations and Combinations
+![[Pasted image 20250329125403.png]]
+![[Pasted image 20250329125424.png]]
+![[Pasted image 20250329125435.png]]
+
 
 ![[Pasted image 20250326095927.png]]
 
+**Example** Calculating the Number of teams
+- Choosing five members (5) from a group of twelve (12) to work as a team on a special project. How many distinct five-person teams can be chosen?
+$\binom{12}{5} = \frac{12!}{(12!-5!)5!} = \frac{12 \cdot 11 \cdot 10 \cdot 9 \cdot 8 \cdot 7!}{(5\cdot4\cdot3\cdot3\cdot2\cdot1)\cdot7!} = 11\cdot9\cdot8 =792$ 
+- Thus, there are 792 distinct 5 person teams
+
+
+The phrase **at least n** means "n or more"
+The phrase **at most n** means "n or fewer"
+
+**Example** Teams with Members of Two Types 
+- Suppose the group of twelve consists of (5) five men and  (7) seven women. 
+- a. How many five-person teams can be chosen that consist of three men and two women? 
+	- $\binom{5}{2} \cdot \binom{7}{2} = \frac{5!}{3!2!} \cdot \frac{7!}{2!5!} = \frac{5!\cdot7\cdot6\cdot5\cdot4\cdot3!}{3!\cdot2\cdot1\cdot2\cdot1\cdot5!} = 210$
+- b. How many five-person teams contain at least one man? 
+	![[Pasted image 20250329132907.png]]
+	![[Pasted image 20250329132959.png]]
+c. How many five-person teams contain at most one man?
+- ![[Pasted image 20250329133016.png]]
+
+**Example** Permutations of a Set with repeated elements
+Consider various ways of ordering the letters in the word MISSISSIPPI: IIMSSPISSIP, ISSSPMIIPIS, PIMISSSSIIP, and so on
+![[Pasted image 20250329142101.png]]
+
+![[Pasted image 20250329142152.png]]
+
+### 9.6 r-Combinations with repetition Allowed
+![[Pasted image 20250329142251.png]]
+
+**example**
+![[Pasted image 20250329142332.png]]
+
+[Stars and Bars Tutorial](https://www.youtube.com/watch?v=40HxI6Uc00Q)
+
+
+![[Pasted image 20250329142448.png]]
+
+**The Number of Integral Solutions of an Equation**
+![[Pasted image 20250329143247.png]]
+![[Pasted image 20250329143311.png]]
+
+
+#### Deciding which formula to Use
+![[Pasted image 20250328124203.png]]
+
+
+## The Binomial Theorem and Pascal's Formula
+- In this section we derive several formulas for values of $\binom43$. The most important is *Pascal’s formula*, which is the basis for Pascal’s triangle and is a crucial component of one of the proofs of the binomial theorem. 
+- We offer two distinct proofs for both Pascal’s formula and the binomial theorem. 
+	- “algebraic” because it relies to a great extent on algebraic manipulation
+	- “combinatorial” because it is based on the kind of counting arguments
+
+**example** Values of $\binom nn , \binom{n}{n-1} , \binom{n}{n-2}$
+- Regardless of what nonnegative integers are placed in the boxes, if the integer in the lower box is no greater than the integer in the top box, then
+- ![[Pasted image 20250329143829.png]]
+![[Pasted image 20250329143855.png]]
+
+
+### Pascal's Triangle 
+![[Pasted image 20250329145050.png]]
+
+![[Pasted image 20250329145025.png]]
+
+**Example** Deriving New Formula's from Pascal's Formula
+![[Pasted image 20250329145130.png]]
+
+
+### The Binomial Theorem 
+- In algebra a sum of two terms, such as $a+b$, is called a **binomial**. 
+- The binomial theorem gives an expression for the powers of a binomial $(a+b)^n$, for each nonnegative integer *n* and all real numbers *a* and *b*
+![[Pasted image 20250328124437.png]]It is instructive to see two proofs of the binomial theorem: an algebraic proof and a combinatorial proof. Both require a precise definition of integer power.
+![[Pasted image 20250328124533.png]]
+
+**Example**
+![[Pasted image 20250329145243.png]]
+
+
+## Chapter 10 Theory of Graphs and Trees
+
+### 10.1 Trails, Paths and Circuits

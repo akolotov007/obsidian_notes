@@ -1156,21 +1156,155 @@ Gender and sexuality are not simply unchanging facts of biology, but social rela
 ## Chapter 7 Race and Ethnicity 
 
 ### Why are we still talking about race?
-#### Race and Ethnicity 
+- in 2008, Obama was elected and people thought that the conversation about race would end.
+	- he faced continuous questioning whether he was born in the US and lying about his religion 
+
+#### Race and Ethnicity
+- Article I, Section 2 of the US constitution requires an "enumeration" of the population - **census**
+**Race** - a system that humans created to classify and stratify groups of people based mostly on skin tone.
+-  has been used to create, maintain, and enhance group distinctions and disparities
+**Ethnicity** - common culture, religion, history, or ancestry shared by a group of people
+
+![[Pasted image 20250328105046.png]]
+
+**one-drop rule** -  A custom that a person who had any African ancestry was classified as Black.
+
+The categories we create to classify race are sometimes quite persistent, but they can be interpreted in many different ways and—as the Census example shows—the categories can change.
+
 #### Are race and ethnicity real? 
+Sociologists think of race as a:
+**social construct** - a concept that humans invented and gave meaning to in order to understand or justify some dimension of the social world
+- Differences in skin tone or other physical markers have been used for centuries to explain differences or inequalities between groups and to justify treating groups of people differently.
 #### The "science" of race
+> Even if the best research reveals no biological or genetic differences exist that cause significant psychological, mental, or physical distinctions among races, 
+> many people believe there are innate differences between racial groups. Stereotypes lead people to think of Asians as short and intelligent, Blacks as physically superior but intellectually inferior, and Whites as the standard and epitome of the human ideal.
+
+(lol)
+> **While there are differences between racial and ethnic groups** in health, cognitive ability scores, and athletic achievements, most of these differences are driven by socialization, environmental factors, culture, and opportunities. Scientists across many disciplines reject the idea that race is rooted in biology. 
+
+**Eugenics** - the idea that we can actively improve the genetic profile of humans, led to forced sterilization of groups labeled as unfit to reproduce
+
+#### Review Sheet
+##### Key Points 
+- The concept of race implies a hierarchy among groups of people and has been used to create, maintain, and enhance group distinctions and disparities. 
+- Ethnicity can be central to an individual’s life, or may only matter in certain situations; it can also fade away over time, as individuals assimilate into the wider culture.
+- Sociologists typically think of race as a social construct. 
+- Research reveals no biological or genetic basis for the concept of race, yet there continues to be widespread belief in the existence of innate differences between racial groups.
+
+##### Key Terms
+- **Census** – A count of the entire population. 
+- **Race** – System humans created to classify groups of people based mostly on skin tone. 
+- **Ethnicity** – Common culture, religion, history, or ancestry shared by a group of people. 
+- **One-drop rule** – A custom that a person who had any African ancestry was classified as Black. 
+- **Social construct** – A concept humans invent and given meaning to in order to understand or justify the social world. 
+- **Eugenics** – Idea that we can actively improve the genetic profile of humans.
+
+
 ### Explicit and Implicit Bias
+**phenotype** - the set of our visible features or characteristics, like the color of our skin, hair, and eyes. 
+- The phenotype is affected by both genetics and our environment, and most individuals’ phenotypic features change over their lives. 
+
+
+In studies, both White and Black children prefer to play with White dolls. In 2005, Kiri Davis replicated the study, with similar results
 #### Implicit bias  
+
+**bias** -  tendency to view things in a particular way, regardless of the details of the specific situation
+**implicit bias** -  is the association our minds make between seemingly unrelated things ; it is subconscious 
+**explicit bias** - bias that we are openly and consciously aware of.
+
 #### Stereotypes and Prejudice
+
+**stereotypes** - widely-shared perceptions about the personal characteristics, tendencies, or abilities of members of a particular group, like intelligence, personality, physical features, preferences, aggressiveness, or criminality. 
+- he Irish are rowdy drunks. 
+- Jews are good with money but cheap. 
+- Asians are studious and good at math. 
+- African Americans are athletic and aggressive.
+
+**prejudices** - preconceived beliefs, attitudes, and opinions about members of a group
+
+**group threat theory**  -  to think of another group as an economic, political, or cultural threat
+
+**ultimate attribution error** -  tendency to perceive undesirable characteristics or behaviors exhibited by members of another group as an innate or inherent part of their personality or essence
+
+**cognitive dissonance** - a psychological state in which our preexisting ideas do not match what we see with our own eyes
+- When we experience cognitive dissonance, our natural tendency is to avoid the mental conflict and find a way to explain the anomaly. 
+	- Thus, if someone from a group we view negatively does something we view as positive, we interpret them as exceptions; their existence doesn’t undermine our prejudiced beliefs about their group.
+
+**contact theory** - how interaction with members of other groups affects prejudices
+- *Gordon Allport's contact theory* argues that interaction and exposure can be beneficial, but only under specific conditions: 
+- the interaction has to occur in a collaborative, voluntary, and non-competitive space
+- we must interact multiple times, not just once; our interaction must be personal, informal, and one-on-one
+- the interaction should be legal and the setting must allow participants to interact as equals
+
 #### A sociological approach toward stereotypes
+ > Think of people as individuals, instead of projecting stereotypes onto them. Recognize that most of us, from every race and ethnicity, have unconscious biases that affect how we perceive others. And finally, be aware of the consequences of stereotypes, a topic we’ll turn to next.
+
+
+#### Review Sheet
+##### Key Points 
+- Research from Drs. Kenneth and Mamie Clark concluded that the conditions of segregation damaged Black children’s self-esteem and self-concept, and that racial identity and self-awareness develop as early as age 3. 
+- Implicit bias is the mind’s way of quickly making sense of our social interactions. 
+- Individual prejudices are often driven by our views about the groups to which people belong and where those groups rank, relative to our own, within the social and economic hierarchy. 
+- Positive characteristics exhibited by members of a group we see negatively are more likely to be attributed to external factors like exceptional schooling.
+- Be suspicious of the idea that stereotypical behavior or characteristics are “natural” or inherent; think about potential explanations for common behaviors or characteristics. 
+##### Key Terms 
+- **Phenotype** – The set of our visible features or characteristics, like the color of our skin, hair, and eyes. • Implicit bias – Associations our minds make between seemingly unrelated things. 
+- **Stereotypes** – Widely-shared perceptions about the personal characteristics, tendencies, or abilities of individual member of a particular group, like intellectual ability, personality, physical features, preferences, aggressiveness, or criminality. 
+- **Prejudices** – Preconceived beliefs, attitudes, or opinions about members of another group.
+- **Group threat theory** – Argues that prejudices grow stronger if we begin to think of another group as an economic, political, or cultural threat.
+- **Ultimate attribution error** – Psychological phenomenon in which undesirable characteristics exhibited by members of another group are perceived as innate. 
+- **Cognitive dissonance** – Psychological state in which preconceived ideas do not align with what we see with our own eyes. 
+- **Contact theory** – Helps explain how interaction with members of other groups affects prejudicial beliefs.
+
 
 ### Racism and Discrimination
 #### Racism in individual and institutions
 #### Affirmative Action
 
+*skipped, due to time constraints*
+
+
+#### Review Sheet 
+##### Key Points
+- Racism doesn’t just live in individuals; it lives in institutions like schools, workplaces, our housing market, our criminal justice system, and our political system. 
+- Although the Bill of Rights protected the rights and liberties of minority groups in the United States, Black people were not considered to be full citizens according to our founding documents. 
+- Government programs designed to provide educational opportunities, jobs, home mortgages, economic security, and a secure retirement were often targeted toward the White population and often excluded non-White.
+- A large-scale social movement centered around protest, civil disobedience, and legal battles laid the groundwork for major advances in voting and civil rights. The legal basis for segregated neighborhoods and schools finally began to break down with the passage of major legislation like the Civil Rights Act of 1964 and the Fair Housing Act of 1968. 
+- Affirmative action has been used to encourage or require organizations, universities, and public agencies to consider factors like race in decisions about which contractors to use, job candidates to hire, or students to admit
+
+##### Key Terms
+- **Audit study** – Sociological method in which applicants are matched according to all characteristics that would make them more or less attractive and then sent out as pairs to apply for various services or products. 
+- **Racism** – A set of beliefs, ideologies, or institutional practices that are based on the idea that a specific racial group is biologically or culturally inferior to another racial group. 
+- **Discrimination** – Unjust treatment of groups of people
+- **Institutional racism** – Idea that our nation’s core institutions, like the legal, educational, and criminal justice systems, are embedded with racial biases and preferences that recreate and maintain racial inequality. 
+- **Affirmative action** – Policies or programs that seek to rectify past discrimination through active measures to ensure equal opportunity now
+
 ### The Persistence of Racial Inequality 
 #### Trends in racial inequality 
-#### Understanding the persistence of racial inequality 
-#### A moment of change
+![[Pasted image 20250328112907.png]]
 
+#### Understanding the persistence of racial inequality 
+Throughout American history, race has been used to justify a hierarchy based on skin color and ancestry. It has fooled people into thinking that success and failure are driven by psychological, genetic, intellectual, biological, and cultural differences between racial or ethnic groups
+
+...to argue that there is something about the culture of the Black population that impairs their outcomes in life or their ability to get ahead
+- Black Americans have higher rates of single parenthood than other racial and ethnic groups, and children raised by single parents are much more likely to grow up in poverty.
+- But it’s a mistake to think of culture as a natural, unchanging feature of a group
+- William Julius Wilson analyzed historical data on urban labor markets to show how shifts in the  jobs available to African American men from 1950-1980s created widespread economic dislocation leading to fewer "marriageable” men who could support their families with steady employment.
+- Over time, rates of joblessness rose and the rate of single-parent families skyrocketed, along with use of welfare benefits. 
+- This happened to all racial and ethnic groups, but it was particularly severe for African Americans because they had fewer alternative job options when manufacturing jobs disappeared.
+
+#### Review Sheet
+##### Key Points 
+- Whites had thirteen times as much wealth as Black Americans in the years after the Great Recession, the largest gap since the late 1980s. 
+- Despite improvements in some areas like educational attainment, there is still tremendous racial inequality in the U.S., exemplified by persistent gaps in the life expectancy of African Americans and Whites. 
+- Throughout U.S. history, race has been used to justify a hierarchy based on skin color and heritage. 
+- The persistence of discrimination is undoubtedly one reason why racial inequality has not gone away over time. 
+- Black Americans have been treated differently than any other racial or ethnic group throughout U.S. history, and it’s impossible to understand racial inequality today without considering this history.
+- When we study cultural or behavioral differences between groups, we must focus on how culture emerges and how larger forces help explain behaviors that may seem counterproductive, or even destructive, from the outside
+##### Key Terms
+- **Life expectancy** – Statistical measure indicating how long people can expect to live, on average.
+
+
+
+## Chapter 8 Sociology of Families 
 
