@@ -1308,3 +1308,261 @@ Throughout American history, race has been used to justify a hierarchy based on 
 
 ## Chapter 8 Sociology of Families 
 
+### What makes a family?
+
+There isn't a single definition of what a family is, based on the differences per cultures.
+
+**family** - refers to a group of people who are connected by blood, a sexual relationship or the law
+
+You can't control who is born into your family, but you do have some control over who makes up our family
+
+**kinship** - most basic form of human relationship, includes relationships defined by blood, affinity (affection) and adoption. 
+
+
+How do we create a family?
+- **marriage** - a socially sanctioned union that includes legal rights and responsibilities of the spouses to each other, their children, and the larger society.
+- **adoption** - process of parent(s) choosing to have a legal parent-child relationship with a child who isn't related to them by blood
+
+**blended families** - a family with a step-parent, step-sibling, or half-sibling, has been on the rise. 
+
+
+**matrilineal** - society determines kinship btwn generations through the mother's line.
+**patrilineal** -  societies determine kinship, names, property, and titles through the male line
+
+
+some norms are considered **universal** - exist in virtually all societies 
+- **incest taboo** - prohibition against sexual activity between relatives.
+- **longitudinal data** - gathered at different points in time
+
+**polygamy** - multiple spouses at the same time
+- **polygyny** - one man, multiple wives
+- **polyandry** - one woman has multiple husbands
+
+#### "Traditional families" and the nostalgia trap
+
+**nuclear family** - working father, stay at home mom, and two children
+- usually white and middle class
+- a "perfect" family that realistically doesn't exist
+
+#### Evolution of the American family
+**companionate affection** - a deep emotional commitment
+
+![[Pasted image 20250401152320.png]]
+
+sociologists debate how to interpret family change.
+- David Popenoe argues that the family continues to weaken.
+	- culture places more focus on self-fulfillment than families
+
+#### Divorce and the typical American Family
+
+**divorce** - legally recognized termination of a marriage
+- **no-fault divorce** -  allowed couples to divorce without having to prove that one of them broke their marriage vows or acted irresponsibly
+
+**gray divorce** - divorce rates of those 50 years or older
+
+
+#### Review Sheet
+##### Key Points
+- The configuration of a family varies over time and across cultures. 
+- There is no such thing as a “traditional” family – throughout history people have lived in diverse family forms.
+- Marrying for love is a modern idea, and by no means a cultural universal. 
+- As societies change, so do families; family diversity is on the rise. There is no longer a single, dominant family form.
+- 69% of American children now live in families with two parents, making it the most common family arrangement.
+- The second-most-common family arrangement is children with a single mother (23%). 
+- The divorce rate has been declining for the last 40 years, and hit a low in 2018.
+
+##### Key Terms
+- **Family** – A group connected by blood, sexual relationship, or the law. 
+- **Marriage** – Socially-sanctioned union that includes rights and responsibilities of the spouses to each other, their children, and the larger society.
+- **Adoption** – Process of parents voluntarily choosing to have a legal parent-child relationship with a child that is not related by blood. 
+- **Blended family** – Family with a step-parent, step-sibling or half-sibling. 
+- **Matrilineal society** – Determines kinship, names, property, and titles through the female line.
+- **Patrilineal society** – Determines kinship, names, property, and titles through the male line. 
+- **Universal norm** – A norm that exist in virtually every society. 
+- **Incest taboo** – Cultural prohibition against sexual relations between people who are related to one another.
+- **Longitudinal data** – Data gathered at different points in time. 
+- **Polygamy** – Having multiple spouses at the same time. **Polygyny** – One man has multiple wives at the same time.
+- **Polyandry** – One woman has multiple husbands at the same time. 
+- **Nuclear family** – A married couple and their dependent children.
+- **May-December relationship** – Relationship in which there is a large age gap between partners. 
+- **Companionate affection** – Deep emotional commitment.
+- **Divorce** – Legally-recognized termination of a marriage.
+- **No-fault divorce** – marriage dissolutions in which neither spouse is required to prove the fault of the other
+- **Gray divorce** – Divorce over the age of 50
+
+### Meeting Mating and Multiplying - Or Not
+
+#### Mate selection in the 21st century 
+**social integration** - the degree to which people are connected to each other and to social institutions
+- provides us with connections to potential mates
+
+many people still meet their partners through friends, yet in the last decade online dating has grown exponentially.
+
+**thin market** - the cost to finding potential partners presents a barrier to forming relationships
+- LGBTQ+ ppl have benefited from online dating
+
+> the OkCupid data point to clear racial preferences in responses. When men do the asking, White men are more likely to get responses from women of all races; Black and Asian men are far less likely. When women do the asking, men are dramatically less likely to respond to Black women. 
+> The OkCupid data also echoes what we see more broadly in American relationships: all groups say they think interracial relationships are theoretically acceptable, but Whites are the least likely to actually be in an interracial relationship.
+
+**hookup** - sexual encounter characterized by a lack of longstanding commitment
+- people are delaying marriage
+- increasing number of people spend their early adulthood in college, with fewer rules than they've ever had before.
+
+still **double standard** for sexual behavior in hookups:
+- women’s reputations still suffer more for engaging in hook-ups than men’s do. And Bogle’s female respondents frequently said they wanted relationships, because hook-ups usually led to “nothing.”
+-  research shows that heterosexual hook-ups are less likely to lead to an orgasm for women than sex in relationships does, in part because both partners are more dismissive of women’s pleasure in hook-ups, but believe strongly in women’s entitlement to sexual pleasure within a relationship.
+
+#### The cohabitation revolution 
+
+**cohabitation** - living together
+- most common from of romantic relationship where people live together
+- national survey data have documented a **cohabition effect** - marriages that begin with cohabitation are more likely to end in divorce.
+
+**relationship inertia**  - some research says that cohabition encourages people to "slide" into marriage, rather than deciding to marry
+
+#### The wedding industrial complex 
+
+weddings cost in 2017 was almost $26,000, with median around $14,000
+
+**wedding industrial complex** -  merging of industry with social rituals surrounding marriage
+
+as 20th century progressed, weddings became more surrounded by...
+**consumer rites** -elaborations of older customs as businesses attempted to create new markets for their services and products. 
+
+**heteronormative** -  reflecting the attitude and assumption that heterosexuality is normal and natural. 
+
+#### Fertility and reproduction
+
+families are now smaller than they were in previous generations
+- women are spending more time in school and work may reduce willingness to have children
+- improved (long term) contraceptives
+- marriage rates is at an all time low
+
+**fertility rates** - births per woman
+- declined in many countries around the world
+
+#### Review Sheet
+##### Key Points
+- Finding a mate through face-to-face means is getting more difficult due to increasing societal complexity. 
+- Mate selection in the 21st century is characterized by online dating apps. 
+- Mating responses online are subject to the same sets of prejudices and preferences that sociologists have noted for generations. 
+- OKCupid reports that among their users, only 43% of men and 17% of women say they enjoy meaningless sex compared to 48% of men and 27% of women in 2008. 
+- Increasing numbers of couples are choosing to live together instead of marrying. 
+- Over 12 million unmarried partners live together in the United States. 
+- Many of the modern rituals we associate with weddings stem from commercial, rather than cultural, interests. The mean cost of a wedding is nearly $26,000. 
+- Families are smaller than ever before, and more women are having children later than ever. 
+- The teen birth rate has hit historic lows due to more consistent and effective use of birth control.
+
+##### Key Terms
+- **Social integration** – Degree to which people in a community have connections to one another’s daily lives. 
+- **Double standard for sexual behavior** – Women are judged more harshly than men are for the same sexual behavior. 
+- **Cohabitation revolution** – Growth in number of couples living together instead of getting married. 
+- **Cohabitation effect** – Phenomenon in which couples who cohabit before marriage are more likely to divorce. 
+- **Wedding industrial complex** – Merging of capitalist industries with social and cultural marriage rituals. 
+- **Consumer rites** – Elaborations of older customs as businesses attempted to create new markets for their goods and services. 
+- **Heteronormativity** – Assumption or attitude that heterosexuality is the normal and natural form of sexuality. 
+- **Fertility rate** – Births per woman.
+
+### Institutional and interpersonal challenges to families
+
+#### The division of household labor
+**breadwinner-homemaker model** - a gendered labor arrangement in which one partner (usually the man) worked outside the home to earn money, and another partner (usually the woman) stayed at home to do the housework, childcare, and other household labor. 
+
+**dual-earner arrangement** - both spouses have wage-earning jobs
+- women after work would do a *second shift*, that is taking care of the housework and children
+
+![[Pasted image 20250402064135.png]]
+
+ > study of 80 gay and lesbian partners showed that lesbian partners reported more tasks were done equally by both women, compared to households with two male partners. 
+
+there is a greater desire to have an equal division of labor among couples, and of the newer generation
+#### Parenting in the modern world 
+public policy can support parenting, or provide hurdles to raising children 
+- *national paid leave*
+
+**parental leave** - may be provided for both or either parent, depending upon the country. 
+
+**Maternity leave** -  provides protected leave for women who have just given birth (or adopted children, in some countries). 
+**paternity leave**, which is usually shorter than maternity leave.
+
+> different social classes raise their children differently
+> Middle class - nurtures child's talent and educational development 
+> working class and poor - give more free time to kids, and trust school to foster their childs' success.
+
+#### Intimate-partner violence
+**intimate partner violence (IPV)** - physical violence, sexual violence, stalking and psychological aggression (including coercive acts) by a current or former intimate partner
+- can be thought about as a...
+**public health crisis** -  a complex phenomenon that arises because of cultural norms and social policies around gender, inequality, and violence. 
+
+4 main types of **IPV**:
+1. *physical violence* - intentional use of physical force with the potential for causing death, disability, injury, or harm
+2. *Sexual violence* -  sexual acts that occur without consent and threats of or intimidation or pressure to engage  
+3. *stalking* - “a pattern of repeated, unwanted, attention and contact that causes fear or concern for one’s own safety or the safety of someone else
+4. *psychological aggression*  - or communicating with a person (by speaking to them or otherwise) with the purpose of hurting or controlling them, including name-calling, coercion, exploitation, and gas-lighting
+
+
+#### Divorce and remarriage 
+divorce causes many negative effects for a family.
+- greatly affecting children, with many experiencing fear, shame, aggression and resentment towards their parents, as well as declining academic success
+
+men and women remarry within 5 years of divorce.
+ - over 55, 67% remarry
+
+#### Review Sheet
+##### Key Points
+- Studies have consistently found that women in heterosexual relationships do a disproportionate share of housework on top of their wage-earning jobs. 
+- Same-sex couples generally have a more equitable division of household labor. 
+- National-level policies on family leave affect how people parent: since the U.S. has no guaranteed paid parental leave, parents tend to go back to work sooner than they’d like. 
+- Globally, about 35% of women have experienced IPV. 
+- In the U.S., about 24 people per minute are victims of rape, physical violence, or stalking by an intimate partner. 
+- In unhappy or abusive marriages, divorce may result in better emotional outcomes for former spouses.
+- 67% of divorced people over 55 get remarried.
+
+#### Key Terms
+- **Breadwinner-homemaker model** – One partner (usually the man) worked outside the home to earn money, and another partner (usually the woman) stayed at home to do the housework, child care, and other household labor.
+- **Dual-earner arrangement** – Both partners have wage-earning jobs outside the home. 
+- **The Second Shift** – The extra amount of household work a woman does when returning home from her wage-earning job. 
+- **Maternity leave** – Leave for women who have just given birth (or adopted children, in some countries). 
+- **Paternity leave** – Leave for new fathers. 
+- **Parental leave** – Leave for both or either parent(s), depending upon the country. 
+- **Intimate-partner violence** – Physical violence, sexual violence, stalking, and psychological aggression (including coercive acts) by a current or former intimate partner. 
+- **Public health crisis** – Complex health-related problem that affects people over broad geographical areas. 
+- **Divorce** – Legally-recognized termination of a marriage.
+### The Future of Families
+
+how will future families look like?
+there are 4 big areas of change, predicts the OECD
+1. Economic: 
+	- **socioeconomic disparities**
+	- economic inequality is **entrenched** - deeply ingrained in our social institutions 
+	- **missing middle** - the middle class disappearing 
+	- 
+2. Demographic
+	- marriage between mixed-race couples is at all time high
+	- many families have parents that are Illegal immigrants but have children born in the US
+3. Sociocultural 
+	- Interpersonal relationships and boundaries are evolving
+	- same sex marriage is now widely accepted
+4. Technological
+	- people are having fewer kids, and are living longer
+	- **multi-generational households** - families in which multiple generations live under the same roof
+	- **sandwich generation** - a group of people who are responsible for the care of both children their elderly parents
+
+#### Review Sheet
+#### Key Points
+- Families are constantly changing. 
+- The OECD identifies four key areas of change: economic, demographic, sociocultural, and technological. 
+- In the last 40 years, those with the most wealth saw their net worth rise; it fell for everyone else. 
+- Same-sex marriage became legal throughout the U.S. in 2014. 
+- Families are dynamic, constantly evolving, and shaped by power dynamics.
+
+#### Key Terms
+- **Socioeconomic disparities** – Inequality rooted in social and economic conditions such as income and wealth, social mobility, access to affordable health care and childcare, and other factors.
+-  **Entrenched inequality** – Inequality deeply ingrained in social, economic, and political institutions.
+- **Missing middle** – Tendency of American politics to focus on socioeconomic extremes, leaving out the middle class.
+- **Deportation** – When a non-citizen is legally forced to leave a country. 
+- **Multi-generational households** – Multiple generations live under the same roof. 
+- **Sandwich generation** – People responsible for the care of both their children and their elderly parents.
+
+## Sociology of Education
+ 

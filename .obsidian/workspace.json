@@ -4,39 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "149a80b6597d56dc",
+        "id": "8541c9e3b2af4504",
         "type": "tabs",
         "children": [
           {
-            "id": "7803b2a1dd2d2a7c",
+            "id": "dc5aad2d43e3393a",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Leanring_Vault/books/A Sociology Experiment .pdf"
+                "file": "Leanring_Vault/books/cybersec/Getting Started Becoming a Master Hacker Hacking is the Most Important Skill Set of the 21st Century (Occupytheweb) (z-lib.org).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "A Sociology Experiment"
-            }
-          }
-        ]
-      },
-      {
-        "id": "47f0a3f661f3edeb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "dd09a2ca3d0552f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Leanring_Vault/Study Notes/FIU/SYG2000 Intro to Sociology/A Sociology Experiment.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "A Sociology Experiment"
+              "title": "Getting Started Becoming a Master Hacker Hacking is the Most Important Skill Set of the 21st Century (Occupytheweb) (z-lib.org)"
             }
           }
         ]
@@ -169,13 +149,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leanring_Vault/Study Notes/FIU/SYG2000 Intro to Sociology/A Sociology Experiment.md",
+                "file": "Leanring_Vault/books/cybersec/Getting Started Becoming a Master Hacker Hacking is the Most Important Skill Set of the 21st Century (Occupytheweb) (z-lib.org).pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of A Sociology Experiment"
+              "title": "Outline of Getting Started Becoming a Master Hacker Hacking is the Most Important Skill Set of the 21st Century (Occupytheweb) (z-lib.org)"
             }
           }
         ],
@@ -198,14 +178,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dd09a2ca3d0552f3",
+  "active": "dc5aad2d43e3393a",
   "lastOpenFiles": [
+    "Leanring_Vault/books/cybersec/Linux Basics for Hackers- getting started with networking, scripting and security in kali.pdf",
+    "Leanring_Vault/books/cybersec/Getting Started Becoming a Master Hacker Hacking is the Most Important Skill Set of the 21st Century (Occupytheweb) (z-lib.org).pdf",
     "Leanring_Vault/books/A Sociology Experiment .pdf",
+    "Leanring_Vault/Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20250402102325.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20250402094522.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20250402094427.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20250402094227.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20250402094211.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20250402094120.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20250402091901.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20250402091846.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20250402091652.png",
+    "Leanring_Vault/Prefixes/Attachments/Pasted image 20250402091626.png",
+    "Leanring_Vault/books/Discrete Mathematics with Applications Fifth Edition (Susanna S. Epp) (Z-Library).pdf",
     "Leanring_Vault/Study Notes/FIU/SYG2000 Intro to Sociology/A Sociology Experiment.md",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20250326161510.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20250326161502.png",
     "Leanring_Vault/LaTeX_papers/Discrete Structures/HW responses/HW 6 response.pdf",
-    "Leanring_Vault/LaTeX_papers/Discrete Structures/HW responses/HW3_figures.png",
     "Leanring_Vault/books/Data struct and algo/Math in Minutes (Paul Glendinning) (Z-Library).pdf",
     "Leanring_Vault/books/Data struct and algo/Introduction.to.Algorithms.4th.pdf",
     "Leanring_Vault/books/Data struct and algo/Data Structure and Algorithmic Thinking with Python Data Structure and Algorithmic Puzzles (Narasimha Karumanchi) (Z-Library).pdf",
@@ -219,18 +210,8 @@
     "Leanring_Vault/Random Notes/For College/Civil Literacy Exam Prep/1. Basics of US History and US Gov.md",
     "Leanring_Vault/Study Notes/Money/roadmap.md",
     "Leanring_Vault/Study Notes/Economics/Principles of Economics by G. Mankiw.md",
-    "Leanring_Vault/books/Economics and Finance/Principles of Economics, 10e (N. Gregory Mankiw) (Z-Library).pdf",
-    "Leanring_Vault/Study Notes/FIU/COT 3100 Discrete Structures/Discrete Mathematics with Applications.md",
     "Leanring_Vault/Prefixes/a.Daily Notes/February-10-2025.md",
     "Leanring_Vault/Prefixes/Canvas/Financial Accounts.canvas",
-    "Leanring_Vault/Prefixes/Canvas",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20250211172924.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20250210134238.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20250210132130.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20250210132117.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20250210130954.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20250209223703.png",
-    "Leanring_Vault/Prefixes/Attachments/Pasted image 20250209222900.png",
     "Leanring_Vault/Study Notes/Math Notation in Markdown Cheatsheet.md",
     "Leanring_Vault/Study Notes/markdown-cheat-sheet.md",
     "Untitled.md",
