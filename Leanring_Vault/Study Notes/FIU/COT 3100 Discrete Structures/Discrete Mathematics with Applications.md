@@ -1758,6 +1758,8 @@ You can count virtually anything, along with occurrences of a given thing happen
 - finding the probability of getting a set of specific cards from a card deck
 
 
+![[Pasted image 20250402072442.png]]
+
 ### 9.2 Possibility Trees and the Multiplication Rule
 A **tree structure** is a useful tool for keeping systematic track of all possibilities in situations in which events happen in order. 
 
@@ -1771,7 +1773,7 @@ Consider the following example. Suppose a computer installation has four input/o
 ![[Pasted image 20250206144656.png]]- 
 - the total number of way to pair two types of units is the same as the number of branches of the tree which is:
 	- $4\times3 = 12$
-	- 
+
 ![[Pasted image 20250206144800.png]]
 
 Example:
@@ -1844,6 +1846,8 @@ $n(n-1)(n-2)\dots 2\times 1 = n!$
 ![[Pasted image 20250206180933.png]]
 ![[Pasted image 20250206180951.png]]
 
+
+
 ![[Pasted image 20250206181053.png]]
 
 
@@ -1875,7 +1879,7 @@ Example: Counting elements of General Union
 	- ![[Pasted image 20250206182531.png]]
 6. How many students took precalculus and calculus but not Python? How many students took precalculus but neither calculus nor Python?
 - ![[Pasted image 20250206182612.png]]
-- For example, since nine students took both precalculus and calculus and six took all three courses, 9 2 6 5 3 students took precalculus and calculus but not Python. Similarly, since 16 students took precalculus and Python and six took all three courses, 16 2 6 5 10 students took precalculus and Python but not calculus. 
+- For example, since nine students took both precalculus and calculus and six took all three courses, 9 -6= 3 students took precalculus and calculus but not Python. Similarly, since 16 students took precalculus and Python and six took all three courses, 16- 6 = 10 students took precalculus and Python but not calculus. That leaves 11 students who took precalculus but neither of the two courses.
 
 ### 9.4 The Pigeon Hole Principle
 - A function from one finite set to a smaller finite set cannot be one-to-one: There must be at least two elements in the domain that have the same image in the co-domain.
@@ -1901,6 +1905,13 @@ For any function f from a finite set *X* with *n* elements to a finite set *Y* w
 ![[Pasted image 20250329125013.png]]
 ![[Pasted image 20250329125055.png]]
 
+**Example**
+Show how the generalized pigeonhole principle implies that in a group of 85 people, at least 4 must have the same last initial
+- 85 ppl (pigeons) and 26 (pigeon holes) possible last initials of their name 
+![[Pasted image 20250402082158.png]]
+
+
+
 
 #### Theory of the Pigeon Hole Principle
 
@@ -1909,6 +1920,7 @@ For any function f from a finite set *X* with *n* elements to a finite set *Y* w
 
 ### 9.5 Counting Subsets of a Set : Combinations
 ![[Pasted image 20250326001418.png]]
+- N choose R
 
 **Example**
 - Consider a set of 4 ppl: Ann, Bob, Cyd, and Dan. 
@@ -1970,14 +1982,34 @@ Consider various ways of ordering the letters in the word MISSISSIPPI: IIMSSPISS
 
 ![[Pasted image 20250329142152.png]]
 
+**Example** Advice on counting, and the error of double counting 
+- A group consists of five men and seven women. How many teams of five contain at least one man?
+*Incorrect solution*
+- Imagine constructing the team as a two-step process:
+- Step 1: Choose a subset of one man from the five men.
+- Step 2: Choose a subset of four others from the remaining eleven people. Hence, by the multiplication rule, there are $\binom{5}{1} \cdot \binom{11}{4} = 1,650$ five-person teams that contain at least one man.
+*Analysis of the Incorrect Solution*
+- some teams are counted more than once:
+- suppose men : Anwar, Ben, Carlos, Dwyane, Ed
+- suppose women: Fumiko, Gail, Hui-Fan, Inez, Jill, Kim, and Laura
+- *outcome step 1*: Anwar
+- *outcome step 2*: Ben, Gail, Inez, and Jill
+In this case the team would be {Anwar, Ben, Gail, Inez, Jill}. But another possible outcome is:
+- *outcome step 1*: Ben
+- *outcome step 2*: Anwar, Gail, Inez, and Jill
+gives the team {Anwar, Ben, Gail, Inez, Jill}. 
+Thus this one team is given by two different branches of the possibility tree, and so it is counted twice
+
+
 ### 9.6 r-Combinations with repetition Allowed
 ![[Pasted image 20250329142251.png]]
 
 **example**
 ![[Pasted image 20250329142332.png]]
 
+Stars and  Bars : the quicker way to count r-combinations with repetition allowed 
 [Stars and Bars Tutorial](https://www.youtube.com/watch?v=40HxI6Uc00Q)
-
+![[Pasted image 20250402084244.png]]
 
 ![[Pasted image 20250329142448.png]]
 
@@ -2000,6 +2032,18 @@ Consider various ways of ordering the letters in the word MISSISSIPPI: IIMSSPISS
 - Regardless of what nonnegative integers are placed in the boxes, if the integer in the lower box is no greater than the integer in the top box, then
 - ![[Pasted image 20250329143829.png]]
 ![[Pasted image 20250329143855.png]]
+**example** substituting into the binomial theorem 
+1. $(a+b)^5$
+	- $(a+b)^5 = \sum^5_{k=0} \binom{5}{k}a^{5-k}b^k=$
+	- $\sum^5_{k=1} \binom{5}{1}a^{5-1}b^1 +$
+	- $\sum^5_{k=2} \binom{5}{2}a^{5-2}b^2+$ 
+	- $\sum^5_{k=3} \binom{5}{3}a^{5-3}b^3 +$
+	- $\sum^5_{k=4} \binom{5}{4}a^{5-4}b^4$
+	- = $a^5 +5a^4b+10a^3b^2+10a^2b^3+5ab^4+b^5$
+2. $(x-4y)^4$
+- observe that $(x-4y)^4 = (x+(-4y))^4.$ Let $a=x$ and $b=(-4y)$, substitute into binomial theorem  
+- $\sum^4{k=0}\binom{4}{k}x^{4-k}(-4y)^k$
+
 
 
 ### Pascal's Triangle 
@@ -2030,8 +2074,13 @@ Consider various ways of ordering the letters in the word MISSISSIPPI: IIMSSPISS
 ![[Pasted image 20250331215137.png]]
 ![[Pasted image 20250331215144.png]]
 
+![[Pasted image 20250402090837.png]]
 
+#### Expected Value
+On average a person will lose money on the lottery, can be restated that the expected value of playing the lottery is negative.
 ![[Pasted image 20250331215212.png]]
+
+
 
 ### 9.9 Conditional Probability Bayes Formula, and indep. events
 - Imagine a couple with two children, each of whom is equally likely to be a boy or a girl. Now suppose you are given the information that one is a boy. What is the probability that the other child is a boy?
@@ -2043,6 +2092,9 @@ $$\frac{P(\text{at least one child is a boy and the other is also a boy})}{P(\te
 ![[Pasted image 20250331215257.png]]
 
 #### Bayes' Theorem 
+![[Pasted image 20250402091447.png]]
+
+**Example**
 - one urn contains 3 blue and 4 gray balls 
 - second urn contains 5 blue and 3 gray balls. 
 - A ball is selected by choosing one of the urns at random and then picking a ball at random from that urn. 
@@ -2057,6 +2109,27 @@ Moreover:
 $$P(A \cap B_1) = P(A|B_1)\cdot P(B_1) = \frac{3}{7} \cdot \frac{1}{2} = \frac{3}{14} \text{ and } P(A \cap B_2) = P(A|B_2)\cdot P(B_2) = \frac{5}{8} \cdot \frac{1}{2} = \frac{5}{16}$$
 
 
+![[Pasted image 20250402091626.png]]
+![[Pasted image 20250402091652.png]]
+
+
+
+
 ## Chapter 10 Theory of Graphs and Trees
 
 ### 10.1 Trails, Paths and Circuits
+![[Pasted image 20250402091901.png]]
+![[Pasted image 20250402091846.png]]
+
+#### Subgraphs
+![[Pasted image 20250402094120.png]]
+![[Pasted image 20250402094211.png]]
+![[Pasted image 20250402094227.png]]
+
+#### connectedness
+
+![[Pasted image 20250402094427.png]]
+![[Pasted image 20250402094522.png]]
+- *a* is the only one that is connected
+
+![[Pasted image 20250402102325.png]]
