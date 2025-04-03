@@ -1306,5 +1306,3 @@ Throughout American history, race has been used to justify a hierarchy based on 
 
 
 
-## Chapter 8 Sociology of Families 
-
