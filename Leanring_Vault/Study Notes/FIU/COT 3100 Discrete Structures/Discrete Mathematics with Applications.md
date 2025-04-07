@@ -2117,10 +2117,14 @@ $$P(A \cap B_1) = P(A|B_1)\cdot P(B_1) = \frac{3}{7} \cdot \frac{1}{2} = \frac{3
 
 ## Chapter 10 Theory of Graphs and Trees
 
+[TrevTutor Playlist](https://www.youtube.com/watch?v=HkNdNpKUByM&list=PLlF3gCVX4FZptzjfW5kAAoQK2klUWEFD6)
+
+
 ### 10.1 Trails, Paths and Circuits
 ![[Pasted image 20250402091901.png]]
 ![[Pasted image 20250402091846.png]]
 
+![[Pasted image 20250405105620.png]]
 #### Subgraphs
 ![[Pasted image 20250402094120.png]]
 ![[Pasted image 20250402094211.png]]
@@ -2133,3 +2137,59 @@ $$P(A \cap B_1) = P(A|B_1)\cdot P(B_1) = \frac{3}{7} \cdot \frac{1}{2} = \frac{3
 - *a* is the only one that is connected
 
 ![[Pasted image 20250402102325.png]]
+![[Pasted image 20250405104902.png]]
+
+
+
+#### Euler Circuits
+
+![[Pasted image 20250405105049.png]]
+![[Pasted image 20250405105900.png]]
+![[Pasted image 20250405105852.png]]
+
+Recompiled info:
+- *G* is a Euler Circuit if:
+	1. *G* is connected 
+	2. every vertex has even degree
+- Proof: If Euler circuit, then connected and even degree 
+
+
+![[Pasted image 20250405112926.png]]
+![[Pasted image 20250405112914.png]]
+
+#### Hamiltonian Circuits
+![[Pasted image 20250405113745.png]]
+- If *G* = $<V,E>$ is a graph with $|v| \geq 3$ then *G* has **Hamilton Cycle** if there is a cycle in *G* that uses every vertex
+
+![[Pasted image 20250405115033.png]]
+
+![[Pasted image 20250405115217.png]]
+
+### 10.2 Matrix Representations of Graphs
+
+#### Matrices
+- two dimensional arrays
+![[Pasted image 20250405113104.png]]
+![[Pasted image 20250405113118.png]]
+![[Pasted image 20250405113153.png]]
+![[Pasted image 20250405113200.png]]
+![[Pasted image 20250405120422.png]]
+
+#### Matrices and Directed Graphs
+![[Pasted image 20250405120459.png]]
+- if there is a directed path from one vertex to another then 1, else 0
+
+**Example**
+![[Pasted image 20250405120937.png]]
+
+#### Matrices and Undirected Graphs
+![[Pasted image 20250405122626.png]]
+- for every vertex connection 1, else 0 in the matrix
+
+![[Pasted image 20250405122711.png]]
+![[Pasted image 20250405122717.png]]
+
+#### Matrix Multiplication
+ ![[Pasted image 20250405123500.png]]
+![[Pasted image 20250405123530.png]]
+

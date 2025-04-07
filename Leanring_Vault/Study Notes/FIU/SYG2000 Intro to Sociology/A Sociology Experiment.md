@@ -1306,8 +1306,6 @@ Throughout American history, race has been used to justify a hierarchy based on 
 
 
 
-<<<<<<< HEAD
-=======
 ## Chapter 8 Sociology of Families 
 
 ### What makes a family?
@@ -1566,6 +1564,376 @@ there are 4 big areas of change, predicts the OECD
 - **Multi-generational households** – Multiple generations live under the same roof. 
 - **Sandwich generation** – People responsible for the care of both their children and their elderly parents.
 
-## Sociology of Education
- 
->>>>>>> 330d5cabce4fe04e0819374cb2cf6d903f687cea
+## Chapter 9 Sociology of Education
+**education** - the process of gaining knowledge and skills 
+![[Pasted image 20250403121458.png]]
+
+### Understanding Schools and Society
+
+**functionalist view** -  emphasizes the smooth working of the machine and, by extension, the maintenance of the social order
+- functionalists ask, How do societies make sure children learn to follow rules, become citizens, and feel they are part of something bigger than themselves and their families?
+
+*(prev definition)*
+**socialization** - the processes by which people come to share the values, morals, beliefs and ways of acting that are expected in their society.
+
+Functionalists also emphasize the **sorting** that schools do
+
+**Manifest functions** - organized functions of the institution 
+- schools is to provide students with the skills and knowledge that society needs them to have
+	- reading, writing, preforming math
+- computer literacy has also become essential in the economy, and schools are teaching it
+
+**Latent functions** - unintended or unrecognized
+- schools fulfill the latent function of providing childcare during much of the year
+
+**conflict perspective** - the idea that society is a struggle over power and that those who have power will work to hold onto it.
+
+Where functionalists see a machine, conflict theorists see a battlefield, or, at least, a chessboard.
+- **achievement ideology** - Rather than seeing school as a meritocracy, as many Americans are taught to believe, conflict theorists see it as a contest that favors the powerful
+
+**social reproduction** - those who are born into a social class more likely will remain in that social class
+
+**social capital** - he ways people can use their social connections to gain knowledge, access, and other benefits
+
+**cultural capital** -  the knowledge and skills we possess that are 1) in short supply (not everyone has them) and 2) valued by schools and other institutions
+-  Though the things middle- and upper-class children learn are not inherently superior to the cultural knowledge of poorer children, they are valued in school because they are associated with higher social class status. 
+
+**Critical Race Theory** (CRT) - Critical race theorists argue that racism and ideologies of Whiteness are deeply ingrained in U.S. society and that traditional power structures uphold White supremacy and marginalize people of color.
+- emphasis on racism as systematic and **institutionalized** built into the practices of schools, political systems, and other institutions
+- US disadvantages people of color *and* systemically advantages Whites
+
+
+#### Review Sheet
+##### Key Points
+- There are multiple ways to think about the relationship between schools and society. 
+- Functionalist theories emphasize schools’ role in keeping society running smoothly. 
+- Conflict theories highlight struggles for power within and across groups and how schools reproduce the class structure. 
+- Critical Race Theory (CRT) points to the institutionalized nature of racism and its manifestation in schools. 
+- Interactionist theories pay close attention to what happens in schools, especially everyday interactions.
+
+##### Key Terms
+- **Socialization** – Process through which people come to share the values and practices of a society. 
+- **Sorting** – Process of dividing students into groups, often based on ideas about intelligence or achievement. 
+- **Achievement ideology** – Belief that anyone can succeed through education and hard work. 
+- **Social reproduction** – Process through which schools perpetuate the class structure. 
+- **Social capital** – Resources people access through their relationships or social networks. 
+- **Cultural capital** – Knowledge, habits, and skills valued by institutions. 
+- **Institutionalized racism** – Racism that is built into policies and practices.
+
+### Reflecting and Reproducing Inequality 
+- The Black-White **achievement gap** gets the most attention, but scholars have also found gaps based on social class, ethnicity, gender, and other characteristics
+- **opportunity gap** - that focuses not on what students do or don't achieve but on the access  they have to resources (such as healthy food, reliable health care, good schools, qualified teachers, and high expectations) that lead to academic achievement
+
+#### Social Class and schools
+- **Coleman Report** - showed that family background, especially social class, was the biggest contributor to differences in student achievement—larger even than school resources
+	- children from higher-income families do better than those from lower-income families when it comes to test scores, graduation rates, and other outcomes.
+
+Poor children's variety of challenges, in and out of school:
+ - Health and Well-Being - poor children have more vision and hearing problems 
+- **food insecure**, meaning they don’t have consistent access to nutritious food.
+- poverty affects students' homes lives. Switching schools, inability to be helped by their parents since they are too busy to help them 
+- parent's education levels - college educated parents have books in their home, read to their children, and use larger vocabularies
+
+
+![[Pasted image 20250403133833.png]]
+![[Pasted image 20250403134205.png]]
+
+Does this mean all higher-income students do better than all lower-income students? No. 
+- Some low-income students will out-perform their more advantaged peers and some high-income students will perform worse than many low-income students. It’s important not to make assumptions about an individual based on larger patterns.
+
+Middle-class families were deliberate about preparing their children for future success
+- **concerted cultivation** - They reasoned with their children and encouraged them to think for themselves
+	- enrolled them in many organized activities
+	- contacted teachers, coaches, and other professionals with questions and concerns
+
+In contrast, working-class and poor parents had fewer resources, so their parenting style relied less on investing lots of time and money.
+- more direct in telling their children what to do (instead of reasoning with them)
+- enrolled them in fewer organized activities, and
+- did not question educators or health care professionals about what was best for their children
+
+**accomplishment of natural growth**
+
+#### Race, ethnicity, and schools
+
+How do you think your race has shaped your educational experiences? If you think, “it hasn’t,” think again.
+
+race is a **social construct** -  a concept people have developed and used, and its meaning can change over time and space.
+
+ **de jure segregation** - segregated by law
+**de facto segregation** - residential segregation
+
+
+- In 2017, 51% of U.S. school-age children were White, 25% were Hispanic, 14% were Black, 5% were Asian, and 4% were categorized as “two or more races.”
+
+> In fact, segregation has been on the rise across the country, undoing much of the progress that occurred in the 1970s and ’80s. Measuring segregation levels is complicated, but one method is to look at the number of schools that are “intensely segregated” (schools in which 90-100% of students are Black or Latino). In 1988, at the peak of integration, 5.7% of schools in the U.S. were in this category. By 2016, this number had more than tripled, to 18.2%.
+> This is unfortunate, because decades of research have shown that, while segregated schools have a negative impact on all students (and especially students of color), **everyone does better when schools are integrated**. Black students who attend integrated schools have higher test scores, stay in school longer, and do better in the workforce than students in segregated schools. In fact, the achievement gap has a great deal to do with segregation: the gap in test scores between White and Black students declined steadily in the 1970s and was smallest in the 1980s, at the height of integration
+
+ **double segregation** -  Schools with large numbers of Black and Latino students are also more likely to have large numbers of low-income students.
+
+![[Pasted image 20250403135812.png]]
+- School punishments also help create the “school-to-prison pipeline,” as children move out of schools into the juvenile and criminal justice systems
+
+Rosa Parks' School, their teachers:
+ - They “adultified” Black students, viewing them as though they were older, and therefore more responsible for their behavior, than other children of the same age
+
+
+![[Pasted image 20250404134348.png]]
+
+#### Gender and schools 
+
+Essentially, messages about what it means to be a girl or a boy came from adults and peers. For example, girls and boys tended to separate themselves whenever possible, sitting at different tables, lining up in separate lines, and using different spaces on the playground.
+
+**heteronormativity** - the assumption that individuals are heterosexual and that biological sex and gender identity are aligned
+
+![[Pasted image 20250404134903.png]]
+
+
+#### Review Sheet
+##### Key Points
+- Students from higher-income families generally do better in school, at least in part because of their increased access to educational opportunities. 
+- In 2017, 45% of Black students and 45% of Hispanic students attended schools where at least 75% of the students were low-income; by contrast, only 8% of White and 15% of Asian students attended such schools. 
+- Because school funding comes mostly from local property taxes, districts serving large numbers of low-income students raise less money than higher-income districts. 
+- The Supreme Court’s 1954 decision in Brown v. Board of Education made it illegal to have separate school systems for Black and White children. 
+- Progress toward integrating schools peaked in the late 1980s and has declined since then. The number of intensely segregated schools serving students of color tripled between 1988 and 2016. 
+- On average, students of color receive harsher punishments than White students, even for the same infractions. In preschool, Black students are twice as likely as Whites to receive out-of-school suspensions. 
+- Schools are important sites for the performance of gender. 
+- In recent decades, women have outpaced men in high school and college graduation. In 2018, 33% of men ages 25-29 had at least a college degree, whereas 39% of women did.
+- The rise of the LGBTQIA+ movement is reshaping gender norms and challenging schools to be more inclusive
+
+##### Key Terms
+- **Achievement gap** – Differences in academic outcomes between groups of students. 
+- **Opportunity gap** – Differences in opportunities and resources available to groups of students. 
+- **Coleman Report** – Study of U.S. schooling that identified student background as the most powerful influence on achievement. 
+- **Social construct** – A category that can take on the appearance of “scientific fact,” but is actually the product of society and culture. 
+- **De jure segregation** – Segregation of schools enforced by law. 
+- **De facto segregation** – Segregation of schools created by residential segregation. 
+- **Double segregation** – Concentration of large numbers of low-income students of color in particular schools. 
+- **Heteronormativity** – Assumption that individuals are heterosexual and that biological sex and gender expressions are aligned.
+
+### Socializing and Sorting 
+
+#### Hidden curriculum 
+
+**hidden curriculum** - about socialization. It teaches students how they should behave, how they should expect to be treated, and whose ideas are important.
+- some of the most important ideas relate to authority and power.
+- The hidden curriculum also teaches students about racial hierarchies—the relative importance and value of different racial or ethnic groups.
+
+
+> Jean Anyon found that the classrooms serving working class students were much stricter
+> Students learned to follow rules and procedures and not to question the teacher’s authority—habits that would serve them well as factory or other blue-collar workers. 
+> In contrast, classrooms serving upper-class students had more flexible rules and emphasized independent thinking, teaching the students that they were problem-solvers and leaders
+
+
+#### Tracking 
+**Tracking** - assigning students to classes based on their achievement levels 
+
+![[Pasted image 20250404140804.png]]
+- The idea behind tracking is that by dividing students into groups based on ability or achievement levels, schools can target instruction more efficiently, identify students’ natural talents, and help them develop the necessary skills and knowledge to succeed
+
+**second-generation segregation** -  or segregation inside schools that are supposedly desegregated
+
+![[Pasted image 20250404142454.png]]
+
+High-track students reported being excited and inspired by their classes, while low-track students described boredom and felt the coursework was irrelevant.
+
+
+##### Review Sheet
+- The hidden curriculum is a key mechanism of socialization within schools, teaching students about power, appropriate behavior, and their place in the world. 
+- Schools use tracking to sort students into different groups, which then affects their learning opportunities. ]
+- Race is a major factor in track placement, with students of color often ending up in classes below their ability levels.
+- Class is also a major factor in track placement. Students from the highest fifth of family incomes are about three times more likely than students from the lowest fifth of family incomes to be in high-track classes.
+
+##### Key Terms
+- **Hidden curriculum** – Unofficial messages to students that are communicated through rules, routines, arrangements of classrooms, and interactions. 
+- **Tracking** – Process of sorting students into different groups based on ideas about ability, achievement, or prospects. 
+- **Second-generation segregation** – Racial segregation within schools because of racialized patterns in tracking assignments.
+
+
+### Improving Schools Increasing Opportunity  
+**Education policy** -  decisions about a range of school issues, including funding, operations, curriculum, student assignment, and staffing
+
+many schools are funded by local and state property taxes
+- meaning richer communities fund schools more than those that are impoverished
+![[Pasted image 20250406113103.png]]
+
+#### Testing and accountability
+>Bowing to pressure from school district administrators and a system-wide emphasis on scores, teachers and administrators at dozens of Atlanta schools altered students’ answer sheets, looked at test questions in advance, and used other strategies to make sure their students did well on the tests. 
+- This emphasis on standardized testing can be traced to the federal No Child Left Behind Act of 2001
+
+pros and cons:
+- scores have improved and achievement gaps have narrowed in some areas
+- curriculum has narrowed, replaced by an emphasis on test preparation
+- schools tend to focus on "bubble" students (those closet to passing the standardized exams)
+#### School choice 
+- **charter schools** -  privately run but publicly funded schools
+	- are especially common in struggling urban districts, where frustrations with low-performing schools leave parents eager for alternatives
+
+![[Pasted image 20250406113755.png]]
+
+ although charter schools seem like the better alternative than some public schools, evidence shows that it has a mixed impact. 
+
+> Meanwhile, conversations about charter schools can get very heated, with some people using examples of strong charters to claim that they are a solution to school failure and others arguing that they drain resources from public school systems, leaving the neediest students behind. In addition, the frequency of charter school scandals—reports of schools misusing funds or closing down in the middle of the year—raises questions about how well charters are using public money.
+#### Fixing urban schools
+
+These realities include a lack of trusting relationships; frequent changes in policy, curriculum, and instructional programs; demoralization; insufficient resources; under-qualified teachers; and bureaucratic dysfunction.
+
+
+Students learned the most in schools where five “essential elements” were in place: a student-centered learning environment, positive ties between families and educators, professional capacity, ambitious instruction, and a strong leader.
+
+#### Review Sheet
+##### Key Points
+-  The federal government contributes less than 10% of school funding. 
+- Standardized testing has increased dramatically since the passage of NCLB, with mixed consequences.  Charter schools are the most popular form of public school choice. The number of students in charter schools more than quadrupled between 2004 and 2018. 
+- Some charter schools do better than traditional public schools and others do worse. 
+- Charter schools are generally more segregated than traditional public schools. Black charter school students are nearly three times more likely than Black public school students to attend a school where all or nearly all students were members of minority groups. 
+- School reform efforts should pay closer attention to social relations in low- performing schools.
+
+##### Key Terms
+- **Education policy** – Decisions about school-related issues, including funding, operations, curriculum, student assignment, and staffing. 
+- **No Child Left Behind Act** – 2001 federal law that mandated regular standardized testing and set consequences for low-performing schools. 
+- **Charter schools** – Privately run but publicly funded schools.
+
+
+## Chapter 10 Deviance, Crime and Violence
+### Interpreting Deviance 
+- Deviance - behaviors that violate social norms
+#### What does it mean to be deviant? 
+- In 2015, the U.S. Supreme Court ruled that all states must recognize same-sex marriages. And in the last decade, public opinion has more than reversed itself: Americans now favor allowing gay marriage two-to-one.
+
+-  **Folkways** - are the least serious norms
+	- They mainly refer to customs, traditions, and etiquette
+- **Mores** -  more seriously protected norms. 
+	- They reflect a deeper sense of morals and values
+- **laws** -  highly codified level of norm
+	- community agrees that violating them requires binding punishment
+
+
+#### Social control, stigma, and labeling 
+
+**social control** - the ways societies try to influence members’ behavior to maintain social order
+- Societies can exert social control:
+	- **moral panics** -  over-heated, short-lived periods of intense social concern over an issue.
+	- **moral entrepreneurs** - push for increased awareness of and concern over an issue
+
+**stigma** -  occurs when some characteristic of an individual or group is seen as inferior or undesirable and leads to social rejection
+
+**Labeling theory** -  deviance isn’t really about the act itself, but is negotiated socially through reactions to the act
+- when someone is labeled as an  "outsider" they are treated differently
+
+
+> Taking all of this into account, how do we determine what is deviant? The key sociological point is that in any society, ***deviance is a relationship between individuals and larger social landscapes***. As morality shifts (and it always does), enforcement of norms shifts, too
+
+#### Key Points
+- Determining what is deviant relies on social agreements between community members. 
+- Lines between deviant and non-deviant behavior are upheld through enforcement of social norms. 
+- Social norms vary in degree of importance and how severely violations are punished. 
+- Societies enforce norms through processes of social control. 
+- One way to exert social control is through moral panics. 
+- Deviance is a relationship between individuals and larger social landscapes
+#### Key Terms
+- **Deviance** – Behaviors that violate social norms. 
+- **Norms** – Expectations for behavior.
+- **Folkways** – Norms about customs, traditions, and etiquette. 
+- **Mores** – More seriously protected norms that reflect the morals and values of a social group. 
+- **Laws** – Most seriously protected norms; codified and require specific enforcements. 
+- **Social control** – Ways societies try to influence members’ behavior to maintain social order. 
+- **Moral panics** – Overheated, short-lived periods of intense social concern about an issue. 
+- **Moral entrepreneurs** – People who try to influence societies toward increased awareness of and concern over the violation of social norms.
+
+### Theories and Perspectives on Deviance 
+
+#### Functionalist theories
+**functionalist theories of deviance** - begin with the idea that deviance serves a social purpose, a function. One of these purposes is affirming our social agreements about right and wrong.
+- strengthens **social cohesion** - the degree to which we identify with and maintain social rules and connections
+
+- Merton believed that **anomie**, and ultimately deviance, occurs when there is a mismatch between socially-endorsed *goals* and the socially-endorsed *means* to achieve these goals
+
+**strain theory** - The stress that results from anomie, this mismatch of goals and means, may lead some to adapt by engaging in deviant behavior
+- 5 adaptations to strain:
+	1. **Conformity** - an adaptation in which individuals accept both the socially-approved goals (and the values that come with them) and have the means to achieve them (so they can follow norms)
+	2. **innovation** - which can arise if someone shares socially-approved values and goals, but rejects the means to achieve them. They may use new, unapproved methods to achieve the same goals.
+	3. **ritualism** -  in which people follow socially-approved means to success, but reject the goals.
+	4. **retreatism** - reject both the socially-prescribed goals and the normative means to achieve those goals. They simply withdraw
+	5. **rebellion** - Some people reject both social goals and means, but instead of retreating, they try to disrupt the system
+
+![[Pasted image 20250406122319.png]]
+
+ Why do people solve their problems (or adapt) in one way, but not others? Richard Cloward and Lloyd Ohlin’s **opportunity theory** attempts to provide an answer?
+- The deviant subculture’s proximity and norms of delinquency provide an **illegitimate opportunity** to take on the role of deviant
+
+#### Conflict theories 
+**conflict theories of deviance** -  ask how rules and norms are shaped by power relations in a society
+
+
+> Marx argued that the wealthy class of “owners” in society centralizes its power and influence. One way they secure this power is by occupying leadership positions in government and other “authority institutions.” This allows the wealthy to be the primary creators of laws, which are designed to maintain and build their power and influence.
+- these leaders operate in the same social and professional circles 
+- tend to share values and beliefs - **worldview**
+
+**Ideology** or set of beliefs, values, and assumptions we use to view and understand the world, about what constitutes deviance and what doesn’t
+**Hegemony** a particular type of domination in which the powerful get the consent (and sometimes outright support) of everyone else
+
+
+#### Social bonds, lovable freaks, and criminals 
+**theory of differential association**  - suggests that deviance is a learned behavior, just like any other.
+ - learn behavior through intimate personal contacts, such as family and friends
+
+**control theory** -  focuses on how ties to mainstream social groups and societal institutions make us less likely to become deviant
+
+Social Deviants 
+- some are favored and worshiped by societies (odd celebrities') 
+- dangerous criminals and their crimes are also forms of deviance 
+	- they're usually defined more formally and measured more precisely bc they are codified into law.
+
+#### Review Sheet 
+##### Key Points
+- When a *deviant act* occurs, there are multiple overlapping ways to explain it. Thus, there are many theories of deviance and crime. Their usefulness varies depending upon the context, but all seek to understand deviance. 
+- *Functionalist theories* focus primarily on the social purposes of deviance. They seek to understand why people engage in deviance. 
+- *Conflict theories* of deviance focus primarily upon power relations in society, and the ways in which the powerful understand deviance in ways that benefit themselves. They seek to understand how norms, rules, and laws are created and shaped through processes of social, political, and economic power. 
+- Not all deviance is negative; deviance can solve problems through innovation.
+
+##### Key Terms
+- **Functionalist theories of deviance** – Theories that focus on potential social purposes that deviance serves. 
+- **Social cohesion** – Degree to which we identify with and maintain social rules and connections. 
+- **Normative** – Accepted and expected behavior. 
+- **Anomie** – A social lack of morals and expectations for behavior that can lead to deviance.  Strain – Stress that results from anomie. 
+- **Strain theory** – Functionalist theory that describes five adaptations to strain: conformity, innovation, ritualism, retreatism, and rebellion. 
+- **Opportunity theory of deviance** – Functionalist theory that says delinquency is a function of opportunity and access to delinquent behavior. 
+- **Conflict theories of deviance** – Theories that ask about how rules and norms are shaped by power relations in society.
+-  **Worldview** – Set of shared values, beliefs, and understandings about how the world should be. 
+- **Hegemony** – Type of domination in which the powerful obtain the consent or support of the subordinated. 
+- **Stigma** – A phenomenon in which a person is discredited and/or rejected by society because of an attribute they have. 
+- **Differential association** – Theory that deviance is learned through intimate personal contacts. 
+- **Control theory** – Theory that claims deviance arises from a weakening of social connections. \
+- **Labeling theory** – Theory that deviance is created through reactions to an act.
+
+
+
+### Crime and Violence
+
+**criminology** - the study of crime and criminal behavior
+
+> This approach to understanding crime isn’t always driven by racism, and it’s not always useless or completely misguided. Certain risk factors, like low self-control, are powerful predictors of a person’s probability of engaging in violence. But if this approach to understanding crime isn’t entirely useless, it is incomplete. A sociological perspective on crime and violence leads us to think more broadly about the problem of crime, asking more expansive questions: What features of our environment make crime more or less likely? Why is crime more common in some societies than others? Why do crime rates rise or fall?
+
+
+#### What is a crime? Who is a criminal? 
+**crime** - is an act that violates the **penal code** the written laws that govern behavior in a particular jurisdiction
+ **criminal** is a person who has violated a criminal law
+
+**street crimes**
+- **violent crime** - murder, robbery, assault, and sexual assault or rape.
+- **Property crime** - involves theft that isn’t carried out through force, including acts like motor vehicle theft or the burglary of a home
+
+**white-collar crime**
+- fraud, embezzlement, and other unethical acts or business practices are typically thought of as corporate
+
+#### The context of crime
+
+
+### Violence in the US and Beyond
+#### The rise and fall of American violence 
+#### Why is the United States more violent than similar nations? 
+#### The Great American Crime Decline
+### Crime, Punishment, and the Prevention of Violence
+#### Mass incarceration 
+#### The past, present, and future of policing in the United States
+

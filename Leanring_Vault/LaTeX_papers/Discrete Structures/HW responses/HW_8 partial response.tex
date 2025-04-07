@@ -1,0 +1,167 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage[margin=1in]{geometry}
+
+\title{Homework 8: Graph Theory}
+\date{4/6/25}
+\author{Anthony Kolotov}
+\begin{document}
+	\maketitle
+	
+	1. Given a graph $G$ with $n$ vertices and $m$ edges, and each vertex has degree between $d_{\text{min}}$ and $d_{\text{max}}$, show that:
+	\[ \frac{1}{2} d_{\text{min}} n \le m \le \frac{1}{2} d_{\text{max}} n \]
+	\begin{itemize}
+		\item The sum of the degrees is $\sum \deg(v) = 2m$. Since each vertex has degree between $d_{\text{min}}$ and $d_{\text{max}}$, we have:
+		\[ d_{\text{min}} n \le 2m \le d_{\text{max}} n \Rightarrow \frac{1}{2} d_{\text{min}} n \le m \le \frac{1}{2} d_{\text{max}} n \]
+	\end{itemize}
+	
+	2. (a) How many edges does the complete graph $K_n$ have?
+	\begin{itemize}
+		\item $\binom{n}{2} = \frac{n(n-1)}{2}$.
+	\end{itemize}
+	(b) How many edges does the complete bipartite graph $K_{p,q}$ have?
+	\begin{itemize}
+		\item $pq$.
+	\end{itemize}
+	
+	\begin{itemize}
+		\item A path: $A - B - D$
+		\item A trail: $A - B - D - B - C$ (no repeated edge)
+		\item A walk: $A - B - D - B - C - D$ (allows repeated edges and vertices)
+	\end{itemize}
+	
+	
+	4. (a) Prove that if a walk contains a repeated edge, then it contains a repeated vertex.  \\ (b) repeating an edge requires revisiting at least one of its endpoints then if no vertices are repeated no edges can be repeated either.
+		
+	\begin{itemize}
+		\item An edge connects two vertices. Repeating an edge requires visiting at least one of its vertices again, so a repeated edge implies a repeated vertex.
+	\end{itemize}
+	(b) Use (a) to explain why a walk with no repeated vertices has no repeated edges.
+	\begin{itemize}
+		\item Contrapositive of (a): no repeated vertex $\Rightarrow$ no repeated edge.
+	\end{itemize}
+	
+	5. (a) Let 
+	\[
+	A = \begin{bmatrix}2 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 1\end{bmatrix}, \quad
+	B = \begin{bmatrix}1 & 2 & 3 \\ 1 & -2 & -3 \\ -2 & 1 & 2\end{bmatrix}
+	\]
+	Compute $AB$ and $BA$.
+	\begin{itemize}
+		\item
+		\[
+		AB = \begin{bmatrix}2 & 4 & 6 \\ 3 & -6 & -9 \\ -2 & 1 & 2\end{bmatrix}, \quad
+		BA = \begin{bmatrix}2 & 6 & 3 \\ 2 & -6 & -3 \\ -4 & 3 & 2\end{bmatrix}
+		\]
+	\end{itemize}
+	
+	
+	7. (a) Show that if there is a walk from $u$ to $v$, then there is one of length $\le n - 1$.
+	\begin{itemize}
+		\item Any walk can be shortened by removing cycles. A simple path between $u$ and $v$ uses at most $n - 1$ edges.
+	\end{itemize}
+	(b) Prove: $G$ is connected iff all entries of $A + A^2 + \dots + A^{n-1}$ are positive.
+	\begin{itemize}
+		\item Entry $(i,j)$ in $A^k$ counts walks of length $k$ from $i$ to $j$. If all such entries are $>0$, there exists a path between all vertex pairs $\Rightarrow$ graph is connected.
+	\end{itemize}
+	
+	8. Draw all nonisomorphic trees with 5 vertices.
+	\begin{itemize}
+		\item There are 3 nonisomorphic trees:
+		\begin{enumerate}[label=\alph*)]
+			\item Path: $v_1 - v_2 - v_3 - v_4 - v_5$
+			\item Star: one central vertex connected to 4 leaves
+			\item Fork: central node with two branches of lengths 2 and 1
+		\end{enumerate}
+	\end{itemize}
+	
+	9. (a) What is the minimum height of a binary tree with 27 leaves?
+	\begin{itemize}
+		\item $\lceil \log_2 27 \rceil = 5$
+	\end{itemize}
+	(b) 48 leaves?
+	\begin{itemize}
+		\item $\lceil \log_2 48 \rceil = 6$
+	\end{itemize}
+	(c) 64 leaves?
+	\begin{itemize}
+		\item $\lceil \log_2 64 \rceil = 6$
+	\end{itemize}
+	
+	10. Suppose each of $n$ people is acquainted with at least one other. Show two have same number of acquaintances.
+	\begin{itemize}
+		\item By the pigeonhole principle, two people must have the same number of acquaintances in a group of $n$ people.
+	\end{itemize}
+	
+	11. Refer to Figure 2 (path graph: $1 - 2 - 3 - 4$)
+	(a) Adjacency Matrix $A$:
+	\begin{itemize}
+		\item
+		\[
+		A = \begin{bmatrix}0 & 1 & 0 & 0 \\ 1 & 0 & 1 & 0 \\ 0 & 1 & 0 & 1 \\ 0 & 0 & 1 & 0\end{bmatrix}
+		\]
+	\end{itemize}
+	(b) Compute $A^2$:
+	\begin{itemize}
+		\item
+		\[
+		A^2 = \begin{bmatrix}1 & 0 & 1 & 0 \\ 0 & 2 & 0 & 1 \\ 1 & 0 & 2 & 0 \\ 0 & 1 & 0 & 1\end{bmatrix}
+		\]
+		\item Symmetric: Yes
+		\item Nonzero entries: 8
+		\item $A^2_{1,1} = 1$ (one 2-step walk from 1 to 1)
+	\end{itemize}
+	(c) Compute $A^3$:
+	\begin{itemize}
+		\item
+		\[
+		A^3 = \begin{bmatrix}0 & 2 & 0 & 1 \\ 2 & 0 & 3 & 0 \\ 0 & 3 & 0 & 2 \\ 1 & 0 & 2 & 0\end{bmatrix}
+		\]
+		\item $A^3_{1,3} = 0$ (no 3-step walk from 1 to 3)
+	\end{itemize}
+	(d) Distance from 2 to 4:
+	\begin{itemize}
+		\item 2 (since $A^2_{2,4} = 1$)
+	\end{itemize}
+	
+	12. let weighted graph G = (V,E,w) as shown in Fig 3.
+	\begin{itemize}
+	\item what is the shortest path distance between V3 and v4?
+	\subitem 3,1,2,4 = 2+1+1 = 4
+	\item find the MST for G. Explicitly list the edges in your tree and calculate the total weight of your MST.
+	\item
+	\[
+	\begin{aligned}
+		&e_1 = (1,2),\quad w = 1 \\
+		&e_3 = (2,3),\quad w = 4 \\
+		&e_4 = (2,4),\quad w = 1 \\
+		&e_5 = (3,4),\quad w = 6
+	\end{aligned}
+	\]
+	
+	\item Sort edges by increasing weight:
+	\[
+	(1,2), w=1;\quad (2,4), w=1;\quad  (2,3), w=4;\quad (3,4), w=6
+	\]
+	
+	\begin{itemize}
+		\item Add $(1,2)$: no cycle
+		\item Add $(2,4)$: no cycle
+		\item Add $(2,3)$: no cycle
+	\end{itemize}
+	
+	\item Final MST edges:
+	\[
+	\{(1,2),\ (2,4),\ (2,3)\}
+	\]
+	
+	\item Total weight of the MST:
+	\[
+	1 + 1 + 4 = \boxed{6}
+	\]
+	\end{itemize}
+	
+\end{document}

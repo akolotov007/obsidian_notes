@@ -149,5 +149,11 @@ https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
 ![[Pasted image 20250120114737.png]]
 ![[Pasted image 20250120115329.png]]
 
+#### Matrix notation
+
+$$\begin{bmatrix}  
+1 & 2 & 3\\  
+a & b & c  
+\end{bmatrix}$$
 
 https://tikzmaker.com/editor
